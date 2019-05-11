@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0C3C6D</color>
+    <color name="colorPrimaryDark">#093057</color>
+    <color name="colorAccent">@color/colorPrimary</color>
+
+    <color name="pk_phrase">#FFFFFF</color>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "600287973404",
+    "firebase_url": "https://schoenstapp.firebaseio.com",
+    "project_id": "schoenstapp",
+    "storage_bucket": "schoenstapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600287973404:android:b52264686b3c8a6d",
+        "android_client_info": {
+          "package_name": "schoenstatt.schoenstapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "600287973404-li626h0039ve45j03t7qpudfcf55n35k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "schoenstatt.schoenstapp",
+            "certificate_hash": "74cd20117afbb014e8c9bf0b93c0d711e716bbae"
+          }
+        },
+        {
+          "client_id": "600287973404-k76s2cm611e7dmcboka1ld9kpe7i4gau.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfyY9VLNedwWaoIyY4eKFL2SPArrcGLxc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "600287973404-k76s2cm611e7dmcboka1ld9kpe7i4gau.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
