@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Schoenstapp</string>
+
+    <string name="pk_phrase_placeholder">Cuenten con fracasos, deben tomarlos como algo sobreentendido. Los fracasos en la educación significan el mayor éxito para nosotros. ¿Por qué? Porque estos fracasos son para nosotros escuela. El fracaso convierte al sembrador en semilla.</string>
+
+    <!-- New CapitalProfile Fragment -->
+    <string name="new_capital_name">Nombre</string>
+    <string name="new_capital_password">Contraseña</string>
+    <string name="new_capital_submit">Crear</string>
+</resources>
