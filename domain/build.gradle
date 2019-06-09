@@ -34,7 +34,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 
-    compile 'org.koin:koin-android:2.0.0-rc-2'
+    implementation 'org.koin:koin-android:2.0.0-rc-2'
 }
 repositories {
     mavenCentral()
