@@ -29,4 +29,8 @@ class NewCapitalFragment: DialogFragment() {
             dismiss()
         }
     }
+
+    fun createCapital(view: View) {
+
+    }
 }
