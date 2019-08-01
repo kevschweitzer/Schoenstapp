@@ -6,6 +6,7 @@ import android.view.View
 import schoenstatt.schoenstapp.PhoneActivity
 import schoenstatt.schoenstapp.R
 import schoenstatt.schoenstapp.capitals.main.CapitalsActivity
+import schoenstatt.schoenstapp.signup.SignUpActivity
 
 
 class MainActivity : AppCompatActivity() {
@@ -21,5 +22,9 @@ class MainActivity : AppCompatActivity() {
 
     fun toCapitals(view: View){
         startActivity(CapitalsActivity.getIntent(this))
+    }
+
+    fun toSignUp(view: View) {
+        startActivity(SignUpActivity.getIntent(this))
     }
 }
