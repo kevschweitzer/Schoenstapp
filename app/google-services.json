@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "600287973404-80j54nbd4ockhnuvunff3sme0urfhol6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "schoenstatt.schoenstapp",
+            "certificate_hash": "6273f66dc24601e6a483036f4287b6c9690a1913"
+          }
+        },
+        {
           "client_id": "600287973404-li626h0039ve45j03t7qpudfcf55n35k.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
