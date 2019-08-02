@@ -12,6 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".signup.SignUpActivity"></activity>
         <activity
             android:name=".home.MainActivity"
             android:screenOrientation="portrait">
@@ -22,7 +23,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".PhoneActivity" />
-        <activity android:name=".capitals.main.CapitalsActivity"></activity>
+        <activity android:name=".capitals.main.CapitalsActivity" />
     </application>
 
 </manifest>
