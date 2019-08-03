@@ -1,4 +1,4 @@
-package schoenstatt.schoenstapp.signup
+package schoenstatt.schoenstapp.login
 
 import android.content.Context
 import android.content.Intent
@@ -9,29 +9,29 @@ import android.widget.Toast
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.Disposable
 import io.reactivex.schedulers.Schedulers
-import kotlinx.android.synthetic.main.activity_sign_up.*
+import kotlinx.android.synthetic.main.activity_login.*
 import org.koin.android.ext.android.inject
 import org.koin.android.scope.currentScope
 import schoenstatt.schoenstapp.R
 import schoenstatt.schoenstapp.home.MainActivity
-import schoenstatt.schoenstapp.login.LoginActivity
+import schoenstatt.schoenstapp.signup.SignUpActivity
 
-class SignUpActivity : AppCompatActivity() {
+class LoginActivity : AppCompatActivity() {
 
-    val presenter : SignUpPresenter by currentScope.inject()
+    private val presenter: LoginPresenter by currentScope.inject()
     private val disposables = mutableListOf<Disposable>()
 
     companion object {
-        fun getIntent(context: Context) = Intent(context, SignUpActivity::class.java)
+        fun getIntent(context: Context) = Intent(context, LoginActivity::class.java)
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_sign_up)
+        setContentView(R.layout.activity_login)
     }
 
-    fun onSignUpClicked(view: View) {
-        val disposable = presenter.signUp(input_user.text.toString(), input_password.text.toString())
+    fun onSignInClicked(view: View) {
+        val disposable = presenter.signIn(input_user.text.toString(), input_password.text.toString())
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe {
@@ -39,10 +39,15 @@ class SignUpActivity : AppCompatActivity() {
                         startActivity(MainActivity.getIntent(this))
                         finish()
                     } else {
-                        Toast.makeText(this, "Sign up error", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this, "Log in failed", Toast.LENGTH_SHORT).show()
                     }
                 }
         disposables.add(disposable)
+    }
+
+    fun onGoToSignUpClicked(view: View) {
+        startActivity(SignUpActivity.getIntent(this))
+        finish()
     }
 
     override fun onDestroy() {
@@ -50,10 +55,5 @@ class SignUpActivity : AppCompatActivity() {
         disposables.forEach {
             it.dispose()
         }
-    }
-
-    override fun onBackPressed() {
-        super.onBackPressed()
-        startActivity(LoginActivity.getIntent(this))
     }
 }
