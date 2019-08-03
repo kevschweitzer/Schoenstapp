@@ -8,6 +8,7 @@ import android.os.Bundle
 import android.view.View
 import kotlinx.android.synthetic.main.activity_capitals.*
 import org.koin.android.ext.android.inject
+import org.koin.android.scope.currentScope
 import schoenstatt.schoenstapp.R
 import schoenstatt.schoenstapp.capitals.new.CapitalProfile
 import schoenstatt.schoenstapp.capitals.new.NewCapitalFragment
@@ -15,7 +16,7 @@ import schoenstatt.schoenstapp.capitals.new.NewCapitalFragment
 class CapitalsActivity : AppCompatActivity() {
 
     private var isMenuOpen: Boolean = false
-    private val presenter: CapitalsPresenter by inject()
+    private val presenter: CapitalsPresenter by currentScope.inject()
 
     companion object {
         fun getIntent(context: Context) = Intent(context, CapitalsActivity::class.java)
