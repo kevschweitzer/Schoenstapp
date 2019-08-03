@@ -6,6 +6,9 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.Toast
+import io.reactivex.android.schedulers.AndroidSchedulers
+import io.reactivex.schedulers.Schedulers
 import kotlinx.android.synthetic.main.activity_capitals.*
 import org.koin.android.ext.android.inject
 import org.koin.android.scope.currentScope
@@ -36,6 +39,15 @@ class CapitalsActivity : AppCompatActivity() {
     private fun newCapitalCreated(capitalProfile: CapitalProfile?) {
         capitalProfile?.let{
             presenter.createCapital(capitalProfile)
+                    .subscribeOn(Schedulers.io())
+                    .observeOn(AndroidSchedulers.mainThread())
+                    .subscribe {
+                        if(it) {
+                            Toast.makeText(this, "Capitalario creado correctamente", Toast.LENGTH_SHORT).show()
+                        } else {
+                            Toast.makeText(this, "Error al crear capitalario", Toast.LENGTH_SHORT).show()
+                        }
+                    }
         }
     }
 
