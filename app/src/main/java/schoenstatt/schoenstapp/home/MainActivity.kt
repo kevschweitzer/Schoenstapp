@@ -5,14 +5,18 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import android.view.View
+import org.koin.android.scope.currentScope
 import schoenstatt.schoenstapp.PhoneActivity
 import schoenstatt.schoenstapp.R
 import schoenstatt.schoenstapp.capitals.main.CapitalsActivity
+import schoenstatt.schoenstapp.exitApp
 import schoenstatt.schoenstapp.login.LoginActivity
 import schoenstatt.schoenstapp.signup.SignUpActivity
 
 
 class MainActivity : AppCompatActivity() {
+
+    private val presenter: MainPresenter by currentScope.inject()
 
     companion object {
         fun getIntent(context: Context) = Intent(context, MainActivity::class.java)
@@ -32,6 +36,12 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun logOut(view: View) {
+        presenter.logOut()
         startActivity(LoginActivity.getIntent(this))
+        finish()
+    }
+
+    override fun onBackPressed() {
+        exitApp(this)
     }
 }

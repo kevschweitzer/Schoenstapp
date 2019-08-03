@@ -1,12 +1,22 @@
 package dev.blacktobacco.com.data.user
 
+import android.content.Context
+import android.content.SharedPreferences
 import android.util.Log
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.FirebaseUser
+import dev.blacktobacco.com.data.Constants.Companion.CURRENT_USER_UID
+import dev.blacktobacco.com.data.Constants.Companion.EMPTY_STRING
+import dev.blacktobacco.com.data.Constants.Companion.SHARED_PREFERENCES
+import dev.blacktobacco.com.data.database.AppDatabase
+import dev.blacktobacco.com.domain.user.User
 import dev.blacktobacco.com.domain.user.UserRepository
 import io.reactivex.Observable
+import io.reactivex.schedulers.Schedulers
 
 
-class UserRepositoryImpl(): UserRepository {
+class UserRepositoryImpl(private val context: Context,
+                         private val appDatabase: AppDatabase): UserRepository {
 
     private val auth: FirebaseAuth = FirebaseAuth.getInstance()
 
@@ -18,17 +28,39 @@ class UserRepositoryImpl(): UserRepository {
                         if (task.isSuccessful) {
                             // Sign in success, update UI with the signed-in user's information
                             Log.d("TAG", "createUserWithEmail:success")
-                            //val user = auth.getCurrentUser()
-                            //updateUI(user)
+                            saveUser(auth.currentUser)
+                            setCurrentUserUid(auth.currentUser?.uid)
                         } else {
                             // If sign in fails, display a message to the user.
                             Log.w("TAG", "createUserWithEmail:failure", task.exception)
-                            //updateUI(null)
                         }
-
-                        // ...
                     }
         }
+    }
+
+    override fun signOut() {
+        auth.signOut()
+    }
+
+    private fun setCurrentUserUid(uid: String?) {
+        uid?.let {
+            val editor = context.getSharedPreferences(SHARED_PREFERENCES, Context.MODE_PRIVATE).edit()
+            editor.putString(CURRENT_USER_UID, uid)
+            editor.apply()
+        }
+    }
+
+    override fun getCurrentUser() = auth.currentUser?.toUser()
+
+    private fun saveUser(currentUser: FirebaseUser?) {
+        Observable.fromCallable {
+            currentUser?.let {
+                val user = UserEntity(currentUser.uid, currentUser.email ?: EMPTY_STRING)
+                appDatabase.userDao().insert(user)
+            }
+        }.subscribeOn(Schedulers.io())
+                .observeOn(Schedulers.io())
+                .subscribe()
     }
 
     override fun exists(user: String, password: String): Observable<Boolean> {
@@ -36,6 +68,10 @@ class UserRepositoryImpl(): UserRepository {
             auth.signInWithEmailAndPassword(user, password)
                     .addOnCompleteListener { task ->
                         emitter.onNext(task.isSuccessful)
+                        if(task.isSuccessful) {
+                            saveUser(auth.currentUser)
+                            setCurrentUserUid(auth.currentUser?.uid)
+                        }
                     }
         }
 
