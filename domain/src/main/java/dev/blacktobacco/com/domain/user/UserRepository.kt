@@ -7,4 +7,7 @@ interface UserRepository {
     fun create(user: String, password: String): Observable<Boolean>
 
     fun exists(user: String, password: String): Observable<Boolean>
+
+    fun getCurrentUser(): User?
+    fun signOut()
 }
