@@ -5,6 +5,7 @@ import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -17,7 +18,7 @@ import schoenstatt.schoenstapp.R
 import schoenstatt.schoenstapp.capitals.new.CapitalProfile
 import schoenstatt.schoenstapp.capitals.new.NewCapitalFragment
 
-class CapitalsActivity : AppCompatActivity() {
+class CapitalsActivity : AppCompatActivity(), CapitalsAdapter.AddCapitalInterface {
 
     private var isMenuOpen: Boolean = false
     private val presenter: CapitalsPresenter by currentScope.inject()
@@ -32,6 +33,8 @@ class CapitalsActivity : AppCompatActivity() {
         setUpCapitals()
     }
 
+    override fun addCapital(id: String) = presenter.addCapital(id)
+
     private fun setUpCapitals() {
         capitals_recycler_view.apply {
             layoutManager = LinearLayoutManager(this@CapitalsActivity)
@@ -39,7 +42,7 @@ class CapitalsActivity : AppCompatActivity() {
                     .subscribeOn(Schedulers.io())
                     .observeOn(AndroidSchedulers.mainThread())
                     .subscribe {
-                        adapter = CapitalsAdapter(it)
+                        adapter = CapitalsAdapter(this@CapitalsActivity, it)
                     }
         }
     }
