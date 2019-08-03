@@ -5,4 +5,5 @@ import io.reactivex.Observable
 interface CapitalsRepository {
 
     fun newCapital(capital: Capital): Observable<Boolean>
+    fun getCapitals(): Observable<List<Capital>>
 }
