@@ -24,8 +24,8 @@ class NewCapitalFragment: DialogFragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         btn_new_capital_submit.setOnClickListener{
-            val passwordMD5 = sha512(et_new_capital_password.text.toString())
-            (newCapitalProfile as MutableLiveData).value = CapitalProfile(et_new_capital_name.text.toString(), passwordMD5)
+            (newCapitalProfile as MutableLiveData).value = CapitalProfile(et_new_capital_name.text.toString(),
+                    et_new_capital_password.text.toString())
             dismiss()
         }
     }

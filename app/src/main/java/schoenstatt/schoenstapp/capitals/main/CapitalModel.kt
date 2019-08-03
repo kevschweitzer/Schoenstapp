@@ -11,4 +11,4 @@ class CapitalModel(val newCapitalUseCase: NewCapitalUseCase) {
     }
 }
 
-fun CapitalProfile.toCapital() = Capital(name, password)
+fun CapitalProfile.toCapital() = Capital(name, password, capitals)
