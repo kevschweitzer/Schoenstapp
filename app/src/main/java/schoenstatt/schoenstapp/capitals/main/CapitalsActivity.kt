@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import androidx.recyclerview.widget.LinearLayoutManager
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
 import kotlinx.android.synthetic.main.activity_capitals.*
@@ -28,6 +29,19 @@ class CapitalsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_capitals)
+        setUpCapitals()
+    }
+
+    private fun setUpCapitals() {
+        capitals_recycler_view.apply {
+            layoutManager = LinearLayoutManager(this@CapitalsActivity)
+            presenter.getCapitals()
+                    .subscribeOn(Schedulers.io())
+                    .observeOn(AndroidSchedulers.mainThread())
+                    .subscribe {
+                        adapter = CapitalsAdapter(it)
+                    }
+        }
     }
 
     fun newCapital(view: View){
@@ -43,6 +57,7 @@ class CapitalsActivity : AppCompatActivity() {
                     .observeOn(AndroidSchedulers.mainThread())
                     .subscribe {
                         if(it) {
+                            setUpCapitals()
                             Toast.makeText(this, "Capitalario creado correctamente", Toast.LENGTH_SHORT).show()
                         } else {
                             Toast.makeText(this, "Error al crear capitalario", Toast.LENGTH_SHORT).show()
