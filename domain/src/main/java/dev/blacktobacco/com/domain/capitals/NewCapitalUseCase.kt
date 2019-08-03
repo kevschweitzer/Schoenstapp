@@ -1,8 +1,6 @@
 package dev.blacktobacco.com.domain.capitals
 
-class NewCapitalUseCase(val service: CapitalsService) {
+class NewCapitalUseCase(val repository: CapitalsRepository) {
 
-    fun execute(capital: Capital){
-        service.newCapital()
-    }
+    fun execute(capital: Capital) = repository.newCapital(capital)
 }
