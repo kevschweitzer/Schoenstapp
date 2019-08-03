@@ -9,7 +9,6 @@ import android.view.View
 import android.view.ViewGroup
 import kotlinx.android.synthetic.main.fragment_new_capital.*
 import schoenstatt.schoenstapp.R
-import schoenstatt.schoenstapp.capitals.sha512
 
 
 class NewCapitalFragment: DialogFragment() {

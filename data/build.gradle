@@ -1,6 +1,6 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
-
+apply plugin: 'kotlin-kapt'
 
 android {
     compileSdkVersion 28
@@ -27,6 +27,7 @@ android {
 }
 
 dependencies {
+    def room_version = "2.2.0-alpha01"
     implementation project(path: ':domain')
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
@@ -40,6 +41,8 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth:18.1.0'
     implementation 'com.google.firebase:firebase-firestore:20.2.0'
 
+    implementation "androidx.room:room-runtime:$room_version"
+    kapt "androidx.room:room-compiler:$room_version"
 
     implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
     implementation 'io.reactivex.rxjava2:rxjava:2.2.6'
