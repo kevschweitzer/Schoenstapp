@@ -11,7 +11,7 @@ import org.koin.dsl.module
 
 val dataModule = module {
 
-    single<CapitalsRepository> {CapitalsRepositoryImpl()}
+    single<CapitalsRepository> {CapitalsRepositoryImpl(get())}
 
     single<UserRepository> { UserRepositoryImpl(androidContext(), get()) }
 
