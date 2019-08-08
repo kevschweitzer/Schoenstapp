@@ -1,6 +1,7 @@
 package dev.blacktobacco.com.data.capital
 
 import android.util.Log
+import com.google.firebase.firestore.DocumentSnapshot
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.QueryDocumentSnapshot
 import dev.blacktobacco.com.data.Constants.Companion.CAPITALS_COLLECTION_NAME
@@ -52,18 +53,23 @@ class CapitalsRepositoryImpl(private val getCurrentUserUseCase: GetCurrentUserUs
 
     override fun getCapitals(): Observable<List<Capital>> {
         return Observable.create<List<Capital>> {emitter ->
-            capitals.get()
-                    .addOnCompleteListener {task ->
-                        if(task.isSuccessful) {
+
+            val userId = getCurrentUserUseCase.execute()?.id
+            usersCapitals.whereEqualTo(USER_ID_FIELD, userId).get()
+                    .addOnSuccessListener {
+                        if(!it.documents.isEmpty()) {
+                            val ownedCapitalsIds = it.documents[0].get(OWNED_IDS_FIELD) as List<String>
                             val capitalarios = mutableListOf<Capital>()
-                            task.result?.forEach {
-                                capitalarios.add(it.toCapital())
+                            ownedCapitalsIds.forEach { capitalId->
+                                capitals.document(capitalId).get()
+                                        .addOnSuccessListener {
+                                            capitalarios.add(it.toCapital())
+                                        }
+                                        .addOnCompleteListener {
+                                            emitter.onNext(capitalarios)
+                                        }
                             }
-                            emitter.onNext(capitalarios)
                         }
-                    }
-                    .addOnFailureListener{
-                        Log.i("QUERY", "FAILED")
                     }
         }
     }
@@ -85,7 +91,7 @@ class CapitalsRepositoryImpl(private val getCurrentUserUseCase: GetCurrentUserUs
 
 }
 
-fun QueryDocumentSnapshot.toCapital() : Capital {
+fun DocumentSnapshot.toCapital() : Capital {
     val name = get("name") as String
     val password = get("password") as String
     val capitals = get("capitals") as Long
