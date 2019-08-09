@@ -15,10 +15,12 @@ import kotlinx.android.synthetic.main.activity_capitals.*
 import org.koin.android.ext.android.inject
 import org.koin.android.scope.currentScope
 import schoenstatt.schoenstapp.R
+import schoenstatt.schoenstapp.capitals.join.JoinCapitalFragment
 import schoenstatt.schoenstapp.capitals.new.CapitalProfile
 import schoenstatt.schoenstapp.capitals.new.NewCapitalFragment
 
-class CapitalsActivity : AppCompatActivity(), CapitalsAdapter.AddCapitalInterface {
+class CapitalsActivity : AppCompatActivity(), CapitalsAdapter.AddCapitalInterface, JoinCapitalFragment.JoinCapitalInterface {
+
 
     private var isMenuOpen: Boolean = false
     private val presenter: CapitalsPresenter by currentScope.inject()
@@ -34,6 +36,15 @@ class CapitalsActivity : AppCompatActivity(), CapitalsAdapter.AddCapitalInterfac
     }
 
     override fun addCapital(id: String) = presenter.addCapital(id)
+
+    override fun joinCapital(id: String) {
+        if(id.isNotEmpty()) {
+            presenter.joinCapital(id)
+                    .subscribeOn(Schedulers.io())
+                    .observeOn(AndroidSchedulers.mainThread())
+                    .subscribe()
+        }
+    }
 
     private fun setUpCapitals() {
         capitals_recycler_view.apply {
@@ -51,6 +62,11 @@ class CapitalsActivity : AppCompatActivity(), CapitalsAdapter.AddCapitalInterfac
         val newCapitalFragment = NewCapitalFragment()
         newCapitalFragment.newCapitalProfile.observe(this, Observer { newCapitalCreated(it) })
         newCapitalFragment.show(supportFragmentManager, "fragment_new_capital")
+    }
+
+    fun joinCapital(view: View) {
+        val joinCapitalFragment = JoinCapitalFragment(this)
+        joinCapitalFragment.show(supportFragmentManager, "fragment_join_capital")
     }
 
     private fun newCapitalCreated(capitalProfile: CapitalProfile?) {

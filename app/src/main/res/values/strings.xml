@@ -7,4 +7,8 @@
     <string name="new_capital_name">Nombre</string>
     <string name="new_capital_password">Contraseña</string>
     <string name="new_capital_submit">Crear</string>
+
+    <!-- Join Capital Fragment-->
+    <string name="join_capital_submit">Unirse</string>
+    <string name="join_capital_id_text">Codigo Identificador</string>
 </resources>
