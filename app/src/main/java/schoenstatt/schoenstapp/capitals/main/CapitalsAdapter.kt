@@ -1,8 +1,6 @@
 package schoenstatt.schoenstapp.capitals.main
 
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
+import android.view.*
 import androidx.recyclerview.widget.RecyclerView
 import io.reactivex.Observable
 import io.reactivex.Scheduler
@@ -14,7 +12,9 @@ import schoenstatt.schoenstapp.R
 import schoenstatt.schoenstapp.capitals.new.CapitalProfile
 
 class CapitalsAdapter(private val callback: AddCapitalInterface,
-                      private val capitalsList: List<CapitalProfile>): RecyclerView.Adapter<CapitalsAdapter.CapitalHolder>()  {
+                      val capitalsList: List<CapitalProfile>): RecyclerView.Adapter<CapitalsAdapter.CapitalHolder>()  {
+
+    var adapterPosition: Int? = null
 
     interface AddCapitalInterface {
         fun addCapital(id: String): Observable<Int>
@@ -29,11 +29,13 @@ class CapitalsAdapter(private val callback: AddCapitalInterface,
 
 
     override fun onBindViewHolder(holder: CapitalHolder, position: Int) {
+        holder.itemView.setOnLongClickListener { adapterPosition=holder.adapterPosition
+        false}
         holder.bind(capitalsList[position])
     }
 
     class CapitalHolder(val callback: AddCapitalInterface,
-                        val view: View): RecyclerView.ViewHolder(view) {
+                        val view: View): RecyclerView.ViewHolder(view), View.OnCreateContextMenuListener {
 
         fun bind(capitalProfile: CapitalProfile) {
             view.capital_name.text = capitalProfile.name
@@ -47,6 +49,12 @@ class CapitalsAdapter(private val callback: AddCapitalInterface,
                             view.capitals_quantity.text = it.toString()
                         }
             }
+            view.setOnCreateContextMenuListener(this)
+        }
+
+        override fun onCreateContextMenu(menu: ContextMenu?, v: View?, menuInfo: ContextMenu.ContextMenuInfo?) {
+            menu?.add(Menu.NONE, R.id.ctx_menu_remove, Menu.NONE,"Delete")
+            menu?.add(Menu.NONE, R.id.ctx_menu_share, Menu.NONE,"Share")
         }
     }
 }
