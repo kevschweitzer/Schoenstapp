@@ -6,6 +6,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.MenuItem
 import android.view.View
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -56,6 +57,7 @@ class CapitalsActivity : AppCompatActivity(), CapitalsAdapter.AddCapitalInterfac
                         adapter = CapitalsAdapter(this@CapitalsActivity, it)
                     }
         }
+        registerForContextMenu(capitals_recycler_view)
     }
 
     fun newCapital(view: View){
@@ -82,6 +84,32 @@ class CapitalsActivity : AppCompatActivity(), CapitalsAdapter.AddCapitalInterfac
                             Toast.makeText(this, "Error al crear capitalario", Toast.LENGTH_SHORT).show()
                         }
                     }
+        }
+    }
+
+    override fun onContextItemSelected(item: MenuItem?): Boolean {
+        val adapter = capitals_recycler_view.adapter as CapitalsAdapter
+        val position = adapter.adapterPosition
+        when(item?.itemId) {
+            R.id.ctx_menu_remove -> Log.i("Menu", "remove $position")
+            R.id.ctx_menu_share -> {
+                position?.let {
+                    shareCapital(adapter.capitalsList[it])
+                }
+            }
+        }
+        return super.onContextItemSelected(item)
+    }
+
+    private fun shareCapital(capitalProfile: CapitalProfile) {
+        val intent = Intent(Intent.ACTION_SEND)
+        intent.type = "text/plain"
+        intent.putExtra(Intent.EXTRA_TEXT, "Unite a mi capitalario con este codigo! ${capitalProfile.id}")
+
+        try {
+            startActivity(Intent.createChooser(intent, "Compartir usando"))
+        } catch (ex: android.content.ActivityNotFoundException) {
+            Toast.makeText(this, "Whatsapp have not been installed.", Toast.LENGTH_SHORT).show()
         }
     }
 
