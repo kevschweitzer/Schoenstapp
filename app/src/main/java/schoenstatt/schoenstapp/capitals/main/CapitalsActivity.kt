@@ -19,6 +19,7 @@ import schoenstatt.schoenstapp.R
 import schoenstatt.schoenstapp.capitals.join.JoinCapitalFragment
 import schoenstatt.schoenstapp.capitals.new.CapitalProfile
 import schoenstatt.schoenstapp.capitals.new.NewCapitalFragment
+import schoenstatt.schoenstapp.getDialog
 
 class CapitalsActivity : AppCompatActivity(), CapitalsAdapter.AddCapitalInterface, JoinCapitalFragment.JoinCapitalInterface {
 
@@ -43,7 +44,9 @@ class CapitalsActivity : AppCompatActivity(), CapitalsAdapter.AddCapitalInterfac
             presenter.joinCapital(id)
                     .subscribeOn(Schedulers.io())
                     .observeOn(AndroidSchedulers.mainThread())
-                    .subscribe()
+                    .subscribe{
+                        if(it) setUpCapitals()
+                    }
         }
     }
 
@@ -91,10 +94,45 @@ class CapitalsActivity : AppCompatActivity(), CapitalsAdapter.AddCapitalInterfac
         val adapter = capitals_recycler_view.adapter as CapitalsAdapter
         val position = adapter.adapterPosition
         when(item?.itemId) {
-            R.id.ctx_menu_remove -> Log.i("Menu", "remove $position")
+            R.id.ctx_menu_remove -> {
+                getDialog(this, "Eliminar capitalario", "Estas seguro que deseas eliminar este capitalario?")
+                        ?.setCancelable(false)
+                        ?.setNegativeButton("Cancelar"){_,_ -> /*dismiss*/}
+                        ?.setPositiveButton("Ok"){_,_ ->
+                            position?.let {
+                                presenter.deleteCapital(adapter.capitalsList[it].id)
+                                        .subscribeOn(Schedulers.io())
+                                        .observeOn(AndroidSchedulers.mainThread())
+                                        .subscribe{ result ->
+                                            if(result) {
+                                                setUpCapitals()
+                                                Toast.makeText(this, "Capitalario eliminado correctamente", Toast.LENGTH_SHORT).show()
+                                            } else {
+                                                Toast.makeText(this, "No se pudo eliminar el capitalario", Toast.LENGTH_SHORT).show()
+                                            }
+                                        }
+                            }
+                        }
+                        ?.show()
+            }
             R.id.ctx_menu_share -> {
                 position?.let {
                     shareCapital(adapter.capitalsList[it])
+                }
+            }
+            R.id.ctx_menu_exit -> {
+                position?.let {
+                    presenter.exitCapital(adapter.capitalsList[it].id)
+                            .subscribeOn(Schedulers.io())
+                            .observeOn(AndroidSchedulers.mainThread())
+                            .subscribe {
+                                if(it){
+                                    Toast.makeText(this, "Has dejado de ser parte del capitalario", Toast.LENGTH_SHORT).show()
+                                    setUpCapitals()
+                                } else {
+                                    Toast.makeText(this, "Error al intentar salir del capitalario", Toast.LENGTH_SHORT).show()
+                                }
+                            }
                 }
             }
         }

@@ -1,9 +1,6 @@
 package schoenstatt.schoenstapp.module
 
-import dev.blacktobacco.com.domain.capitals.AddCapitalUseCase
-import dev.blacktobacco.com.domain.capitals.GetCapitalsUseCase
-import dev.blacktobacco.com.domain.capitals.JoinCapitalUseCase
-import dev.blacktobacco.com.domain.capitals.NewCapitalUseCase
+import dev.blacktobacco.com.domain.capitals.*
 import dev.blacktobacco.com.domain.login.LogInUseCase
 import dev.blacktobacco.com.domain.login.LogOutUseCase
 import dev.blacktobacco.com.domain.signup.CreateUserUseCase
@@ -26,8 +23,7 @@ import schoenstatt.schoenstapp.signup.SignUpPresenter
 val appModule = module {
 
     scope(named<CapitalsActivity>()) {
-        scoped { CapitalsPresenter(get()) }
-        scoped { CapitalModel(get(), get(), get(), get()) }
+        scoped { CapitalModel(get(), get(), get(), get(), get(), get(), get()) }
     }
 
     scope(named<SignUpActivity>()) {
@@ -45,6 +41,8 @@ val appModule = module {
         scoped { MainModel(get()) }
     }
 
+    single { CapitalsPresenter(get()) }
+
     single { AddCapitalUseCase(get()) }
 
     single { GetCapitalsUseCase(get())}
@@ -60,4 +58,8 @@ val appModule = module {
     single { LogOutUseCase(get()) }
 
     single { JoinCapitalUseCase(get()) }
+
+    single { DeleteCapitalUseCase(get()) }
+
+    single { ExitCapitalUseCase(get())}
 }

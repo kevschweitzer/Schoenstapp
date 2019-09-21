@@ -2,6 +2,9 @@ package schoenstatt.schoenstapp
 
 import android.content.Context
 import android.content.Intent
+import android.view.LayoutInflater
+import androidx.appcompat.app.AlertDialog
+import kotlinx.android.synthetic.main.item_dialog.view.*
 import java.security.MessageDigest
 import kotlin.experimental.and
 
@@ -20,4 +23,25 @@ fun exitApp(context: Context) {
     val intent = Intent(Intent.ACTION_MAIN)
     intent.addCategory(Intent.CATEGORY_HOME)
     context.startActivity(intent)
+}
+
+fun getDialog(context: Context?, title: String, description: String)
+        : AlertDialog.Builder? {
+    context?.let{
+        val dialog = AlertDialog.Builder(it)
+        if(android.os.Build.VERSION.SDK_INT < android.os.Build.VERSION_CODES.LOLLIPOP) {
+            dialog.setTitle(title)
+                    .setMessage(description)
+        } else {
+            val inflater = context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
+            val view = inflater.inflate(R.layout.item_dialog, null)
+            view.title.text = title
+            view.description.text = description
+            dialog.setView(view)
+        }
+        //dialog.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
+
+        return dialog
+    }
+    return null
 }

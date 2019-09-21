@@ -28,6 +28,7 @@ class CapitalsRepositoryImpl(private val getCurrentUserUseCase: GetCurrentUserUs
                     .addOnSuccessListener {
                         db.runTransaction { transaction ->
                             val newCapital = capitals.document()
+                            capital.ownerId = userId!!
                             transaction.set(newCapital, capital.toCreationCapital())
                             if (it.isEmpty) {
                                 val newUserCapital = usersCapitals.document()
@@ -46,7 +47,6 @@ class CapitalsRepositoryImpl(private val getCurrentUserUseCase: GetCurrentUserUs
                         }
                     }
         }
-
     }
 
     override fun getCapitals(): Observable<List<Capital>> {
@@ -57,15 +57,24 @@ class CapitalsRepositoryImpl(private val getCurrentUserUseCase: GetCurrentUserUs
                     .addOnSuccessListener {
                         if (!it.documents.isEmpty()) {
                             val ownedCapitalsIds = it.documents[0].get(OWNED_IDS_FIELD) as MutableList<String>
-                            val joinedCapitalsIds = it.documents[0].get(JOINED_IDS_FIELD) as List<String>
+                            val joinedCapitalsIds = it.documents[0].get(JOINED_IDS_FIELD) as MutableList<String>
                             ownedCapitalsIds.addAll(joinedCapitalsIds)
                             val capitalarios = mutableListOf<Capital>()
                             ownedCapitalsIds.forEach { capitalId ->
                                 capitals.document(capitalId).get()
-                                        .addOnSuccessListener {
-                                            capitalarios.add(it.toCapital())
+                                        .addOnSuccessListener { document ->
+                                            document.data?.let {
+                                                capitalarios.add(document.toCapital())
+                                            }
                                         }
-                                        .addOnCompleteListener {
+                                        .addOnFailureListener {
+                                            joinedCapitalsIds.remove(capitalId)
+                                        }
+                                        .addOnCompleteListener {task ->
+                                            db.runTransaction {transaction ->
+                                                val userCapital = it.documents[0]
+                                                transaction.update(userCapital.reference, JOINED_IDS_FIELD, joinedCapitalsIds)
+                                            }
                                             emitter.onNext(capitalarios)
                                         }
                             }
@@ -113,6 +122,53 @@ class CapitalsRepositoryImpl(private val getCurrentUserUseCase: GetCurrentUserUs
                     }
         }
     }
+
+    override fun deleteCapital(id: String): Observable<Boolean> {
+        return Observable.create<Boolean> { emitter ->
+            val userId = getCurrentUserUseCase.execute()?.id
+            usersCapitals.whereEqualTo(USER_ID_FIELD, userId).get()
+                    .addOnSuccessListener {
+                        db.runTransaction { transaction ->
+                            val userCapital = it.documents[0]
+                            val ownerList = userCapital.get(OWNED_IDS_FIELD) as MutableList<String>
+                            ownerList.remove(id)
+                            capitals.document(id).delete()
+                            transaction.update(userCapital.reference, OWNED_IDS_FIELD, ownerList)
+                        }.addOnSuccessListener {
+                            emitter.onNext(true)
+                        }.addOnFailureListener {
+                            it.printStackTrace()
+                            emitter.onNext(false)
+                        }
+                    }
+                    .addOnFailureListener {
+                        it.printStackTrace()
+                    }
+        }
+    }
+
+    override fun exitCapital(id: String): Observable<Boolean> {
+        return Observable.create<Boolean> { emitter ->
+            val userId = getCurrentUserUseCase.execute()?.id
+            usersCapitals.whereEqualTo(USER_ID_FIELD, userId).get()
+                    .addOnSuccessListener {
+                        db.runTransaction { transaction ->
+                            val userCapital = it.documents[0]
+                            val joinedList = userCapital.get(JOINED_IDS_FIELD) as MutableList<String>
+                            joinedList.remove(id)
+                            transaction.update(userCapital.reference, JOINED_IDS_FIELD, joinedList)
+                        }.addOnSuccessListener {
+                            emitter.onNext(true)
+                        }.addOnFailureListener {
+                            it.printStackTrace()
+                            emitter.onNext(false)
+                        }
+                    }
+                    .addOnFailureListener {
+                        it.printStackTrace()
+                    }
+        }
+    }
 }
 
 
@@ -122,7 +178,8 @@ fun DocumentSnapshot.toCapital() : Capital {
     val name = get("name") as String
     val password = get("password") as String
     val capitals = get("capitals") as Long
-    return Capital(id, name, password, capitals.toInt())
+    val ownerId = get("ownerId") as String
+    return Capital(id, name, password, ownerId, capitals.toInt())
 }
 
-fun Capital.toCreationCapital() = CreationCapital(name, password, capitals)
+fun Capital.toCreationCapital() = CreationCapital(name, password, ownerId, capitals)
