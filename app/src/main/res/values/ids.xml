@@ -2,4 +2,6 @@
 <resources>
     <item name="ctx_menu_remove" type="id"/>
     <item name="ctx_menu_share" type="id"/>
+    <item name="ctx_menu_exit" type="id"/>
+
 </resources>
