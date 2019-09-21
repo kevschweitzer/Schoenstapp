@@ -1,5 +1,6 @@
 package dev.blacktobacco.com.data.capital
 
+import android.util.Log
 import com.google.firebase.firestore.DocumentSnapshot
 import com.google.firebase.firestore.FirebaseFirestore
 import dev.blacktobacco.com.data.Constants.Companion.CAPITALS_COLLECTION_NAME
@@ -65,10 +66,8 @@ class CapitalsRepositoryImpl(private val getCurrentUserUseCase: GetCurrentUserUs
                                         .addOnSuccessListener { document ->
                                             document.data?.let {
                                                 capitalarios.add(document.toCapital())
-                                            }
-                                        }
-                                        .addOnFailureListener {
-                                            joinedCapitalsIds.remove(capitalId)
+                                            } ?: joinedCapitalsIds.remove(capitalId)
+
                                         }
                                         .addOnCompleteListener {task ->
                                             db.runTransaction {transaction ->
