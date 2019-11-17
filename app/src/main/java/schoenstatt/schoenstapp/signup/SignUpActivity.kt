@@ -13,6 +13,7 @@ import kotlinx.android.synthetic.main.activity_sign_up.*
 import org.koin.android.ext.android.inject
 import org.koin.android.scope.currentScope
 import schoenstatt.schoenstapp.R
+import schoenstatt.schoenstapp.getDialog
 import schoenstatt.schoenstapp.home.MainActivity
 import schoenstatt.schoenstapp.login.LoginActivity
 
@@ -36,8 +37,13 @@ class SignUpActivity : AppCompatActivity() {
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe {
                     if(it) {
-                        startActivity(MainActivity.getIntent(this))
-                        finish()
+                        getDialog(this, "Verify your email", "We've sent you an email to verify you account")
+                                ?.setPositiveButton("Ok") {_,_ ->
+                                    startActivity(LoginActivity.getIntent(this))
+                                    finish()
+                                }
+                                ?.setCancelable(false)
+                                ?.show()
                     } else {
                         Toast.makeText(this, "Sign up error", Toast.LENGTH_SHORT).show()
                     }

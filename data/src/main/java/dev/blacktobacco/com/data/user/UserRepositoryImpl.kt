@@ -28,8 +28,14 @@ class UserRepositoryImpl(private val context: Context,
                         if (task.isSuccessful) {
                             // Sign in success, update UI with the signed-in user's information
                             Log.d("TAG", "createUserWithEmail:success")
-                            saveUser(auth.currentUser)
-                            setCurrentUserUid(auth.currentUser?.uid)
+                            //saveUser(auth.currentUser)
+                            try {
+                                auth.currentUser?.sendEmailVerification()
+                            } catch (e: Exception) {
+                                e.printStackTrace()
+                            }
+                            signOut()
+                            //setCurrentUserUid(auth.currentUser?.uid)
                         } else {
                             // If sign in fails, display a message to the user.
                             Log.w("TAG", "createUserWithEmail:failure", task.exception)
@@ -67,10 +73,14 @@ class UserRepositoryImpl(private val context: Context,
         return Observable.create { emitter ->
             auth.signInWithEmailAndPassword(user, password)
                     .addOnCompleteListener { task ->
-                        emitter.onNext(task.isSuccessful)
                         if(task.isSuccessful) {
-                            saveUser(auth.currentUser)
-                            setCurrentUserUid(auth.currentUser?.uid)
+                            if(auth.currentUser?.isEmailVerified == true) {
+                                saveUser(auth.currentUser)
+                                setCurrentUserUid(auth.currentUser?.uid)
+                                emitter.onNext(true)
+                            } else {
+                                emitter.onNext(false)
+                            }
                         }
                     }
         }
