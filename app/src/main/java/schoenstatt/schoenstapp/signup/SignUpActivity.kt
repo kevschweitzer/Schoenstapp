@@ -32,23 +32,32 @@ class SignUpActivity : AppCompatActivity() {
     }
 
     fun onSignUpClicked(view: View) {
-        val disposable = presenter.signUp(input_user.text.toString(), input_password.text.toString())
-                .subscribeOn(Schedulers.io())
-                .observeOn(AndroidSchedulers.mainThread())
-                .subscribe {
-                    if(it) {
-                        getDialog(this, "Verify your email", "We've sent you an email to verify you account")
-                                ?.setPositiveButton("Ok") {_,_ ->
-                                    startActivity(LoginActivity.getIntent(this))
-                                    finish()
-                                }
-                                ?.setCancelable(false)
-                                ?.show()
-                    } else {
-                        Toast.makeText(this, "Sign up error", Toast.LENGTH_SHORT).show()
+        if(isPasswordCorrect()) {
+            val disposable = presenter.signUp(input_user.text.toString(), input_password.text.toString())
+                    .subscribeOn(Schedulers.io())
+                    .observeOn(AndroidSchedulers.mainThread())
+                    .subscribe {
+                        if(it) {
+                            getDialog(this, "Verify your email", "We've sent you an email to verify you account")
+                                    ?.setPositiveButton("Ok") {_,_ ->
+                                        startActivity(LoginActivity.getIntent(this))
+                                        finish()
+                                    }
+                                    ?.setCancelable(false)
+                                    ?.show()
+                        } else {
+                            Toast.makeText(this, "Sign up error", Toast.LENGTH_SHORT).show()
+                        }
                     }
-                }
-        disposables.add(disposable)
+            disposables.add(disposable)
+        } else {
+            Toast.makeText(this, "passwords didn't match", Toast.LENGTH_SHORT).show()
+        }
+
+    }
+
+    private fun isPasswordCorrect(): Boolean {
+        return input_password.text.toString() == input_confirm_password.text.toString()
     }
 
     override fun onDestroy() {
