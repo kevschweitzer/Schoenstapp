@@ -14,6 +14,7 @@ import kotlinx.android.synthetic.main.activity_login.*
 import org.koin.android.ext.android.inject
 import org.koin.android.scope.currentScope
 import schoenstatt.schoenstapp.R
+import schoenstatt.schoenstapp.forgot.ForgotPasswordActivity
 import schoenstatt.schoenstapp.home.MainActivity
 import schoenstatt.schoenstapp.signup.SignUpActivity
 
@@ -55,6 +56,10 @@ class LoginActivity : AppCompatActivity() {
     fun onGoToSignUpClicked(view: View) {
         startActivity(SignUpActivity.getIntent(this))
         finish()
+    }
+
+    fun onGoToForgotPasswordClicked(view: View) {
+        startActivity(ForgotPasswordActivity.getIntent(this))
     }
 
     override fun onDestroy() {

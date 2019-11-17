@@ -1,9 +1,11 @@
 package dev.blacktobacco.com.data.module
 
 import androidx.room.Room
+import dev.blacktobacco.com.data.account.AccountServiceImpl
 import dev.blacktobacco.com.data.capital.CapitalsRepositoryImpl
 import dev.blacktobacco.com.data.database.AppDatabase
 import dev.blacktobacco.com.data.user.UserRepositoryImpl
+import dev.blacktobacco.com.domain.account.AccountService
 import dev.blacktobacco.com.domain.capitals.CapitalsRepository
 import dev.blacktobacco.com.domain.user.UserRepository
 import org.koin.android.ext.koin.androidContext
@@ -21,4 +23,6 @@ val dataModule = module {
                 AppDatabase::class.java, "schoenstapp-database"
             ).build()
     }
+
+    single<AccountService> { AccountServiceImpl() }
 }
