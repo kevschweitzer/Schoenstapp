@@ -1,5 +1,6 @@
 package schoenstatt.schoenstapp.module
 
+import dev.blacktobacco.com.domain.account.forgot.SendForgotPasswordUseCase
 import dev.blacktobacco.com.domain.capitals.*
 import dev.blacktobacco.com.domain.login.LogInUseCase
 import dev.blacktobacco.com.domain.login.LogOutUseCase
@@ -10,6 +11,9 @@ import org.koin.dsl.module
 import schoenstatt.schoenstapp.capitals.main.CapitalModel
 import schoenstatt.schoenstapp.capitals.main.CapitalsActivity
 import schoenstatt.schoenstapp.capitals.main.CapitalsPresenter
+import schoenstatt.schoenstapp.forgot.ForgotPasswordActivity
+import schoenstatt.schoenstapp.forgot.ForgotPasswordModel
+import schoenstatt.schoenstapp.forgot.ForgotPasswordPresenter
 import schoenstatt.schoenstapp.home.MainActivity
 import schoenstatt.schoenstapp.home.MainModel
 import schoenstatt.schoenstapp.home.MainPresenter
@@ -41,6 +45,12 @@ val appModule = module {
         scoped { MainModel(get()) }
     }
 
+    scope(named<ForgotPasswordActivity>()) {
+        scoped { ForgotPasswordPresenter(get()) }
+        scoped { ForgotPasswordModel(get()) }
+        scoped { SendForgotPasswordUseCase(get())}
+    }
+
     single { CapitalsPresenter(get()) }
 
     single { AddCapitalUseCase(get()) }
@@ -62,4 +72,5 @@ val appModule = module {
     single { DeleteCapitalUseCase(get()) }
 
     single { ExitCapitalUseCase(get())}
+
 }
