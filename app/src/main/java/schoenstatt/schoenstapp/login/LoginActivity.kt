@@ -6,15 +6,17 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.View
-import android.widget.Toast
+import dev.blacktobacco.com.domain.Correct
+import dev.blacktobacco.com.domain.EmailNotVerifiedError
+import dev.blacktobacco.com.domain.WrongCredentialsException
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.Disposable
 import io.reactivex.schedulers.Schedulers
 import kotlinx.android.synthetic.main.activity_login.*
-import org.koin.android.ext.android.inject
 import org.koin.android.scope.currentScope
 import schoenstatt.schoenstapp.R
 import schoenstatt.schoenstapp.forgot.ForgotPasswordActivity
+import schoenstatt.schoenstapp.getDialog
 import schoenstatt.schoenstapp.home.MainActivity
 import schoenstatt.schoenstapp.signup.SignUpActivity
 
@@ -33,7 +35,6 @@ class LoginActivity : AppCompatActivity() {
         val user = presenter.getCurrentUser()
         if(user != null) {
             startActivity(MainActivity.getIntent(this))
-            Log.i("USER EMAIL", user.email )
             finish()
         }
     }
@@ -43,11 +44,13 @@ class LoginActivity : AppCompatActivity() {
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe {
-                    if(it) {
-                        startActivity(MainActivity.getIntent(this))
-                        finish()
-                    } else {
-                        Toast.makeText(this, "Log in failed", Toast.LENGTH_SHORT).show()
+                    when(it) {
+                        is Correct -> {
+                            startActivity(MainActivity.getIntent(this))
+                        }
+                        is WrongCredentialsException -> getDialog(this, getString(R.string.error_wrong_credentials_title), getString(R.string.error_wrong_credentials_description))?.show()
+                        is EmailNotVerifiedError -> getDialog(this, getString(R.string.error_not_validated_title), getString(R.string.error_not_validated_description))?.show()
+                        else -> getDialog(this, getString(R.string.error_unknown_title), getString(R.string.error_unknown_description))?.show()
                     }
                 }
         disposables.add(disposable)
