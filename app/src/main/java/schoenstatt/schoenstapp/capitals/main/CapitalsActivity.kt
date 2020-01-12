@@ -59,6 +59,7 @@ class CapitalsActivity : AppCompatActivity(), CapitalsAdapter.AddCapitalInterfac
                     .subscribe {
                         adapter = CapitalsAdapter(this@CapitalsActivity, it)
                     }
+            invalidate()
         }
         registerForContextMenu(capitals_recycler_view)
     }
