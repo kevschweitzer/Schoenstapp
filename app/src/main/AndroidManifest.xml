@@ -22,7 +22,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-            <intent-filter>
+            <intent-filter android:autoVerify="true">
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
@@ -30,8 +30,8 @@
 
                 <data
                     android:scheme="https"
-                    android:host="github.com"
-                    android:pathPrefix="/kevschweitzer/shoenstapp-share/" />
+                    android:host="kevschweitzer.github.io"
+                    android:pathPrefix="/schoenstapp-share/" />
             </intent-filter>
         </activity>
         <activity android:name=".PhoneActivity" />
