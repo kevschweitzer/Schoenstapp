@@ -86,13 +86,13 @@ class CapitalsRepositoryImpl(private val getCurrentUserUseCase: GetCurrentUserUs
         }
     }
 
-    override fun addCapital(id: String): Observable<Int> {
+    override fun addCapitals(id: String, capitalsAmount: Int): Observable<Int> {
         return Observable.create<Int> { emitter ->
             val capital = capitals.document(id)
             capitals.document(id).get()
                     .addOnCompleteListener { task ->
                         if (task.isSuccessful) {
-                            val capitalsQuantity = task.result?.get("capitals") as Long + 1
+                            val capitalsQuantity = task.result?.get("capitals") as Long + capitalsAmount
                             capital.update("capitals", capitalsQuantity)
                             emitter.onNext(capitalsQuantity.toInt())
                         }

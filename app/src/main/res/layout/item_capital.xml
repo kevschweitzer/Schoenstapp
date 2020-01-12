@@ -30,28 +30,7 @@
             android:layout_marginLeft="40dp"
             android:layout_marginTop="10dp"
             android:text="0" />
-
-        <TextView
-            android:id="@+id/capital_id"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="10dp"
-            android:text="asdgagsasdd" />
     </LinearLayout>
-
-    <Button
-        android:id="@+id/add_capital_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
-        android:text="+"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <View
         android:background="#000000"

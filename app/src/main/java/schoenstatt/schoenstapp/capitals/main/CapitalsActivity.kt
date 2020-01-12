@@ -16,13 +16,13 @@ import kotlinx.android.synthetic.main.activity_capitals.*
 import org.koin.android.ext.android.inject
 import org.koin.android.scope.currentScope
 import schoenstatt.schoenstapp.R
+import schoenstatt.schoenstapp.capitals.capital.SingleCapitalActivity
 import schoenstatt.schoenstapp.capitals.join.JoinCapitalFragment
 import schoenstatt.schoenstapp.capitals.new.CapitalProfile
 import schoenstatt.schoenstapp.capitals.new.NewCapitalFragment
 import schoenstatt.schoenstapp.getDialog
 
-class CapitalsActivity : AppCompatActivity(), CapitalsAdapter.AddCapitalInterface, JoinCapitalFragment.JoinCapitalInterface {
-
+class CapitalsActivity : AppCompatActivity(), CapitalsAdapter.CapitalAdapterInterface, JoinCapitalFragment.JoinCapitalInterface {
 
     private var isMenuOpen: Boolean = false
     private val presenter: CapitalsPresenter by currentScope.inject()
@@ -34,10 +34,16 @@ class CapitalsActivity : AppCompatActivity(), CapitalsAdapter.AddCapitalInterfac
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_capitals)
+    }
+
+    override fun onResume() {
+        super.onResume()
         setUpCapitals()
     }
 
-    override fun addCapital(id: String) = presenter.addCapital(id)
+    override fun openSingleCapital(capital: CapitalProfile) {
+        startActivity(SingleCapitalActivity.getIntent(this, capital))
+    }
 
     override fun joinCapital(id: String) {
         if(id.isNotEmpty()) {

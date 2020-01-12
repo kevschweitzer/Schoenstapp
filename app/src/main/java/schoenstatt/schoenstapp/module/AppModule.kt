@@ -8,6 +8,9 @@ import dev.blacktobacco.com.domain.signup.CreateUserUseCase
 import dev.blacktobacco.com.domain.user.GetCurrentUserUseCase
 import org.koin.core.qualifier.named
 import org.koin.dsl.module
+import schoenstatt.schoenstapp.capitals.capital.SingleCapitalActivity
+import schoenstatt.schoenstapp.capitals.capital.SingleCapitalModel
+import schoenstatt.schoenstapp.capitals.capital.SingleCapitalPresenter
 import schoenstatt.schoenstapp.capitals.main.CapitalModel
 import schoenstatt.schoenstapp.capitals.main.CapitalsActivity
 import schoenstatt.schoenstapp.capitals.main.CapitalsPresenter
@@ -27,7 +30,7 @@ import schoenstatt.schoenstapp.signup.SignUpPresenter
 val appModule = module {
 
     scope(named<CapitalsActivity>()) {
-        scoped { CapitalModel(get(), get(), get(), get(), get(), get(), get()) }
+        scoped { CapitalModel(get(), get(), get(), get(), get(), get()) }
     }
 
     scope(named<SignUpActivity>()) {
@@ -51,9 +54,14 @@ val appModule = module {
         scoped { SendForgotPasswordUseCase(get())}
     }
 
+    scope(named<SingleCapitalActivity>()) {
+        scoped { SingleCapitalPresenter(get()) }
+        scoped { SingleCapitalModel(get()) }
+    }
+
     single { CapitalsPresenter(get()) }
 
-    single { AddCapitalUseCase(get()) }
+    single { AddCapitalsUseCase(get()) }
 
     single { GetCapitalsUseCase(get())}
 

@@ -9,15 +9,16 @@ import kotlinx.android.synthetic.main.item_capital.view.*
 import org.koin.core.KoinComponent
 import org.koin.core.get
 import schoenstatt.schoenstapp.R
+import schoenstatt.schoenstapp.capitals.capital.SingleCapitalActivity
 import schoenstatt.schoenstapp.capitals.new.CapitalProfile
 
-class CapitalsAdapter(private val callback: AddCapitalInterface,
+class CapitalsAdapter(private val callback: CapitalAdapterInterface,
                       val capitalsList: List<CapitalProfile>): RecyclerView.Adapter<CapitalsAdapter.CapitalHolder>()  {
 
     var adapterPosition: Int? = null
 
-    interface AddCapitalInterface {
-        fun addCapital(id: String): Observable<Int>
+    interface CapitalAdapterInterface {
+        fun openSingleCapital(capital: CapitalProfile)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CapitalHolder {
@@ -34,7 +35,7 @@ class CapitalsAdapter(private val callback: AddCapitalInterface,
         holder.bind(capitalsList[position])
     }
 
-    class CapitalHolder(val callback: AddCapitalInterface,
+    class CapitalHolder(val callback: CapitalAdapterInterface,
                         val view: View): RecyclerView.ViewHolder(view), View.OnCreateContextMenuListener, KoinComponent {
 
         lateinit var capitalProfile: CapitalProfile
@@ -44,14 +45,8 @@ class CapitalsAdapter(private val callback: AddCapitalInterface,
             this.capitalProfile = capitalProfile
             view.capital_name.text = capitalProfile.name
             view.capitals_quantity.text = capitalProfile.capitals.toString()
-            //view.capital_id.text = capitalProfile.id
-            view.add_capital_button.setOnClickListener {
-                callback.addCapital(capitalProfile.id)
-                        .subscribeOn(Schedulers.io())
-                        .observeOn(AndroidSchedulers.mainThread())
-                        .subscribe{
-                            view.capitals_quantity.text = it.toString()
-                        }
+            view.setOnClickListener {
+                callback.openSingleCapital(capitalProfile)
             }
             view.setOnCreateContextMenuListener(this)
         }

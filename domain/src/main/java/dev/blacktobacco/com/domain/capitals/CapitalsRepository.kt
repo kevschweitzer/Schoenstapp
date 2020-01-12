@@ -6,7 +6,7 @@ interface CapitalsRepository {
 
     fun newCapital(capital: Capital): Observable<Boolean>
     fun getCapitals(): Observable<List<Capital>>
-    fun addCapital(id: String): Observable<Int>
+    fun addCapitals(id: String, capitalsAmount: Int): Observable<Int>
     fun joinCapital(id: String): Observable<Boolean>
     fun deleteCapital(id: String): Observable<Boolean>
     fun exitCapital(id: String): Observable<Boolean>
