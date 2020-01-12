@@ -61,21 +61,25 @@ class CapitalsRepositoryImpl(private val getCurrentUserUseCase: GetCurrentUserUs
                             val joinedCapitalsIds = it.documents[0].get(JOINED_IDS_FIELD) as MutableList<String>
                             ownedCapitalsIds.addAll(joinedCapitalsIds)
                             val capitalarios = mutableListOf<Capital>()
-                            ownedCapitalsIds.forEach { capitalId ->
-                                capitals.document(capitalId).get()
-                                        .addOnSuccessListener { document ->
-                                            document.data?.let {
-                                                capitalarios.add(document.toCapital())
-                                            } ?: joinedCapitalsIds.remove(capitalId)
+                            if(ownedCapitalsIds.isEmpty())
+                                emitter.onNext(capitalarios)
+                            else {
+                                ownedCapitalsIds.forEach { capitalId ->
+                                    capitals.document(capitalId).get()
+                                            .addOnSuccessListener { document ->
+                                                document.data?.let {
+                                                    capitalarios.add(document.toCapital())
+                                                } ?: joinedCapitalsIds.remove(capitalId)
 
-                                        }
-                                        .addOnCompleteListener {task ->
-                                            db.runTransaction {transaction ->
-                                                val userCapital = it.documents[0]
-                                                transaction.update(userCapital.reference, JOINED_IDS_FIELD, joinedCapitalsIds)
                                             }
-                                            emitter.onNext(capitalarios)
-                                        }
+                                            .addOnCompleteListener {task ->
+                                                db.runTransaction {transaction ->
+                                                    val userCapital = it.documents[0]
+                                                    transaction.update(userCapital.reference, JOINED_IDS_FIELD, joinedCapitalsIds)
+                                                }
+                                                emitter.onNext(capitalarios)
+                                            }
+                                }
                             }
                         }
                     }
