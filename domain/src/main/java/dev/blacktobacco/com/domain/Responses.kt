@@ -8,6 +8,8 @@ class UnknownError: ServerResponse()
 class EmailNotVerifiedError: ServerResponse()
 class WrongCredentialsException: ServerResponse()
 class UnusualActivityException: ServerResponse()
+class WeakPasswordException: ServerResponse()
+class EmailAlreadyInUseException: ServerResponse()
 
 
 
