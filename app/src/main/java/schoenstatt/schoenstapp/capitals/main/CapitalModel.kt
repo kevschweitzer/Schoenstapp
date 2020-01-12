@@ -8,7 +8,6 @@ import schoenstatt.schoenstapp.capitals.new.CapitalProfile
 
 class CapitalModel(private val newCapitalUseCase: NewCapitalUseCase,
                    private val getCapitalsUseCase: GetCapitalsUseCase,
-                   private val addCapitalUseCase: AddCapitalUseCase,
                    private val joinCapitalUseCase: JoinCapitalUseCase,
                    private val deleteCapitalUseCase: DeleteCapitalUseCase,
                    private val getCurrentUserUseCase: GetCurrentUserUseCase,
@@ -24,7 +23,6 @@ class CapitalModel(private val newCapitalUseCase: NewCapitalUseCase,
                 }
             }
 
-    fun addCapital(id: String) = addCapitalUseCase.execute(id)
     fun joinCapital(id: String) = joinCapitalUseCase.execute(id)
     fun deleteCapital(id: String) = deleteCapitalUseCase.execute(id)
     fun getUserId() = getCurrentUserUseCase.execute()?.id
