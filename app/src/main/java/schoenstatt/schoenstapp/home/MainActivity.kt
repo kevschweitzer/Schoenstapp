@@ -3,15 +3,14 @@ package schoenstatt.schoenstapp.home
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import org.koin.android.scope.currentScope
 import schoenstatt.schoenstapp.PhoneActivity
 import schoenstatt.schoenstapp.R
 import schoenstatt.schoenstapp.capitals.main.CapitalsActivity
 import schoenstatt.schoenstapp.exitApp
 import schoenstatt.schoenstapp.login.LoginActivity
-import schoenstatt.schoenstapp.signup.SignUpActivity
 
 
 class MainActivity : AppCompatActivity() {
