@@ -5,7 +5,7 @@ import io.reactivex.Observable
 
 interface UserRepository {
 
-    fun create(user: String, password: String): Observable<Boolean>
+    fun create(user: String, password: String): Observable<ServerResponse>
 
     fun exists(user: String, password: String): Observable<ServerResponse>
 
