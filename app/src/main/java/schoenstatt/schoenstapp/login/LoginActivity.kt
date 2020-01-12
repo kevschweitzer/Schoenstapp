@@ -2,6 +2,7 @@ package schoenstatt.schoenstapp.login
 
 import android.content.Context
 import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -16,6 +17,7 @@ import io.reactivex.schedulers.Schedulers
 import kotlinx.android.synthetic.main.activity_login.*
 import org.koin.android.scope.currentScope
 import schoenstatt.schoenstapp.R
+import schoenstatt.schoenstapp.capitals.main.CapitalsActivity
 import schoenstatt.schoenstapp.forgot.ForgotPasswordActivity
 import schoenstatt.schoenstapp.getDialog
 import schoenstatt.schoenstapp.home.MainActivity
@@ -25,6 +27,7 @@ class LoginActivity : AppCompatActivity() {
 
     private val presenter: LoginPresenter by currentScope.inject()
     private val disposables = mutableListOf<Disposable>()
+    private var appLinkData: Uri? = null
 
     companion object {
         fun getIntent(context: Context) = Intent(context, LoginActivity::class.java)
@@ -33,10 +36,19 @@ class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
+        appLinkData = intent.data
         val user = presenter.getCurrentUser()
         if(user != null) {
-            startActivity(MainActivity.getIntent(this))
+            startNextActivity()
             finish()
+        }
+    }
+
+    private fun startNextActivity() {
+        if(appLinkData != null) {
+            startActivity(CapitalsActivity.getIntent(this, appLinkData as Uri))
+        } else {
+            startActivity(MainActivity.getIntent(this))
         }
     }
 
@@ -46,9 +58,7 @@ class LoginActivity : AppCompatActivity() {
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe {
                     when(it) {
-                        is Correct -> {
-                            startActivity(MainActivity.getIntent(this))
-                        }
+                        is Correct -> { startNextActivity() }
                         is WrongCredentialsException -> getDialog(this, getString(R.string.error_wrong_credentials_title), getString(R.string.error_wrong_credentials_description))?.show()
                         is EmailNotVerifiedError -> getDialog(this, getString(R.string.error_not_validated_title), getString(R.string.error_not_validated_description))?.show()
                         is UnusualActivityException -> getDialog(this, getString(R.string.unusual_activity_title), getString(R.string.unusual_activity_description))

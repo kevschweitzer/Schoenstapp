@@ -8,7 +8,7 @@ import androidx.fragment.app.DialogFragment
 import kotlinx.android.synthetic.main.fragment_join_capital.*
 import schoenstatt.schoenstapp.R
 
-class JoinCapitalFragment(val callback: JoinCapitalInterface): DialogFragment() {
+class JoinCapitalFragment(val callback: JoinCapitalInterface, var capitalId: String?): DialogFragment() {
 
 
     interface JoinCapitalInterface {
@@ -26,5 +26,6 @@ class JoinCapitalFragment(val callback: JoinCapitalInterface): DialogFragment() 
             callback.joinCapital(et_join_capital_id.text.toString())
             dismiss()
         }
+        if(capitalId!=null) et_join_capital_id.setText(capitalId)
     }
 }

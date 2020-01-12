@@ -3,6 +3,7 @@ package schoenstatt.schoenstapp.capitals.main
 import androidx.lifecycle.Observer
 import android.content.Context
 import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -15,12 +16,15 @@ import io.reactivex.schedulers.Schedulers
 import kotlinx.android.synthetic.main.activity_capitals.*
 import org.koin.android.ext.android.inject
 import org.koin.android.scope.currentScope
+import schoenstatt.schoenstapp.Constants
+import schoenstatt.schoenstapp.Constants.Companion.BASE_SHARE_URL
 import schoenstatt.schoenstapp.R
 import schoenstatt.schoenstapp.capitals.capital.SingleCapitalActivity
 import schoenstatt.schoenstapp.capitals.join.JoinCapitalFragment
 import schoenstatt.schoenstapp.capitals.new.CapitalProfile
 import schoenstatt.schoenstapp.capitals.new.NewCapitalFragment
 import schoenstatt.schoenstapp.getDialog
+import schoenstatt.schoenstapp.home.MainActivity
 
 class CapitalsActivity : AppCompatActivity(), CapitalsAdapter.CapitalAdapterInterface, JoinCapitalFragment.JoinCapitalInterface {
 
@@ -29,11 +33,26 @@ class CapitalsActivity : AppCompatActivity(), CapitalsAdapter.CapitalAdapterInte
 
     companion object {
         fun getIntent(context: Context) = Intent(context, CapitalsActivity::class.java)
+
+        fun getIntent(context: Context, appData: Uri): Intent {
+            val intent = Intent(context, CapitalsActivity::class.java)
+            intent.putExtra(Constants.APPLINK_DATA, appData)
+            return intent
+        }
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_capitals)
+        handleIntent()
+    }
+
+    private fun handleIntent() {
+        val appLinkData = intent.getParcelableExtra<Uri>(Constants.APPLINK_DATA)
+        if(appLinkData!=null) {
+            val joinCapitalId = appLinkData.lastPathSegment
+            joinCapitalFromAppLink(joinCapitalId)
+        }
     }
 
     override fun onResume() {
@@ -76,8 +95,13 @@ class CapitalsActivity : AppCompatActivity(), CapitalsAdapter.CapitalAdapterInte
         newCapitalFragment.show(supportFragmentManager, "fragment_new_capital")
     }
 
-    fun joinCapital(view: View) {
-        val joinCapitalFragment = JoinCapitalFragment(this)
+    fun joinCapital(view: View?) {
+        val joinCapitalFragment = JoinCapitalFragment(this, null)
+        joinCapitalFragment.show(supportFragmentManager, "fragment_join_capital")
+    }
+
+    fun joinCapitalFromAppLink(capitalId: String) {
+        val joinCapitalFragment = JoinCapitalFragment(this, capitalId)
         joinCapitalFragment.show(supportFragmentManager, "fragment_join_capital")
     }
 
@@ -149,7 +173,7 @@ class CapitalsActivity : AppCompatActivity(), CapitalsAdapter.CapitalAdapterInte
     private fun shareCapital(capitalProfile: CapitalProfile) {
         val intent = Intent(Intent.ACTION_SEND)
         intent.type = "text/plain"
-        intent.putExtra(Intent.EXTRA_TEXT, "Unite a mi capitalario con este codigo! ${capitalProfile.id}")
+        intent.putExtra(Intent.EXTRA_TEXT, "Unite a mi capitalario! ${BASE_SHARE_URL}${capitalProfile.id}")
 
         try {
             startActivity(Intent.createChooser(intent, "Compartir usando"))
