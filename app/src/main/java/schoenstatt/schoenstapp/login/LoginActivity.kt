@@ -8,6 +8,7 @@ import android.util.Log
 import android.view.View
 import dev.blacktobacco.com.domain.Correct
 import dev.blacktobacco.com.domain.EmailNotVerifiedError
+import dev.blacktobacco.com.domain.UnusualActivityException
 import dev.blacktobacco.com.domain.WrongCredentialsException
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.Disposable
@@ -50,6 +51,7 @@ class LoginActivity : AppCompatActivity() {
                         }
                         is WrongCredentialsException -> getDialog(this, getString(R.string.error_wrong_credentials_title), getString(R.string.error_wrong_credentials_description))?.show()
                         is EmailNotVerifiedError -> getDialog(this, getString(R.string.error_not_validated_title), getString(R.string.error_not_validated_description))?.show()
+                        is UnusualActivityException -> getDialog(this, getString(R.string.unusual_activity_title), getString(R.string.unusual_activity_description))
                         else -> getDialog(this, getString(R.string.error_unknown_title), getString(R.string.error_unknown_description))?.show()
                     }
                 }

@@ -7,6 +7,7 @@ class UnknownError: ServerResponse()
 //Auth
 class EmailNotVerifiedError: ServerResponse()
 class WrongCredentialsException: ServerResponse()
+class UnusualActivityException: ServerResponse()
 
 
 
