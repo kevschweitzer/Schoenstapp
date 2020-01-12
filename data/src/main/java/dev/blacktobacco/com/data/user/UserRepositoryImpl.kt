@@ -86,7 +86,8 @@ class UserRepositoryImpl(private val context: Context,
                         }
                     }
                     .addOnFailureListener {
-                        emitter.onNext(getFirebaseError((it as FirebaseAuthException)))
+                        emitter.onNext(getFirebaseError((it)))
+                        it.printStackTrace()
                     }
         }
 

@@ -17,4 +17,6 @@
     <string name="error_not_validated_description">You need to validate your mail before login</string>
     <string name="error_unknown_title">Oops we are sorry</string>
     <string name="error_unknown_description">We detected an unexpected error, please try again</string>
+    <string name="unusual_activity_title">Too many wrong attempts</string>
+    <string name="unusual_activity_description">We blocked this device temporally due to many wrong log in attempts</string>
 </resources>
