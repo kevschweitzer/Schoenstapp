@@ -11,12 +11,14 @@ import android.view.animation.Animation
 import android.view.animation.AnimationSet
 import android.view.animation.AccelerateInterpolator
 import android.view.animation.AlphaAnimation
+import android.widget.Toast
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
 import schoenstatt.schoenstapp.Constants.Companion.SINGLE_CAPITAL
 import schoenstatt.schoenstapp.R
 import schoenstatt.schoenstapp.capitals.new.CapitalProfile
+import schoenstatt.schoenstapp.isOnline
 
 
 class SingleCapitalActivity : AppCompatActivity() {
@@ -44,7 +46,14 @@ class SingleCapitalActivity : AppCompatActivity() {
     }
 
     fun onAddClicked(view: View) {
+        /*val disposable = isOnline(this).subscribe({
+            if(it) {
+                setCapitalsTemp()
+            } else Toast.makeText(this, "No internet connection", Toast.LENGTH_SHORT).show()
+        },{it.printStackTrace()})
+        disposables.add(disposable)*/
         setCapitalsTemp()
+
     }
 
     private fun setCapitalsTemp() {
