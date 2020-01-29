@@ -4,7 +4,13 @@ import android.content.Context
 import android.content.Intent
 import android.view.LayoutInflater
 import androidx.appcompat.app.AlertDialog
+import io.reactivex.Single
+import io.reactivex.android.schedulers.AndroidSchedulers
+import io.reactivex.schedulers.Schedulers
 import kotlinx.android.synthetic.main.item_dialog.view.*
+import java.net.InetAddress
+import java.net.InetSocketAddress
+import java.net.Socket
 import java.security.MessageDigest
 import kotlin.experimental.and
 
@@ -45,3 +51,27 @@ fun getDialog(context: Context?, title: String, description: String)
     }
     return null
 }
+
+fun isOnline(context: Context?): Single<Boolean> {
+    return Single.fromCallable {
+        try {
+            // Connect to Google DNS to check for connection
+            val timeoutMs = 2500
+            val socket = Socket()
+            val address = InetAddress.getByName("www.google.com")
+
+            val socketAddress = InetSocketAddress(address, 443)
+
+            socket.connect(socketAddress, timeoutMs)
+            socket.close()
+
+            true
+        } catch (e: Exception) {
+            e.printStackTrace()
+            false
+        }
+    }.subscribeOn(Schedulers.io())
+            .observeOn(AndroidSchedulers.mainThread())
+}
+
+

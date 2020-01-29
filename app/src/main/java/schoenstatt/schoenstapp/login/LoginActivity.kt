@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.View
+import android.widget.Toast
 import dev.blacktobacco.com.domain.Correct
 import dev.blacktobacco.com.domain.EmailNotVerifiedError
 import dev.blacktobacco.com.domain.UnusualActivityException
@@ -21,6 +22,7 @@ import schoenstatt.schoenstapp.capitals.main.CapitalsActivity
 import schoenstatt.schoenstapp.forgot.ForgotPasswordActivity
 import schoenstatt.schoenstapp.getDialog
 import schoenstatt.schoenstapp.home.MainActivity
+import schoenstatt.schoenstapp.isOnline
 import schoenstatt.schoenstapp.signup.SignUpActivity
 
 class LoginActivity : AppCompatActivity() {
@@ -53,19 +55,32 @@ class LoginActivity : AppCompatActivity() {
     }
 
     fun onSignInClicked(view: View) {
-        val disposable = presenter.signIn(input_user.text.toString(), input_password.text.toString())
-                .subscribeOn(Schedulers.io())
-                .observeOn(AndroidSchedulers.mainThread())
-                .subscribe {
-                    when(it) {
-                        is Correct -> { startNextActivity() }
-                        is WrongCredentialsException -> getDialog(this, getString(R.string.error_wrong_credentials_title), getString(R.string.error_wrong_credentials_description))?.show()
-                        is EmailNotVerifiedError -> getDialog(this, getString(R.string.error_not_validated_title), getString(R.string.error_not_validated_description))?.show()
-                        is UnusualActivityException -> getDialog(this, getString(R.string.unusual_activity_title), getString(R.string.unusual_activity_description))
-                        else -> getDialog(this, getString(R.string.error_unknown_title), getString(R.string.error_unknown_description))?.show()
-                    }
-                }
+        val disposable = isOnline(this).subscribe({
+            if(it) {
+                val email = input_user.text.toString()
+                val password = input_password.text.toString()
+                if(email.isNotEmpty() && password.isNotEmpty()) {
+                    val disposable = presenter.signIn(input_user.text.toString(), input_password.text.toString())
+                            .subscribeOn(Schedulers.io())
+                            .observeOn(AndroidSchedulers.mainThread())
+                            .subscribe {
+                                when(it) {
+                                    is Correct -> { startNextActivity() }
+                                    is WrongCredentialsException -> getDialog(this, getString(R.string.error_wrong_credentials_title), getString(R.string.error_wrong_credentials_description))?.show()
+                                    is EmailNotVerifiedError -> getDialog(this, getString(R.string.error_not_validated_title), getString(R.string.error_not_validated_description))?.show()
+                                    is UnusualActivityException -> getDialog(this, getString(R.string.unusual_activity_title), getString(R.string.unusual_activity_description))?.show()
+                                    else -> getDialog(this, getString(R.string.error_unknown_title), getString(R.string.error_unknown_description))?.show()
+                                }
+                            }
+                    disposables.add(disposable)
+                } else getDialog(this, getString(R.string.error_wrong_credentials_title), getString(R.string.error_wrong_credentials_description))?.show()
+            } else Toast.makeText(this, "No internet connection", Toast.LENGTH_SHORT).show()
+        },{
+            Toast.makeText(this, "No internet connection", Toast.LENGTH_SHORT).show()
+            it.printStackTrace()
+        })
         disposables.add(disposable)
+
     }
 
     fun onGoToSignUpClicked(view: View) {
