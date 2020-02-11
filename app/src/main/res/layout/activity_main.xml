@@ -1,37 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".home.MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/shrine">
 
     <include
-        android:id="@+id/include"
+        android:id="@+id/toolbar"
         layout="@layout/toolbar" />
 
-    <Button
-        android:id="@+id/button"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Telefono"
-        android:onClick="toPhone"/>
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/toolbar">
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Capitalarios"
-        android:onClick="toCapitals"/>
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="@string/fathers_phone_text"
+            android:textSize="17sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@drawable/bg_menu_button"
+            android:onClick="toPhone"/>
 
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:textSize="17sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@drawable/bg_menu_button"
+            android:layout_marginTop="1dp"
+            android:text="@string/capitals_text"
+            android:onClick="toCapitals"/>
 
+    </LinearLayout>
 
-    <Button
+    <TextView
         android:id="@+id/button3"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Log out"
-        android:onClick="logOut"/>
+        android:layout_marginBottom="30dp"
+        android:drawableStart="@drawable/ic_logout"
+        android:drawablePadding="14dp"
+        android:onClick="logOut"
+        android:text="@string/logout_text"
+        android:textColor="@color/mainTextColor"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

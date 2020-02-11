@@ -19,4 +19,15 @@
     <string name="error_unknown_description">We detected an unexpected error, please try again</string>
     <string name="unusual_activity_title">Too many wrong attempts</string>
     <string name="unusual_activity_description">We blocked this device temporally due to many wrong log in attempts</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="sign_in_text">Sign in</string>
+    <string name="have_account_text">You don\'t have an account?   SIGN UP</string>
+    <string name="forgot_password_text">Forgot password?</string>
+    <string name="confirm_password_hint">Confirm password</string>
+    <string name="sign_up_text">Sign up</string>
+    <string name="welcome_text">Welcome to Schoenstapp</string>
+    <string name="logout_text">Logout</string>
+    <string name="fathers_phone_text">Father\'s Phone</string>
+    <string name="capitals_text">Capitals</string>
 </resources>
