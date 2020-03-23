@@ -58,13 +58,13 @@ class PhoneActivity : AppCompatActivity() {
         val bitmap = generateScreenshot()
         val intent = Intent(Intent.ACTION_SEND)
         intent.type = "image/*"
-        intent.putExtra(Intent.EXTRA_TEXT, "Enviado a través de Schoenstapp");
+        intent.putExtra(Intent.EXTRA_TEXT, getString(R.string.share_phone_text));
         intent.putExtra(Intent.EXTRA_STREAM, getImageUri(bitmap))
 
         try {
-            startActivity(Intent.createChooser(intent, "Compartir usando"))
+            startActivity(Intent.createChooser(intent, getString(R.string.share_title)))
         } catch (ex: android.content.ActivityNotFoundException) {
-            Toast.makeText(this, "Whatsapp have not been installed.", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, getString(R.string.error_sharing), Toast.LENGTH_SHORT).show()
         }
 
     }
