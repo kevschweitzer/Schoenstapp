@@ -1,5 +1,6 @@
 package schoenstatt.schoenstapp.capitals.main
 
+import android.content.Context
 import android.view.*
 import androidx.recyclerview.widget.RecyclerView
 import io.reactivex.Observable
@@ -13,7 +14,8 @@ import schoenstatt.schoenstapp.capitals.capital.SingleCapitalActivity
 import schoenstatt.schoenstapp.capitals.new.CapitalProfile
 import schoenstatt.schoenstapp.isOnline
 
-class CapitalsAdapter(private val callback: CapitalAdapterInterface,
+class CapitalsAdapter(private val context: Context,
+                      private val callback: CapitalAdapterInterface,
                       val capitalsList: List<CapitalProfile>): RecyclerView.Adapter<CapitalsAdapter.CapitalHolder>()  {
 
     var adapterPosition: Int? = null
@@ -24,7 +26,7 @@ class CapitalsAdapter(private val callback: CapitalAdapterInterface,
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CapitalHolder {
         val inflater = LayoutInflater.from(parent.context)
-        return CapitalHolder(callback, inflater.inflate(R.layout.item_capital, parent, false))
+        return CapitalHolder(callback, inflater.inflate(R.layout.item_capital, parent, false),context)
     }
 
     override fun getItemCount() = capitalsList.size
@@ -37,7 +39,8 @@ class CapitalsAdapter(private val callback: CapitalAdapterInterface,
     }
 
     class CapitalHolder(val callback: CapitalAdapterInterface,
-                        val view: View): RecyclerView.ViewHolder(view), View.OnCreateContextMenuListener, KoinComponent {
+                        val view: View,
+                        val context: Context): RecyclerView.ViewHolder(view), View.OnCreateContextMenuListener, KoinComponent {
 
         lateinit var capitalProfile: CapitalProfile
         var capitalsPresenter: CapitalsPresenter = get()
@@ -53,11 +56,11 @@ class CapitalsAdapter(private val callback: CapitalAdapterInterface,
         }
 
         override fun onCreateContextMenu(menu: ContextMenu?, v: View?, menuInfo: ContextMenu.ContextMenuInfo?) {
-            menu?.add(Menu.NONE, R.id.ctx_menu_share, Menu.NONE,"Compartir")
+            menu?.add(Menu.NONE, R.id.ctx_menu_share, Menu.NONE,context.getString(R.string.menu_share_text))
             if(capitalProfile.ownerId == capitalsPresenter.getUserId()) {
-                menu?.add(Menu.NONE, R.id.ctx_menu_remove, Menu.NONE,"Eliminar")
+                menu?.add(Menu.NONE, R.id.ctx_menu_remove, Menu.NONE,context.getString(R.string.menu_delete_text))
             } else {
-                menu?.add(Menu.NONE, R.id.ctx_menu_exit, Menu.NONE,"Salir")
+                menu?.add(Menu.NONE, R.id.ctx_menu_exit, Menu.NONE,context.getString(R.string.menu_leave_text))
             }
         }
     }

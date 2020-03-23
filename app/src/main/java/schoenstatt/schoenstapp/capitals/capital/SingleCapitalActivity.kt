@@ -49,7 +49,7 @@ class SingleCapitalActivity : AppCompatActivity() {
         val disposable = isOnline(this).subscribe({
             if(it) {
                 setCapitalsTemp()
-            } else Toast.makeText(this, "Internet connection problem", Toast.LENGTH_SHORT).show()
+            } else Toast.makeText(this, getString(R.string.error_internet), Toast.LENGTH_SHORT).show()
         },{it.printStackTrace()})
         disposables.add(disposable)
         //setCapitalsTemp()
