@@ -71,6 +71,9 @@ class CapitalsActivity : AppCompatActivity(), CapitalsAdapter.CapitalAdapterInte
                     .observeOn(AndroidSchedulers.mainThread())
                     .subscribe{
                         if(it) setUpCapitals()
+                        else {
+                            Toast.makeText(this, "Not possible to join", Toast.LENGTH_SHORT).show()
+                        }
                     }
         }
     }
