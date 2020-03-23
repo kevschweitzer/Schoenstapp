@@ -113,7 +113,8 @@ class CapitalsRepositoryImpl(private val getCurrentUserUseCase: GetCurrentUserUs
                             } else {
                                 val userCapital = it.documents[0]
                                 val joinedList = userCapital.get(JOINED_IDS_FIELD) as MutableList<String>
-                                if(!joinedList.contains(id)) {
+                                val ownedList = userCapital.get(OWNED_IDS_FIELD) as List<String>
+                                if(!joinedList.contains(id) && ! ownedList.contains(id)) {
                                     joinedList.add(id)
                                     transaction.update(userCapital.reference, JOINED_IDS_FIELD, joinedList)
                                 } else {
