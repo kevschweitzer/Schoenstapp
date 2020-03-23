@@ -82,6 +82,7 @@ class CapitalsActivity : AppCompatActivity(), CapitalsAdapter.CapitalAdapterInte
                     .subscribeOn(Schedulers.io())
                     .observeOn(AndroidSchedulers.mainThread())
                     .subscribe {
+                        loading.visibility = View.GONE
                         adapter = CapitalsAdapter(this@CapitalsActivity, it)
                     }
             invalidate()

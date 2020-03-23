@@ -51,7 +51,7 @@
         android:onClick="logOut"
         android:text="@string/logout_text"
         android:textColor="@color/mainTextColor"
-        android:textSize="16sp"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
