@@ -48,9 +48,10 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginEnd="10dp"
+                android:background="#90FFFFFF"
                 android:textColor="@color/colorPrimaryDark"
                 android:layout_marginRight="10dp"
-                android:text="Unirse" />
+                android:text="@string/join_capital_submit" />
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
                 android:id="@+id/btn_join_capital"
@@ -82,8 +83,9 @@
                 android:layout_gravity="center"
                 android:layout_marginEnd="10dp"
                 android:layout_marginRight="10dp"
+                android:background="#90FFFFFF"
                 android:textColor="@color/colorPrimaryDark"
-                android:text="Nuevo" />
+                android:text="@string/new_capital" />
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
                 android:id="@+id/btn_new_capital"

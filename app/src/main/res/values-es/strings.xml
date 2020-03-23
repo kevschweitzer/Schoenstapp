@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Schoenstapp</string>
+
+    <string name="pk_phrase_placeholder">Cuenten con fracasos, deben tomarlos como algo sobreentendido. Los fracasos en la educación significan el mayor éxito para nosotros. ¿Por qué? Porque estos fracasos son para nosotros escuela. El fracaso convierte al sembrador en semilla.</string>
+
+    <!-- New CapitalProfile Fragment -->
+    <string name="new_capital_name">Nombre</string>
+    <string name="new_capital_password">Contraseña</string>
+    <string name="new_capital_submit">Crear</string>
+
+    <!-- Join Capital Fragment-->
+    <string name="join_capital_submit">Unirse</string>
+    <string name="join_capital_id_text">Codigo identificador</string>
+    <string name="error_wrong_credentials_title">Credenciales incorrectas</string>
+    <string name="error_wrong_credentials_description">Ingresaste un email o contraseña invalidas</string>
+    <string name="error_not_validated_title">Email no validado</string>
+    <string name="error_not_validated_description">Necesitas validar tu email antes de iniciar sesión</string>
+    <string name="error_unknown_title">Lo sentimos</string>
+    <string name="error_unknown_description">Error inesperado, por favor intenta de nuevo mas tarde</string>
+    <string name="unusual_activity_title">Demasiados intentos fallidos</string>
+    <string name="unusual_activity_description">Bloqueamos temporalmente este telefono debido a muchos intentos fallidos</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="sign_in_text">Iniciar sesión</string>
+    <string name="have_account_text">No tienes una cuenta?   SIGN UP</string>
+    <string name="forgot_password_text">Olvidate tu contraseña?</string>
+    <string name="confirm_password_hint">Confirmar contraseña</string>
+    <string name="sign_up_text">Registrarse</string>
+    <string name="welcome_text">Bienvenido a Schoenstapp</string>
+    <string name="logout_text">Cerrar sesión</string>
+    <string name="fathers_phone_text">Telefono del padre</string>
+    <string name="capitals_text">Capitales de gracia</string>
+    <string name="error_internet">Problema con la conexión a Internet</string>
+    <string name="error_cant_join">No fue posible unirse</string>
+    <string name="correct_create_capital">Capitalario creado correctamente</string>
+    <string name="error_create_capital">Error creando capitalario</string>
+    <string name="delete_capital_title">Eliminar capitalario</string>
+    <string name="delete_capital_description">Estás seguro que deseas eliminar este capitalario?</string>
+    <string name="cancel_text">Cancelar</string>
+    <string name="ok_text">Ok</string>
+    <string name="correct_delete_capital">Capitalario eliminado correctamente</string>
+    <string name="error_delete_capital">No fue posible eliminar el capitalario</string>
+    <string name="correct_leave_capital">Saliste del capitalario</string>
+    <string name="error_leave_capital">Error intentando salir del capitalario</string>
+    <string name="leave_capital_title">Saliendo del capitalario</string>
+    <string name="leave_capital_description">Estas seguro que deseas dejar de ser parte de este capitalario?</string>
+    <string name="share_title">Compartir usando</string>
+    <string name="error_sharing">Error intentando compartir</string>
+    <string name="share_capital_text">"Unite a mi capitalario! %1$s%2$s"</string>
+    <string name="menu_share_text">Compartir</string>
+    <string name="menu_delete_text">Eliminar</string>
+    <string name="menu_leave_text">Salir</string>
+    <string name="forgot_email_sent">Email enviado correctamente</string>
+    <string name="error_forgot_email">Error enviando el email</string>
+    <string name="share_phone_text">Enviado a través de Schoenstapp</string>
+    <string name="verify_email_title">Verifica tu email</string>
+    <string name="verify_email_description">Te hemos enviado un email para confirmar tu cuenta</string>
+    <string name="weak_password_title">Contraseña demasiado corta</string>
+    <string name="weak_password_description">La contraseña debe tener al menos 6 caracteres</string>
+    <string name="email_in_use_title">Este email ya está siendo usado</string>
+    <string name="email_in_use_description">Este email esta en uso por otra cuenta</string>
+    <string name="error_password_didnt_match">Las contraseñas no coinciden</string>
+    <string name="fields_missing_title">Falta completar algunos campos</string>
+    <string name="fields_missing_description">Debes complentar todos los campos para continuar</string>
+    <string name="new_capital">Nuevo capitalario</string>
+    <string name="forgot_password_description">Ingresa el email de tu usuario y te enviaremos un email de restauración de contraseña</string>
+    <string name="enter_email_hint">Ingresa tu email</string>
+    <string name="send_email_text">Enviar email</string>
+    <string name="capitals_number_text">CAPITALES</string>
+</resources>
