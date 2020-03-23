@@ -11,6 +11,7 @@ import org.koin.core.get
 import schoenstatt.schoenstapp.R
 import schoenstatt.schoenstapp.capitals.capital.SingleCapitalActivity
 import schoenstatt.schoenstapp.capitals.new.CapitalProfile
+import schoenstatt.schoenstapp.isOnline
 
 class CapitalsAdapter(private val callback: CapitalAdapterInterface,
                       val capitalsList: List<CapitalProfile>): RecyclerView.Adapter<CapitalsAdapter.CapitalHolder>()  {

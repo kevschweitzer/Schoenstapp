@@ -50,7 +50,7 @@
         android:drawablePadding="14dp"
         android:onClick="logOut"
         android:text="@string/logout_text"
-        android:textColor="@color/mainTextColor"
+        android:textColor="@color/colorPrimary"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

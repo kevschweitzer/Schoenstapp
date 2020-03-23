@@ -46,14 +46,13 @@ class SingleCapitalActivity : AppCompatActivity() {
     }
 
     fun onAddClicked(view: View) {
-        /*val disposable = isOnline(this).subscribe({
+        val disposable = isOnline(this).subscribe({
             if(it) {
                 setCapitalsTemp()
-            } else Toast.makeText(this, "No internet connection", Toast.LENGTH_SHORT).show()
+            } else Toast.makeText(this, "Internet connection problem", Toast.LENGTH_SHORT).show()
         },{it.printStackTrace()})
-        disposables.add(disposable)*/
-        setCapitalsTemp()
-
+        disposables.add(disposable)
+        //setCapitalsTemp()
     }
 
     private fun setCapitalsTemp() {
