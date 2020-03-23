@@ -72,7 +72,7 @@ class CapitalsActivity : AppCompatActivity(), CapitalsAdapter.CapitalAdapterInte
                     .subscribe{
                         if(it) setUpCapitals()
                         else {
-                            Toast.makeText(this, "Not possible to join", Toast.LENGTH_SHORT).show()
+                            Toast.makeText(this, getString(R.string.error_cant_join), Toast.LENGTH_SHORT).show()
                         }
                     }
         }
@@ -86,7 +86,7 @@ class CapitalsActivity : AppCompatActivity(), CapitalsAdapter.CapitalAdapterInte
                     .observeOn(AndroidSchedulers.mainThread())
                     .subscribe {
                         loading.visibility = View.GONE
-                        adapter = CapitalsAdapter(this@CapitalsActivity, it)
+                        adapter = CapitalsAdapter(this@CapitalsActivity,this@CapitalsActivity, it)
                     }
             invalidate()
         }
@@ -117,9 +117,9 @@ class CapitalsActivity : AppCompatActivity(), CapitalsAdapter.CapitalAdapterInte
                     .subscribe {
                         if(it) {
                             setUpCapitals()
-                            Toast.makeText(this, "Capitalario creado correctamente", Toast.LENGTH_SHORT).show()
+                            Toast.makeText(this, getString(R.string.correct_create_capital), Toast.LENGTH_SHORT).show()
                         } else {
-                            Toast.makeText(this, "Error al crear capitalario", Toast.LENGTH_SHORT).show()
+                            Toast.makeText(this, getString(R.string.error_create_capital), Toast.LENGTH_SHORT).show()
                         }
                     }
         }
@@ -130,10 +130,10 @@ class CapitalsActivity : AppCompatActivity(), CapitalsAdapter.CapitalAdapterInte
         val position = adapter.adapterPosition
         when(item?.itemId) {
             R.id.ctx_menu_remove -> {
-                getDialog(this, "Eliminar capitalario", "Estas seguro que deseas eliminar este capitalario?")
+                getDialog(this, getString(R.string.delete_capital_title), getString(R.string.delete_capital_description))
                         ?.setCancelable(false)
-                        ?.setNegativeButton("Cancelar"){_,_ -> /*dismiss*/}
-                        ?.setPositiveButton("Ok"){_,_ ->
+                        ?.setNegativeButton(getString(R.string.cancel_text)){ _, _ -> /*dismiss*/}
+                        ?.setPositiveButton(getString(R.string.ok_text)){ _, _ ->
                             position?.let {
                                 presenter.deleteCapital(adapter.capitalsList[it].id)
                                         .subscribeOn(Schedulers.io())
@@ -141,9 +141,9 @@ class CapitalsActivity : AppCompatActivity(), CapitalsAdapter.CapitalAdapterInte
                                         .subscribe{ result ->
                                             if(result) {
                                                 setUpCapitals()
-                                                Toast.makeText(this, "Capitalario eliminado correctamente", Toast.LENGTH_SHORT).show()
+                                                Toast.makeText(this, getString(R.string.correct_delete_capital), Toast.LENGTH_SHORT).show()
                                             } else {
-                                                Toast.makeText(this, "No se pudo eliminar el capitalario", Toast.LENGTH_SHORT).show()
+                                                Toast.makeText(this, getString(R.string.error_delete_capital), Toast.LENGTH_SHORT).show()
                                             }
                                         }
                             }
@@ -156,19 +156,24 @@ class CapitalsActivity : AppCompatActivity(), CapitalsAdapter.CapitalAdapterInte
                 }
             }
             R.id.ctx_menu_exit -> {
-                position?.let {
-                    presenter.exitCapital(adapter.capitalsList[it].id)
-                            .subscribeOn(Schedulers.io())
-                            .observeOn(AndroidSchedulers.mainThread())
-                            .subscribe {
-                                if(it){
-                                    Toast.makeText(this, "Has dejado de ser parte del capitalario", Toast.LENGTH_SHORT).show()
-                                    setUpCapitals()
-                                } else {
-                                    Toast.makeText(this, "Error al intentar salir del capitalario", Toast.LENGTH_SHORT).show()
-                                }
+                getDialog(this, getString(R.string.leave_capital_title), getString(R.string.leave_capital_description))
+                        ?.setCancelable(false)
+                        ?.setNegativeButton(getString(R.string.cancel_text)){ _, _ -> /*dismiss*/}
+                        ?.setPositiveButton(getString(R.string.ok_text)) { _, _ ->
+                            position?.let {
+                                presenter.exitCapital(adapter.capitalsList[it].id)
+                                        .subscribeOn(Schedulers.io())
+                                        .observeOn(AndroidSchedulers.mainThread())
+                                        .subscribe {
+                                            if (it) {
+                                                Toast.makeText(this, getString(R.string.correct_leave_capital), Toast.LENGTH_SHORT).show()
+                                                setUpCapitals()
+                                            } else {
+                                                Toast.makeText(this, getString(R.string.error_leave_capital), Toast.LENGTH_SHORT).show()
+                                            }
+                                        }
                             }
-                }
+                        }
             }
         }
         return super.onContextItemSelected(item)
@@ -177,12 +182,12 @@ class CapitalsActivity : AppCompatActivity(), CapitalsAdapter.CapitalAdapterInte
     private fun shareCapital(capitalProfile: CapitalProfile) {
         val intent = Intent(Intent.ACTION_SEND)
         intent.type = "text/plain"
-        intent.putExtra(Intent.EXTRA_TEXT, "Unite a mi capitalario! ${BASE_SHARE_URL}${capitalProfile.id}")
+        intent.putExtra(Intent.EXTRA_TEXT, getString(R.string.share_capital_text,BASE_SHARE_URL,capitalProfile.id))
 
         try {
-            startActivity(Intent.createChooser(intent, "Compartir usando"))
+            startActivity(Intent.createChooser(intent, getString(R.string.share_title)))
         } catch (ex: android.content.ActivityNotFoundException) {
-            Toast.makeText(this, "Whatsapp have not been installed.", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, getString(R.string.error_sharing), Toast.LENGTH_SHORT).show()
         }
     }
 

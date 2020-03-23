@@ -4,13 +4,13 @@
     <string name="pk_phrase_placeholder">Cuenten con fracasos, deben tomarlos como algo sobreentendido. Los fracasos en la educación significan el mayor éxito para nosotros. ¿Por qué? Porque estos fracasos son para nosotros escuela. El fracaso convierte al sembrador en semilla.</string>
 
     <!-- New CapitalProfile Fragment -->
-    <string name="new_capital_name">Nombre</string>
-    <string name="new_capital_password">Contraseña</string>
-    <string name="new_capital_submit">Crear</string>
+    <string name="new_capital_name">Name</string>
+    <string name="new_capital_password">Password</string>
+    <string name="new_capital_submit">Create</string>
 
     <!-- Join Capital Fragment-->
-    <string name="join_capital_submit">Unirse</string>
-    <string name="join_capital_id_text">Codigo Identificador</string>
+    <string name="join_capital_submit">Join</string>
+    <string name="join_capital_id_text">Identifier code</string>
     <string name="error_wrong_credentials_title">Wrong credentials</string>
     <string name="error_wrong_credentials_description">You entered wrong user or password</string>
     <string name="error_not_validated_title">Email not validated</string>
@@ -29,5 +29,42 @@
     <string name="welcome_text">Welcome to Schoenstapp</string>
     <string name="logout_text">Logout</string>
     <string name="fathers_phone_text">Father\'s Phone</string>
-    <string name="capitals_text">Capitals</string>
+    <string name="capitals_text">Capitals of Grace</string>
+    <string name="error_internet">Internet connection problem</string>
+    <string name="error_cant_join">Not possible to join</string>
+    <string name="correct_create_capital">Urn created successfully</string>
+    <string name="error_create_capital">Error creating urn</string>
+    <string name="delete_capital_title">Delete urn</string>
+    <string name="delete_capital_description">Are you sure you want to delete this urn?</string>
+    <string name="cancel_text">Cancel</string>
+    <string name="ok_text">Ok</string>
+    <string name="correct_delete_capital">Urn deleted successfully</string>
+    <string name="error_delete_capital">Not able to delete urn</string>
+    <string name="correct_leave_capital">You left the urn</string>
+    <string name="error_leave_capital">Error trying to leave urn</string>
+    <string name="leave_capital_title">Leaving urn</string>
+    <string name="leave_capital_description">Are you sure you want to leave this urn?</string>
+    <string name="share_title">Share using</string>
+    <string name="error_sharing">Sharing error</string>
+    <string name="share_capital_text">"Join my Capital of Grace urn! %1$s%2$s"</string>
+    <string name="menu_share_text">Share</string>
+    <string name="menu_delete_text">Delete</string>
+    <string name="menu_leave_text">Leave</string>
+    <string name="forgot_email_sent">Email correctly sent</string>
+    <string name="error_forgot_email">Error sending email</string>
+    <string name="share_phone_text">Sent through Schoenstapp</string>
+    <string name="verify_email_title">Verify your email</string>
+    <string name="verify_email_description">We\'ve sent you an email to verify you account</string>
+    <string name="weak_password_title">Weak password</string>
+    <string name="weak_password_description">Password should be at least 6 characters</string>
+    <string name="email_in_use_title">Email in use</string>
+    <string name="email_in_use_description">This email is already in use by another account</string>
+    <string name="error_password_didnt_match">passwords didn\'t match</string>
+    <string name="fields_missing_title">Fields missing</string>
+    <string name="fields_missing_description">You have to complete all the fields</string>
+    <string name="new_capital">New urn</string>
+    <string name="forgot_password_description">Enter your user mail and we will send you an email to restore your password</string>
+    <string name="enter_email_hint">enter your mail</string>
+    <string name="send_email_text">Send email</string>
+    <string name="capitals_number_text">CAPITALS</string>
 </resources>

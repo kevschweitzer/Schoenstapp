@@ -74,9 +74,9 @@ class LoginActivity : AppCompatActivity() {
                             }
                     disposables.add(disposable)
                 } else getDialog(this, getString(R.string.error_wrong_credentials_title), getString(R.string.error_wrong_credentials_description))?.show()
-            } else Toast.makeText(this, "No internet connection", Toast.LENGTH_SHORT).show()
+            } else Toast.makeText(this, getString(R.string.error_internet), Toast.LENGTH_SHORT).show()
         },{
-            Toast.makeText(this, "No internet connection", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, getString(R.string.error_internet), Toast.LENGTH_SHORT).show()
             it.printStackTrace()
         })
         disposables.add(disposable)

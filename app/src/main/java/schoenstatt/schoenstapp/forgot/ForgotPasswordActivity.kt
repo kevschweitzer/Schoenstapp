@@ -33,10 +33,10 @@ class ForgotPasswordActivity : AppCompatActivity() {
                     .observeOn(AndroidSchedulers.mainThread())
                     .doOnNext {
                         if(it) {
-                            Toast.makeText(this, "Email correctly sent", Toast.LENGTH_SHORT).show()
+                            Toast.makeText(this, getString(R.string.forgot_email_sent), Toast.LENGTH_SHORT).show()
                             finish()
                         } else {
-                            Toast.makeText(this, "Error sending email", Toast.LENGTH_SHORT).show()
+                            Toast.makeText(this, getString(R.string.error_forgot_email), Toast.LENGTH_SHORT).show()
                         }
                     }.subscribe()
         }

@@ -31,7 +31,7 @@
                 android:paddingLeft="4dp"
                 android:paddingTop="4dp"
                 android:paddingRight="4dp"
-                android:text="CAPITALES"
+                android:text="@string/capitals_number_text"
                 android:textColor="#FFFFFF"
                 android:textStyle="bold" />
 

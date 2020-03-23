@@ -43,24 +43,24 @@ class SignUpActivity : AppCompatActivity() {
                                     .observeOn(AndroidSchedulers.mainThread())
                                     .subscribe {
                                         when(it) {
-                                            is Correct -> getDialog(this, "Verify your email", "We've sent you an email to verify you account")
+                                            is Correct -> getDialog(this, getString(R.string.verify_email_title), getString(R.string.verify_email_description))
                                                     ?.setPositiveButton("Ok") {_,_ ->
                                                         startActivity(LoginActivity.getIntent(this))
                                                         finish()
                                                     }
                                                     ?.setCancelable(false)
                                                     ?.show()
-                                            is WeakPasswordException -> getDialog(this, "Weak password", "Password should be at least 6 characters")?.show()
-                                            is EmailAlreadyInUseException -> getDialog(this, "Email in use", "This email is already in use by another account")?.show()
+                                            is WeakPasswordException -> getDialog(this, getString(R.string.weak_password_title), getString(R.string.weak_password_description))?.show()
+                                            is EmailAlreadyInUseException -> getDialog(this, getString(R.string.email_in_use_title), getString(R.string.email_in_use_description))?.show()
                                             else -> getDialog(this, getString(R.string.error_unknown_title), getString(R.string.error_unknown_description))?.show()
                                         }
                                     }
                             disposables.add(disposable)
                         } else {
-                            Toast.makeText(this, "passwords didn't match", Toast.LENGTH_SHORT).show()
+                            Toast.makeText(this, getString(R.string.error_password_didnt_match), Toast.LENGTH_SHORT).show()
                         }
-                } else getDialog(this, "Fields missing", "You have to complete all the fields")?.show()
-            } else Toast.makeText(this, "No internet connection", Toast.LENGTH_SHORT).show()
+                } else getDialog(this, getString(R.string.fields_missing_title), getString(R.string.fields_missing_description))?.show()
+            } else Toast.makeText(this, getString(R.string.error_internet), Toast.LENGTH_SHORT).show()
         },{it.printStackTrace()})
 
         disposables.add(disposable)
