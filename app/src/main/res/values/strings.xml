@@ -46,7 +46,7 @@
     <string name="leave_capital_description">Are you sure you want to leave this urn?</string>
     <string name="share_title">Share using</string>
     <string name="error_sharing">Sharing error</string>
-    <string name="share_capital_text">"Join my Capital of Grace urn! %1$s%2$s"</string>
+    <string name="share_capital_text">"Join my Capital of Grace urn! %1$s?%2$s"</string>
     <string name="menu_share_text">Share</string>
     <string name="menu_delete_text">Delete</string>
     <string name="menu_leave_text">Leave</string>
