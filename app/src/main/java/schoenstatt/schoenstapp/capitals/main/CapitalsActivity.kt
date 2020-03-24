@@ -50,8 +50,8 @@ class CapitalsActivity : AppCompatActivity(), CapitalsAdapter.CapitalAdapterInte
     private fun handleIntent() {
         val appLinkData = intent.getParcelableExtra<Uri>(Constants.APPLINK_DATA)
         if(appLinkData!=null) {
-            val joinCapitalId = appLinkData.lastPathSegment
-            joinCapitalFromAppLink(joinCapitalId)
+            val joinCapitalId = appLinkData.query
+            joinCapitalFromAppLink(joinCapitalId!!)
         }
     }
 

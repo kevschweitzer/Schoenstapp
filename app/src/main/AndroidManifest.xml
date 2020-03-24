@@ -31,7 +31,7 @@
                 <data
                     android:scheme="https"
                     android:host="kevschweitzer.github.io"
-                    android:pathPrefix="/schoenstapp-share/" />
+                    android:pathPrefix="/schoenstappweb" />
             </intent-filter>
         </activity>
         <activity android:name=".PhoneActivity" />
