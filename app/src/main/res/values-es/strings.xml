@@ -67,4 +67,7 @@
     <string name="enter_email_hint">Ingresa tu email</string>
     <string name="send_email_text">Enviar email</string>
     <string name="capitals_number_text">CAPITALES</string>
+    <string name="create_capital_title">Crear nuevo capitalario</string>
+    <string name="join_capital_title">Unirse a un capitalario</string>
+
 </resources>
