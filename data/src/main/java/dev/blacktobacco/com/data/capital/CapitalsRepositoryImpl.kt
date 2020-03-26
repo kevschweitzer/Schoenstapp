@@ -56,11 +56,11 @@ class CapitalsRepositoryImpl(private val getCurrentUserUseCase: GetCurrentUserUs
             val userId = getCurrentUserUseCase.execute()?.id
             usersCapitals.whereEqualTo(USER_ID_FIELD, userId).get()
                     .addOnSuccessListener {
+                        val capitalarios = mutableListOf<Capital>()
                         if (!it.documents.isEmpty()) {
                             val ownedCapitalsIds = it.documents[0].get(OWNED_IDS_FIELD) as MutableList<String>
                             val joinedCapitalsIds = it.documents[0].get(JOINED_IDS_FIELD) as MutableList<String>
                             ownedCapitalsIds.addAll(joinedCapitalsIds)
-                            val capitalarios = mutableListOf<Capital>()
                             if(ownedCapitalsIds.isEmpty())
                                 emitter.onNext(capitalarios)
                             else {
@@ -81,6 +81,8 @@ class CapitalsRepositoryImpl(private val getCurrentUserUseCase: GetCurrentUserUs
                                             }
                                 }
                             }
+                        } else {
+                            emitter.onNext(capitalarios) //empty
                         }
                     }
         }
