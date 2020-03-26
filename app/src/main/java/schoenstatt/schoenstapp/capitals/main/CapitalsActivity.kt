@@ -50,8 +50,8 @@ class CapitalsActivity : AppCompatActivity(), CapitalsAdapter.CapitalAdapterInte
     private fun handleIntent() {
         val appLinkData = intent.getParcelableExtra<Uri>(Constants.APPLINK_DATA)
         if(appLinkData!=null) {
-            val joinCapitalId = appLinkData.query
-            joinCapitalFromAppLink(joinCapitalId!!)
+            val joinCapitalLink = appLinkData.toString()
+            joinCapitalFromAppLink(joinCapitalLink)
         }
     }
 
@@ -64,8 +64,9 @@ class CapitalsActivity : AppCompatActivity(), CapitalsAdapter.CapitalAdapterInte
         startActivity(SingleCapitalActivity.getIntent(this, capital))
     }
 
-    override fun joinCapital(id: String) {
-        if(id.isNotEmpty()) {
+    override fun joinCapital(link: String) {
+        if(link.isNotEmpty()) {
+            val id = link.split("?") [1]
             presenter.joinCapital(id)
                     .subscribeOn(Schedulers.io())
                     .observeOn(AndroidSchedulers.mainThread())
@@ -174,6 +175,7 @@ class CapitalsActivity : AppCompatActivity(), CapitalsAdapter.CapitalAdapterInte
                                         }
                             }
                         }
+                        ?.show()
             }
         }
         return super.onContextItemSelected(item)

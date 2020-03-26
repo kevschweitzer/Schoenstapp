@@ -20,12 +20,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/et_join_capital_id"
+        android:id="@+id/et_join_capital_link"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="textMultiLine"
         android:hint="@string/join_capital_id_text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,5 +42,5 @@
         android:text="@string/join_capital_submit"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_join_capital_id" />
+        app:layout_constraintTop_toBottomOf="@+id/et_join_capital_link" />
 </androidx.constraintlayout.widget.ConstraintLayout>
