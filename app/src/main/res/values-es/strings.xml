@@ -10,7 +10,7 @@
 
     <!-- Join Capital Fragment-->
     <string name="join_capital_submit">Unirse</string>
-    <string name="join_capital_id_text">Codigo identificador</string>
+    <string name="join_capital_id_text">Pega el link para unirse</string>
     <string name="error_wrong_credentials_title">Credenciales incorrectas</string>
     <string name="error_wrong_credentials_description">Ingresaste un email o contraseña invalidas</string>
     <string name="error_not_validated_title">Email no validado</string>
