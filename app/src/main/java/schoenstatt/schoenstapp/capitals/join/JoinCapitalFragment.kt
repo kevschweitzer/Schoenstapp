@@ -12,7 +12,7 @@ class JoinCapitalFragment(val callback: JoinCapitalInterface, var capitalId: Str
 
 
     interface JoinCapitalInterface {
-        fun joinCapital(id: String)
+        fun joinCapital(link: String)
     }
 
     override fun onCreateView(inflater: LayoutInflater, parent: ViewGroup?, savedInstanceState: Bundle?): View? {
@@ -23,9 +23,9 @@ class JoinCapitalFragment(val callback: JoinCapitalInterface, var capitalId: Str
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         btn_join_capital.setOnClickListener{
-            callback.joinCapital(et_join_capital_id.text.toString())
+            callback.joinCapital(et_join_capital_link.text.toString())
             dismiss()
         }
-        if(capitalId!=null) et_join_capital_id.setText(capitalId)
+        if(capitalId!=null) et_join_capital_link.setText(capitalId)
     }
 }
