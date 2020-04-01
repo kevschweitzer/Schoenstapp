@@ -16,14 +16,12 @@ import io.reactivex.schedulers.Schedulers
 import kotlinx.android.synthetic.main.activity_capitals.*
 import org.koin.android.ext.android.inject
 import org.koin.android.scope.currentScope
-import schoenstatt.schoenstapp.Constants
+import schoenstatt.schoenstapp.*
 import schoenstatt.schoenstapp.Constants.Companion.BASE_SHARE_URL
-import schoenstatt.schoenstapp.R
 import schoenstatt.schoenstapp.capitals.capital.SingleCapitalActivity
 import schoenstatt.schoenstapp.capitals.join.JoinCapitalFragment
 import schoenstatt.schoenstapp.capitals.new.CapitalProfile
 import schoenstatt.schoenstapp.capitals.new.NewCapitalFragment
-import schoenstatt.schoenstapp.getDialog
 import schoenstatt.schoenstapp.home.MainActivity
 
 class CapitalsActivity : AppCompatActivity(), CapitalsAdapter.CapitalAdapterInterface, JoinCapitalFragment.JoinCapitalInterface {
@@ -205,8 +203,8 @@ class CapitalsActivity : AppCompatActivity(), CapitalsAdapter.CapitalAdapterInte
         isMenuOpen = true
         new_capital.visibility = View.VISIBLE
         join_capital.visibility = View.VISIBLE
-        new_capital.animate().translationY(-90f)
-        join_capital.animate().translationY(-180f)
+        new_capital.animate().translationY(-convertDpToPixel(40f, this))
+        join_capital.animate().translationY(-convertDpToPixel(80f, this))
     }
 
     private fun closeMenu() {

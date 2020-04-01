@@ -13,6 +13,9 @@ import java.net.InetSocketAddress
 import java.net.Socket
 import java.security.MessageDigest
 import kotlin.experimental.and
+import android.util.DisplayMetrics
+
+
 
 fun sha512(s: String): String {
     val md = MessageDigest.getInstance("SHA-512")
@@ -74,4 +77,11 @@ fun isOnline(context: Context?): Single<Boolean> {
             .observeOn(AndroidSchedulers.mainThread())
 }
 
+fun convertPixelsToDp(px: Float, context: Context): Float {
+    return px / (context.resources.displayMetrics.densityDpi.toFloat() / DisplayMetrics.DENSITY_DEFAULT)
+}
+
+fun convertDpToPixel(dp: Float, context: Context): Float {
+    return dp * (context.resources.displayMetrics.densityDpi.toFloat() / DisplayMetrics.DENSITY_DEFAULT)
+}
 
