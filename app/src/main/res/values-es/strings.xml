@@ -46,7 +46,7 @@
     <string name="leave_capital_description">Estas seguro que deseas dejar de ser parte de este capitalario?</string>
     <string name="share_title">Compartir usando</string>
     <string name="error_sharing">Error intentando compartir</string>
-    <string name="share_capital_text">"Unite a mi capitalario! %1$s%2$s"</string>
+    <string name="share_capital_text">"Unite a mi capitalario! %1$s?%2$s"</string>
     <string name="menu_share_text">Compartir</string>
     <string name="menu_delete_text">Eliminar</string>
     <string name="menu_leave_text">Salir</string>
