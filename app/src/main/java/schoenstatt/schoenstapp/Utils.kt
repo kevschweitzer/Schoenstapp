@@ -60,7 +60,7 @@ fun isOnline(context: Context?): Single<Boolean> {
             val socket = Socket()
             val address = InetAddress.getByName("www.google.com")
 
-            val socketAddress = InetSocketAddress(address, 443)
+            val socketAddress = InetSocketAddress(address, 80)
 
             socket.connect(socketAddress, timeoutMs)
             socket.close()
