@@ -22,8 +22,8 @@
     <string name="email_hint">Email</string>
     <string name="password_hint">Contraseña</string>
     <string name="sign_in_text">Iniciar sesión</string>
-    <string name="have_account_text">No tienes una cuenta?   SIGN UP</string>
-    <string name="forgot_password_text">Olvidate tu contraseña?</string>
+    <string name="have_account_text">No tienes una cuenta?   REGISTRATE</string>
+    <string name="forgot_password_text">Olvidaste tu contraseña?</string>
     <string name="confirm_password_hint">Confirmar contraseña</string>
     <string name="sign_up_text">Registrarse</string>
     <string name="welcome_text">Bienvenido a Schoenstapp</string>
