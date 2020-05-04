@@ -10,6 +10,7 @@ import schoenstatt.schoenstapp.PhoneActivity
 import schoenstatt.schoenstapp.R
 import schoenstatt.schoenstapp.capitals.main.CapitalsActivity
 import schoenstatt.schoenstapp.exitApp
+import schoenstatt.schoenstapp.heavenwards.HeavenwardsActivity
 import schoenstatt.schoenstapp.login.LoginActivity
 
 
@@ -32,6 +33,10 @@ class MainActivity : AppCompatActivity() {
 
     fun toCapitals(view: View){
         startActivity(CapitalsActivity.getIntent(this))
+    }
+
+    fun toHeavenwards(view: View) {
+        startActivity(HeavenwardsActivity.getIntent(this))
     }
 
     fun logOut(view: View) {

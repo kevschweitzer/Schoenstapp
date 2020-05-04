@@ -69,4 +69,5 @@
     <string name="capitals_number_text">CAPITALS</string>
     <string name="create_capital_title">Create new Urn</string>
     <string name="join_capital_title">Join Urn</string>
+    <string name="heavenwards_text">Heavenwards</string>
 </resources>

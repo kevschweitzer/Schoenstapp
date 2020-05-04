@@ -19,7 +19,6 @@
         app:layout_constraintTop_toBottomOf="@id/toolbar">
 
         <Button
-            android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:text="@string/fathers_phone_text"
@@ -29,7 +28,6 @@
             android:onClick="toPhone"/>
 
         <Button
-            android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:textSize="17sp"
@@ -38,6 +36,16 @@
             android:layout_marginTop="1dp"
             android:text="@string/capitals_text"
             android:onClick="toCapitals"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:textSize="17sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@drawable/bg_menu_button"
+            android:layout_marginTop="1dp"
+            android:text="@string/heavenwards_text"
+            android:onClick="toHeavenwards"/>
 
     </LinearLayout>
 

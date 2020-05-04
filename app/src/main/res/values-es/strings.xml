@@ -69,5 +69,6 @@
     <string name="capitals_number_text">CAPITALES</string>
     <string name="create_capital_title">Crear nuevo capitalario</string>
     <string name="join_capital_title">Unirse a un capitalario</string>
+    <string name="heavenwards_text">Hacia el Padre</string>
 
 </resources>
