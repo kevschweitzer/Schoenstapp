@@ -6,7 +6,7 @@
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/description"
+        android:id="@+id/prayerView"
         android:paddingStart="20dp"
         android:paddingEnd="20dp"
         android:layout_width="match_parent"

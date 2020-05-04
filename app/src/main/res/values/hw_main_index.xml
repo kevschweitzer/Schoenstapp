@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="heavenwards_index">
+        <item>MORNING CONSECRATION</item>
+        <item>MASS OF GOD’S INSTRUMENTS</item>
+        <item>SCHOENSTATT OFFICE</item>
+        <item>AFTER THE ANGELUS</item>
+        <item>WAY OF THE CROSS OF GOD’S INSTRUMENTS</item>
+        <item>ROSARY OF GOD’S INSTRUMENTS</item>
+        <item>EVENING CONSECRATION</item>
+    </string-array>
+</resources>
