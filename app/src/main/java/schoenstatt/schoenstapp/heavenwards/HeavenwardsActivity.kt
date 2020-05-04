@@ -37,7 +37,7 @@ class HeavenwardsActivity : AppCompatActivity() {
     private fun generatePrayerList(): List<Map<String, CharSequence>> {
         return mutableListOf<Map<String, CharSequence>>().apply {
             add(morningConsecrationMap())
-            add(InstrumentMassMap())
+            add(instrumentMassMap())
             add(schoenstattOfficeMap())
             add(afterAngelusMap())
             add(wayOfCrossMap())
@@ -50,7 +50,7 @@ class HeavenwardsActivity : AppCompatActivity() {
         return listOf("").zip(resources.getTextArray(R.array.morning_consecration)).toMap()
     }
 
-    private fun InstrumentMassMap(): Map<String, CharSequence> {
+    private fun instrumentMassMap(): Map<String, CharSequence> {
         val titles = resources.getStringArray(R.array.instrument_mass_titles)
         val texts = resources.getTextArray(R.array.instrument_mass_texts)
         return titles.zip(texts).toMap()
@@ -58,7 +58,7 @@ class HeavenwardsActivity : AppCompatActivity() {
 
     private fun schoenstattOfficeMap(): Map<String, CharSequence> {
         val titles = resources.getStringArray(R.array.schoenstatt_office)
-        val texts = resources.getStringArray(R.array.schoenstatt_office_texts)
+        val texts = resources.getTextArray(R.array.schoenstatt_office_texts)
         return titles.zip(texts).toMap()
     }
 
@@ -68,13 +68,13 @@ class HeavenwardsActivity : AppCompatActivity() {
 
     private fun wayOfCrossMap(): Map<String, CharSequence> {
         val titles = resources.getStringArray(R.array.way_of_the_cross_titles)
-        val texts = resources.getStringArray(R.array.way_of_the_cross_children)
+        val texts = resources.getTextArray(R.array.way_of_the_cross_children)
         return titles.zip(texts).toMap()
     }
 
     private fun rosaryMap(): Map<String, CharSequence> {
         val titles = resources.getStringArray(R.array.rosary)
-        val texts = resources.getStringArray(R.array.rosary_texts)
+        val texts = resources.getTextArray(R.array.rosary_texts)
         return titles.zip(texts).toMap()
     }
 

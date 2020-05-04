@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="morning_offering">
+        <item>
+            <i>(alternate version of the Morning Offering)</i>
+            \n
+            The things I suffer and I bear,\n
+            The things I say and what I dare,\n
+            Whate’er I think, whate’er I love,\n
+            The merits coming from above,\n
+            What I take on, am fighting for,\n
+            What brings me joy, inflicts a sore,\n
+            My very life and all I have\n
+            I give to you as a gift of love—\n
+            To swell the stream of heavenly grace\n
+            That’s flowing from your holy place,\n
+            To fill with Schoenstatt zeal all those\n
+            Who at your feet their hearts repose,\n
+            To gently lead all to the the Shrine\n
+            Who will be yours by choice benign;\n
+            That our every word and every deed\n
+            May please the Triune and succeed.
+        </item>
+    </string-array>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exorcism_prayer">
+        <item>
+            <i>(cf. Num 10,35; Ps 68,2)</i>
+            \n
+            May almighty God arise,\n
+             the Father, the Son and the Holy Spirit,\n
+            May the Blessed Virgin Mary arise,\n
+             Mother Thrice Admirable,\n
+             Queen and Victress of Schoenstatt,\n
+            May St. Michael the Archangel arise\n
+             and all the angels and saints,\n
+            may their foes be scattered\n
+             and all who hate them flee before them\n
+            + in the name of the Father\n
+             and of the Son and of the Holy Spirit.\n
+            Amen.
+            \n
+            <i>(or)</i>
+            \n
+            Arise, O Lord, (Father, Son, and Holy Spirit,)\n
+             (that your enemies may be scattered\n
+            and those who hate you may flee before you\n
+             + in the name of the Father\n
+              and of the Son and of the Holy Spirit. Amen.)
+            \n
+            Arise, our Mother Thrice Admirable,\n
+             Queen and Victress of Schoenstatt,\n
+             (that your enemies may be scattered\n
+             and those who hate you may flee before you\n
+             + in the name of the Father\n
+             and of the Son and of the Holy Spirit. Amen.)
+            \n
+            Arise, St. Michael and all the heavenly hosts,\n
+             St. Vincent Pallotti,\n
+             (the saint of the day or patron saint),\n
+             and all the saints,\n
+             that your enemies may be scattered\n
+             and those who hate you may flee before you\n
+             + in the name of the Father\n
+              and of the Son and of the Holy Spirit. Amen.
+
+        </item>
+    </string-array>
+</resources>

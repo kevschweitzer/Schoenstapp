@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="confidence">
+        <item>
+            \n
+            (written by Father Kentenich in Dachau, 1943)\n
+            I trust your might, your kindness, Mother dear,\n
+            I do believe that you are always near.\n
+            Whatever happens, Mother mild,\n
+            I blindly trust in you and in your Child.
+            \n
+            <i>(or)\n
+            (USA)</i>
+            \n
+            I trust your might, your kindness, Mother dear,\n
+            I do believe that you are always near.\n
+            Schoenstatt’s great Queen, O Mother mild,\n
+            I blindly trust in you and in your Child.
+
+        </item>
+    </string-array>
+</resources>

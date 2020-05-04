@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="home_shrine_prayer">
+        <item>
+            <i>(written by Father Kentenich in Milwaukee, May 1965)</i>
+            \n
+            My room (home) is your shrine,\n
+            where you work to the glory of the Father.\n
+            There he transforms my entire being\n
+            into the Trinity’s most beloved shrine,\n
+            where the sanctuary light constantly burns\n
+            and the glow of love never dies;\n
+            where the fire of sacrifice upon sacrifice\n
+            banishes all selfishness from the heart;\n
+            where roses adorn the altar\n
+            and lilies never cease to bloom;\n
+            where paradisal breezes waft\n
+            and raise heart and mind to heaven;\n
+            where the spirit of the world cannot enter\n
+            as in the eternal city of Sion;\n
+            where peace reigns and happiness laughs\n
+            because God’s angel keeps diligent watch;\n
+            where Christ rules and is triumphant\n
+            and leads the whole world to the Father.
+        </item>
+    </string-array>
+</resources>
