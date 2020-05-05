@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mother_thrice_admirable">
+        <item>
+            <i>(written by Father Kentenich in 1916)</i>
+            \n
+            Mother Thrice Admirable, Mother of Grace,\n
+            Teach us your enemies bravely to face,\n
+            Never regarding their number and might,\n
+            Spreading your love over the earth’s dark night,\n
+            So that the world through you made new\n
+            Pay to your Son His homage due.\n
+            Mother with your Child divine,\n
+            Make our country wholly thine.\n
+            Help that never it will cease\n
+            to follow you and gain God’s peace.\n
+            Mother and Child united in love\n
+            will restore it with grace from above.
+            \n
+            <i>(or)</i>
+            \n
+            Mother Thrice Admirable,\n
+            teach us, your knights, how to do battle,\n
+            spreading devotion to you\n
+            despite the number and might of the foe,\n
+            so that the world renewed through you\n
+            may pay homage to your Son.\n
+            Mother, with your Child from heaven,\n
+            descend upon our nation’s plains,\n
+            so that in following your footsteps\n
+            it may find true and lasting peace.\n
+            Mother and Child, united in love—\n
+            through you alone can our nation be healed.
+        </item>
+    </string-array>
+</resources>
