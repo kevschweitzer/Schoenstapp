@@ -7,8 +7,10 @@
 
     <TextView
         android:id="@+id/prayerView"
-        android:paddingStart="20dp"
-        android:paddingEnd="20dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:paddingBottom="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 

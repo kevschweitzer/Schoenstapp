@@ -3,7 +3,7 @@
     <string-array name="exorcism_prayer">
         <item>
             <i>(cf. Num 10,35; Ps 68,2)</i>
-            \n
+            \n\n
             May almighty God arise,\n
              the Father, the Son and the Holy Spirit,\n
             May the Blessed Virgin Mary arise,\n
@@ -16,9 +16,9 @@
             + in the name of the Father\n
              and of the Son and of the Holy Spirit.\n
             Amen.
-            \n
+            \n\n
             <i>(or)</i>
-            \n
+            \n\n
             Arise, O Lord, (Father, Son, and Holy Spirit,)\n
              (that your enemies may be scattered\n
             and those who hate you may flee before you\n
@@ -39,7 +39,8 @@
              that your enemies may be scattered\n
              and those who hate you may flee before you\n
              + in the name of the Father\n
-              and of the Son and of the Holy Spirit. Amen.
+              and of the Son and of the Holy Spirit. \n
+            Amen.
 
         </item>
     </string-array>

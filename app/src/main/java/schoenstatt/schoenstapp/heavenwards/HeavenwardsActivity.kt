@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.ExpandableListView.OnGroupExpandListener
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_heavenwards.*
+import kotlinx.android.synthetic.main.toolbar.*
 import schoenstatt.schoenstapp.R
 
 
@@ -18,9 +19,14 @@ class HeavenwardsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_heavenwards)
+        title_text.text = getString(R.string.heavenwards_title)
 
+        setHeavenwardsPrayers()
+    }
+
+    private fun setHeavenwardsPrayers() {
         val index = resources.getStringArray(R.array.heavenwards_index)
-        val prayers = generatePrayerList()
+        val prayers = generatePrayersList()
         val prayersMap = index.zip(prayers).toMap()
         expandableHeavenwardsIndex.apply {
             setAdapter(HeavenwardsExpandableAdapter(context, prayersMap))
@@ -34,7 +40,7 @@ class HeavenwardsActivity : AppCompatActivity() {
         }
     }
 
-    private fun generatePrayerList(): List<Map<String, CharSequence>> {
+    private fun generatePrayersList(): List<Map<String, CharSequence>> {
         return mutableListOf<Map<String, CharSequence>>().apply {
             addAll(
                 listOf(

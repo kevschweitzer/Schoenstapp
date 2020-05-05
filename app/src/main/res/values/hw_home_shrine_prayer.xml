@@ -3,7 +3,7 @@
     <string-array name="home_shrine_prayer">
         <item>
             <i>(written by Father Kentenich in Milwaukee, May 1965)</i>
-            \n
+            \n\n
             My room (home) is your shrine,\n
             where you work to the glory of the Father.\n
             There he transforms my entire being\n
@@ -21,7 +21,8 @@
             where peace reigns and happiness laughs\n
             because God’s angel keeps diligent watch;\n
             where Christ rules and is triumphant\n
-            and leads the whole world to the Father.
+            and leads the whole world to the Father.\n
+            Amen
         </item>
     </string-array>
 </resources>
