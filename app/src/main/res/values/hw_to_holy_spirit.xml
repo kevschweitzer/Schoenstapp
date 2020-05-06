@@ -3,7 +3,7 @@
     <string-array name="to_holy_spirit">
         <item>
             <i>(prayed    by  Father  Kentenich   during   his  sermon  on Pentecost   Sunday,   1965   in   the   parish   of   St.   Michael, Milwaukee.   Cardinal   Mercier   (1851-1926)   is   partially quoted)</i>
-            \n
+            \n\n
             Holy Spirit,\n
             you are the soul of my soul.\n
             I humbly adore you.\n
@@ -22,7 +22,8 @@
             for I want my whole life to be nothing else\n
             than a continuous, an everlasting yes\n
             to the wishes, to the will of God,\n
-            the Eternal Father.
+            the Eternal Father.\n
+            Amen.
         </item>
     </string-array>
 </resources>
