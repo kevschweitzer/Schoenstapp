@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="other_prayers">
+        <item>
+            The following prayers are not part of the original edition of Heavenwards,       but  are  part  of  the  collection  of  basic Schoenstatt   prayers.   Among   the   prayers   in   this   section   are also   several   alternative   translations   of   some   of   the   prayers most   frequently   used   in  Heavenwards.
+            \n
+            Prayers designated “SA/GB” are according to the usage of the   Schoenstatt   Families   in   South   Africa   and   Great   Britain, those   designated    “USA”  according   to  the  usage   of  the Schoenstatt   Family   in   the   United   States.
+        </item>
+    </string-array>
+</resources>

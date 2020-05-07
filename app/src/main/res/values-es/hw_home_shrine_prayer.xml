@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="home_shrine_prayer">
+        <item>
+            <sup>640</sup>Mi habitación es tu Santuario,\n
+            donde actúas para gloria del Padre.\n
+            Allí él transforma todo mi ser\n
+            en tabernáculo predilecto de la Trinidad,\n
+            donde siempre arde una lámpara perpetua\n
+            y nunca se apaga el fuego del amor;\n
+            donde, por sacrificio por sacrificio,\n
+            se expulsa del corazón el egoísmo;\n
+            donde rosas adornan el altar\n
+            y azucenas florecen siempre de nuevo;\n
+            donde se siente una atmósfera de paraíso,\n
+            que eleva el corazón y el pensamiento;\n
+            donde, a lo igual que la eterna Ciudad de Sión,\n
+            el espíritu del mundo no tiene cabida;\n
+            donde reina la paz y sonríe la alegría\n
+            pues el ángel de Dios custodia vigilante;\n
+            donde Cristo domina y triunfa\n
+            y conduce todo el mundo hacia el Padre.\n
+            Amén
+
+        </item>
+    </string-array>
+</resources>

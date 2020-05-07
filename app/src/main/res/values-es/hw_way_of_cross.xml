@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="way_of_the_cross_titles">
+        <item>Remarks</item>
+        <item>Way of the cross</item>
+    </string-array>
+    <string-array name="way_of_the_cross_children">
+        <item>
+           <sup>230</sup>1. El Via Crucis de Schoenstatt o del Instrumento puede, según se desee, rezarse o cantarse en forma alternada. En el primer caso se recomienda, al menos, cantar juntos la estrofa conclusiva, que se repite constantemente.
+            \n
+            <sup>231</sup>2. Los dos coros se relacionan de la siguiente manera: el primero muestra siempre al Señor desde el punto de vista del respectivo misterio sucedido en Palestina; el segundo manifiesta el mismo misterio en el acontecer de los tiempos.
+            \n
+            <sup>232</sup>3. Cuando no se disponga de suficiente tiempo para rezarlo completo, se puede omitir el segundo coro.
+            \n
+            <sup>233</sup>4. En cuanto al contenido, se orientan las estaciones según la característica de la piedad instrumental:
+            \n
+            <sup>234</sup>-La primera estación demuestra el perfecto desasimiento; la segunda, la perfecta vinculación al Padre; la tercera, a la Obra; la cuarta, la quinta y la sexta ilustran con vivas representaciones unas epifanías, manifestaciones o "apariciones". Las tres siguientes procuran profundizar dichas características para que el alma repose en ellas. Las estaciones diez, once y doce se refieren a la seguridad en el Padre y no en el goce sensible, ni en la voluntad propia, ni en la posesión de bienes. La trece y la catorce explican con mayor precisión la fecundidad.
+            \n
+            <sup>235</sup>5. No es difícil encontrar y profundizar en esos textos las características de la Inscriptio.
+            \n
+            <sup>236</sup>El perfecto desprendimiento está representado en la primera estación; la perfecta entrega, en la segunda; y la perfecta transmisión en la tercera. En las tres siguientes y en la cinco últimas se hacen valer nuestros ilimitados derechos de amor. Por su parte, la séptima, la octava y la novena, al igual que en la consideración hecha desde el ángulo de la Piedad Instrumental, son una profundización de la estaciones anteriores.
+            \n
+            <sup>237</sup>6. Tal como lo documenta la oración introductoria, a lo largo de todo el Via Crucis se enfrentan las dos grandes potencias que hacen la historia del mundo: de un lado, Cristo y su Madre (con el encargo del Padre de ser la Colaboradora Permanente de su Hijo); y del otro lado, el Demonio y sus cómplices. Entre ambos, el hombre. Nosotros nos dejamos motivar para, como instrumentos, decidirnos nuevamente con toda el alma en favor de las potencias divinas.
+            \n
+            <sup>238</sup>Un énfasis especial se pone en la elaboración de la íntima unión entre Cristo y María, su Esposa. Por eso, la idea de Madre queda notoriamente en segundo plano, en beneficio de la figura de la Mujer que aplasta a la Serpiente, la segunda Eva.
+            \n
+            <sup>239</sup>Tampoco se debe pasar por alto la forma en que se incluye en las estaciones a la Santísima Trinidad en su referencia a la Redención. Queremos que esos pensamientos nos despierten, incitándonos a plasmar nuestro amor a María en tal forma, que la Santísima Trinidad y la Redención lleguen a ser nuestros misterios predilectos y que nos constituyamos en sus celosos apóstoles. Cuando Dios nos quiera regalar la gracia de la contemplación, nos encontrará así mejor preparados.
+        </item>
+        <item>
+            <h4>ORACIÓN INTRODUCTORIA</h4>
+            <table border="0">
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>
+            <sup>240</sup>Padre, junto a María, nuestra Madre,\n
+            quiero acompañar al Redentor del mundo\n
+            y en su lucha a muerte ver esos poderes\n
+            que actúan en todos los sucesos de la historia.</td></tr>
+            <tr><td valign="top"></td><td>
+            <sup>241</sup>Ayúdame, con su Esposa la Gran Señal,\n
+            a ofrecerle como instrumento\n
+            mis débiles manos\n
+            a El, el Señor,\n
+            a quien, por amor a nosotros,\n
+            constituiste para enjuiciar a Satanás.</td></tr>
+            <tr><td valign="top"></td><td>
+            <sup>242</sup>Me veo situado\n
+            entre esos dos grandes poderes\n
+            que se proscriben mutuamente en una eterna lucha,\n
+            y con entera libertad\n
+            una vez más me decido por Cristo\n
+            ahora y para siempre.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>
+            <sup>243</sup>Concédeme abrazar con el Señor\n
+            alegremente la cruz,\n
+            e ir por los caminos de la Inscriptio sin vacilación,\n
+            para que como esposa me asemeje al Esposo\n
+            y como instrumento sea fecundo\n
+            para su Reino de Schoenstatt.</td></tr>
+            <tr><td valign="top"></td><td>
+            <sup>244</sup>Te imploro, Señora tres veces Admirable,\n
+            contemplar\n
+            la profundidad del corazón de Cristo\n
+            y, en medio de un mar agitado por el odio,\n
+            acompañarlo\n
+            con el ardiente fuego de tu amor.\n
+            Amén.</td></tr>
+            </table>
+            
+            
+            <h4>Primera Estación - JESÚS ES CONDENADO A MUERTE</h4>
+            <table border="0">
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>
+            Te adoramos, Señor Jesús,</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>
+            ... que has muerto por nosotros en la cruz.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Coro uno:</font></td><td>
+            <sup>245</sup>Satanás, a través de sus esbirros,\n
+            te ha condenado a muerte\n
+            contra todo derecho;\n
+            a ti, Señor,\n
+            que eres, desde la eternidad,\n
+            la Verdad, la Justicia, el Amor y la Vida.</td></tr>
+            <tr><td valign="top"></td><td>
+            <sup>246</sup>Con soberana libertad y en silencio aceptas\n
+            como voluntad del Padre tu sentencia de muerte,\n
+            eres tan desprendido de ti mismo\n
+            y tan íntegramente libre,\n
+            que estás dispuesto\n
+            a seguir sólo lo que es del Padre.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Coro dos:</font></td><td>
+            <sup>247</sup>Pilato, el Sumo Sacerdote y las masas\n
+            culpablemente te abandonan\n
+            a ti, Luz del mundo,\n
+            y te vuelven a menudo\n
+            a condenar a muerte\n
+            entre gritos estridentes, con odio y con desprecio.</td></tr>
+            <tr><td valign="top"></td><td>
+            <sup>248</sup>Cada vez que vulneré la verdad,\n
+            la justicia o el amor,\n
+            o por cobardía contravine tus deseos,\n
+            entonces, junto a tus verdugos,\n
+            me aparté de ti\n
+            y privé de tu amor a la tierra de Schoenstatt.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>
+            <sup>249</sup>Junto con tu Esposa,\n
+            que contigo sobrelleva los pesares,\n
+            quiero morir a todos mis egoísmos.\n
+            Con alegría hago renuncia total,\n
+            también de mi honor y de mis derechos;\n
+            a todo renuncio si el Padre así lo pide</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Todos Cantan:</font></td><td>
+            <sup>250</sup>Por ti, Señor Jesús, con María, tu Madre y Esposa,\n
+            la que vence la Serpiente pisando su cabeza,\n
+            concédenos ser, en el Espíritu Santo,\n
+            instrumentos del Padre,\n
+            para construir aquí en la tierra\n
+            su Reino de Schoenstatt.\n
+            Amén.</td></tr>
+            </table>
+            
+            
+            <h4>Segunda Estación - JESÚS CARGA LA CRUZ</h4>
+            <table border="0">
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>
+            Te adoramos, Señor Jesús,</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>
+            ... que has muerto por nosotros en la cruz.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Coro uno:</font></td><td>
+            <sup>251</sup>Pronto recibirás el bautismo de sangre\n
+            el que siempre anhelaste\n
+            con todas tus ansias;\n
+            se te concede la gloria del dolor,\n
+            que el Padre te regala\n
+            para salvación nuestra.</td></tr>
+            <tr><td valign="top"></td><td>
+            <sup>252</sup>Te veo abrazar con inmenso anhelo esa cruz,\n
+            que proclama con voz alta\n
+            la misericordia divina\n
+            y que, siendo fabricada para ti\n
+            por la ilusión del Demonio,\n
+            ahora Tú coges como instrumento de redención.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Coro dos:</font></td><td>
+            <sup>253</sup>A través de todas las épocas,\n
+            por múltiples caminos,\n
+            vas cargando la cruz,\n
+            flaqueando y despreciado.\n
+            Lo que tu Iglesia sufre en persecuciones\n
+            es la cruz que ponen en tus hombros.</td></tr>
+            <tr><td valign="top"></td><td>
+            <sup>254</sup>Desde que Tú magnánimamente la aceptaste,\n
+            adquirió un claro resplandor\n
+            y un valor precioso.\n
+            Quien te ama, busca en ti, Señor, con noble orgullo,\n
+            junto a tu fuerte Esposa,\n
+            obtener el madero de los esclavos.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>
+            <sup>255</sup>Concédeme llevar siempre con alegría\n
+            la astilla de la cruz\n
+            que el Padre me mande\n
+            por las circunstancias de mi vida,\n
+            para que la Inscriptio se manifieste como auténtica\n
+            y mi ser y mi actuar alaben al Padre filialmente.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Todos cantan:</font></td><td>
+            <sup>256</sup>Por ti, Señor Jesús, con María, tu Madre y Esposa,\n
+            la que vence la Serpiente pisando su cabeza,\n
+            concédenos ser, en el Espíritu Santo,\n
+            instrumentos del Padre,\n
+            para construir aquí en la tierra\n
+            su Reino de Schoenstatt.\n
+            Amén.</td></tr>
+            </table>
+            
+            
+            <h4>Tercera Estación - JESÚS CAE POR PRIMERA VEZ</h4>
+            <table border="0">
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>
+            Te adoramos, Señor Jesús,</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>
+            ... que has muerto por nosotros en la cruz.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Coro uno:</font></td><td>
+            <sup>257</sup>Te oprime el amargo peso de los pecados\n
+            y te derrumba el apresuramiento de los verdugos;\n
+            pero el saber que el Dragón\n
+            obstruye la entrada al cielo,\n
+            te impulsa a levantarte\n
+            para cumplir la obra de la Redención.</td></tr>
+            <tr><td valign="top"></td><td>
+            <sup>258</sup>La Obra que te ha encomendado el Padre,\n
+            y para la cual la Madre y Esposa\n
+            dio su Sí,\n
+            no te deja descansar\n
+            hasta que la hayas consumado,\n
+            borrando la deuda contraída por Adán.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Coro dos:</font></td><td>
+            <sup>259</sup>La culpa de los hombres\n
+            te hace retirarte en silencio\n
+            y por momento te ahuyenta\n
+            de la cercanía de los pueblos;\n
+            pero tu amor redentor te impulsa con fuerza,\n
+            para, en unión a tu Esposa, volver a las tinieblas.</td></tr>
+            <tr><td valign="top"></td><td>
+            <sup>260</sup>No puedes perder\n
+            ninguna de tus pequeñas ovejas;\n
+            a todas las conducirás victoriosamente a casa\n
+            para que, cumpliendo el santo encargo del Padre,\n
+            se asemejen ellas a ti\n
+            a pesar de las astucias de la Serpiente.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>
+            <sup>261</sup>Cuando la culpa\n
+            y el peso de la naturaleza me oprimen,\n
+            cuando me abruman los fracasos\n
+            y las preocupaciones de pastor,\n
+            entonces, Señor, pido seguir tu huella como un faro\n
+            que ilumine las debilidades de la naturaleza</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Todos cantan:</font></td><td>
+            <sup>262</sup>Por ti, Señor Jesús, con María, tu Madre y Esposa,\n
+            la que vence la Serpiente pisando su cabeza,\n
+            concédenos ser, en el Espíritu Santo,\n
+            instrumentos del Padre,\n
+            para construir aquí en la tierra\n
+            su Reino de Schoenstatt.\n
+            Amén.</td></tr>
+            </table>
+            
+            
+            <h4>Cuarta Estación - JESÚS ENCUENTRA A SU MADRE</h4>
+            <table border="0">
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>
+            Te adoramos, Señor Jesús,</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>
+            ... que has muerto por nosotros en la cruz.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Coro uno:</font></td><td>
+            <sup>263</sup>En tu arduo camino de cruz\n
+            no puede faltar María,\n
+            tu Permanente Cooperadora\n
+            en la salvación de los hombres;\n
+            el Padre la puso a Ella al lado tuyo,\n
+            como antaño le dio Eva a Adán por compañía.</td></tr>
+            <tr><td valign="top"></td><td>
+            <sup>264</sup>Un mar de dolor\n
+            conmueve los dos corazones...\n
+            pero nada podrá jamás arrancar de ellos la decisión\n
+            de atenerse inconmovibles\n
+            a la voluntad del Padre\n
+            y de recorrer juntos el camino del sufrimiento.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Coro dos:</font></td><td>
+            <sup>265</sup>Desde entonces, cada vez que se alza la humareda\n
+            del fuego infernal,\n
+            te sirves de María,\n
+            que pisa la cabeza de la Serpiente,\n
+            para reprimir, por la palabra de una mujer,\n
+            a la Bestia, que abre sus grandes fauces de dragón.</td></tr>
+            <tr><td valign="top"></td><td>
+            <sup>266</sup>En unión con María\n
+            quieres salvar a los hombres,\n
+            encadenarlos al igual que Tú\n
+            a la voluntad del Padre.\n
+            Ella es y será siempre el señuelo, el imán,\n
+            al cual nuestro corazón difícilmente podrá resistir.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>
+            <sup>267</sup>Con tu bondad inefablemente generosa\n
+            has regalado a Schoenstatt\n
+            la flor más noble de la humanidad;\n
+            queremos guardarla\n
+            en el santuario del corazón\n
+            y llevarla hacia el mundo con audacia.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Todos cantan:</font></td><td>
+            <sup>268</sup>Por ti, Señor Jesús, con María, tu Madre y Esposa,\n
+            la que vence la Serpiente pisando su cabeza,\n
+            concédenos ser, en el Espíritu Santo,\n
+            instrumentos del Padre,\n
+            para construir aquí en la tierra\n
+            su Reino de Schoenstatt.\n
+            Amén.</td></tr>
+            </table>
+            
+            
+            <h4>Quinta Estación - SIMÓN DE CIRENE AYUDA A CRISTO A LLEVAR EL MADERO DE LA CRUZ</h4>
+            <table border="0">
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>
+            Te adoramos, Señor Jesús,</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>
+            ... que has muerto por nosotros en la cruz.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Coro uno:</font></td><td>
+            <sup>269</sup>Es deseo del Padre\n
+            que no continúes solo\n
+            cargando los pesados maderos de la cruz.\n
+            El te envía a Simón de Cirene\n
+            para traerte alivio,\n
+            ánimo y reposo.</td></tr>
+            <tr><td valign="top"></td><td>
+            <sup>270</sup>Al principio te ayuda Simón contra su voluntad,\n
+            mas pronto siente brotar de ti\n
+            una fuerza divina;\n
+            imprimes en Él tan acusadamente tu imagen,\n
+            que se transforma\n
+            en fiel retrato tuyo</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Coro dos:</font></td><td>
+            <sup>271</sup>Los que el Padre escogió\n
+            desde toda la eternidad\n
+            para ser, en el Espíritu Santo,\n
+            sal y luz del mundo,\n
+            quieren hoy ofrecerte sus hombros\n
+            para llevar contigo el emblema de la Redención.</td></tr>
+            <tr><td valign="top"></td><td>
+            <sup>272</sup>Por cierto el Dragón se opone a que beban tu cáliz\n
+            en cuyo fondo brillan perlas de cielo;\n
+            pero como a tu Esposa,\n
+            a tus elegidos los asemejas a ti\n
+            en el ser, en el actuar\n
+            y en un dolor rico en victorias.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>
+            <sup>273</sup>Te agradezco porque diariamente\n
+            puedo ofrecerte mis hombros\n
+            para la cruz de la vida;\n
+            edúcame así para ser un reflejo tuyo\n
+            cumpliendo siempre como hijo\n
+            los deseos del Padre.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Todos cantan:</font></td><td>
+            <sup>274</sup>Por ti, Señor Jesús, con María, tu Madre y Esposa,\n
+            la que vence la Serpiente pisando su cabeza,\n
+            concédenos ser, en el Espíritu Santo,\n
+            instrumentos del Padre,\n
+            para construir aquí en la tierra\n
+            su Reino de Schoenstatt.\n
+            Amén.</td></tr>
+            </table>
+            
+            
+            <h4>Sexta Estación - VERÓNICA OFRECE UN VELO A JESÚS</h4>
+            <table border="0">
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>
+            Te adoramos, Señor Jesús,</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>
+            ... que has muerto por nosotros en la cruz.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Coro uno:</font></td><td>
+            <sup>275</sup>Entre la fila de verdugos,\n
+            sin timidez ni miedo,\n
+            Verónica, con el corazón colmado de compasión,\n
+            irrumpe intrépida,\n
+            te alcanza y te presenta\n
+            un sudario que Tú tocas agradecido.</td></tr>
+            <tr><td valign="top"></td><td>
+            <sup>276</sup>Este servicio de amor\n
+            te alegra tan hondamente,\n
+            que en el paño dejas impresa tu faz\n
+            y lo devuelves a Verónica,\n
+            a quien el más puro amor\n
+            la ha impulsado hacia ti</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Coro dos:</font></td><td>
+            <sup>277</sup>Desde entonces y con frecuencia acepta, Señor,\n
+            que nobles mujeres\n
+            te escojan como Esposo del alma.\n
+            En los miembros de tu Cuerpo te sirven\n
+            movidas por ardiente amor\n
+            y con valentía inquebrantable.</td></tr>
+            <tr><td valign="top"></td><td>
+            <sup>278</sup>Tienen ellas los rasgos\n
+            de la ternura y de la pureza de Cristo,\n
+            y no hay en ellas engaño, falsedad ni mentira;\n
+            van por los caminos de la creación pecaminosa\n
+            como vivas y luminosas huellas\n
+            de Cristo y de María.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>
+            <sup>279</sup>Te doy gracias\n
+            porque en el mundo de Schoenstatt\n
+            hay Verónicas que mantienen vigilancia;\n
+            Señor, que nunca desaparezcan de nuestras filas\n
+            y que nosotros seamos siempre\n
+            sus caballerosos protectores.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Todos cantan:</font></td><td>
+            <sup>280</sup>Por ti, Señor Jesús, con María, tu Madre y Esposa,\n
+            la que vence la Serpiente pisando su cabeza,\n
+            concédenos ser, en el Espíritu Santo,\n
+            instrumentos del Padre,\n
+            para construir aquí en la tierra\n
+            su Reino de Schoenstatt.\n
+            Amén.</td></tr>
+            </table>
+            
+            
+            <h4>Séptima Estación - JESÚS CAE POR SEGUNDA VEZ</h4>
+            <table border="0">
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>
+            Te adoramos, Señor Jesús,</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>
+            ... que has muerto por nosotros en la cruz.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Coro uno:</font></td><td>
+            <sup>281</sup>Pesadísimos son los maderos\n
+            y te vuelven a derribar,\n
+            pues los príncipes y los pueblos\n
+            no comprenden,\n
+            por su endurecimiento en el mal,\n
+            que sólo Tú puedes ser el Señor del mundo.</td></tr>
+            <tr><td valign="top"></td><td>
+            <sup>282</sup>Son incapaces de entender\n
+            la locura de la cruz,\n
+            y por eso te rechazan con odio obstinado;\n
+            se inclinan antes Satanás,\n
+            Príncipe de este mundo,\n
+            que los tiene atados con servidumbre eterna.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Coro dos:</font></td><td>
+            <sup>283</sup>Hay tiempos en que tajantemente\n
+            se separan los espíritus\n
+            y, en medio de su convulsión,\n
+            buscan de nuevo a su Maestro.\n
+            Muy alto se yergue el muro divisorio:\n
+            sólo en el signo de cruz puede ser reconocido el Señor.</td></tr>
+            <tr><td valign="top"></td><td>
+            <sup>284</sup>Veo precipitarse al abismo a los pueblos\n
+            que se dejan apartar\n
+            de la cruz de Cristo,\n
+            y de la profundidad veo emerger al tirano\n
+            que orgulloso quiere determinar\n
+            el curso de la historia</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>
+            <sup>285</sup>Señor, por los ruegos de María, tu Esposa,\n
+            que no caiga la cruz;\n
+            álzala de nuevo; brille desde el cielo;\n
+            contigo quiero llevarla hacia el mundo,\n
+            hasta que nuestro pueblo\n
+            vuelva a postrarse ante ella</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Todos cantan:</font></td><td>
+            <sup>286</sup>Por ti, Señor Jesús, con María, tu Madre y Esposa,\n
+            la que vence la Serpiente pisando su cabeza,\n
+            concédenos ser, en el Espíritu Santo,\n
+            instrumentos del Padre,\n
+            para construir aquí en la tierra\n
+            su Reino de Schoenstatt.\n
+            Amén.</td></tr>
+            </table>
+            
+            
+            <h4>Octava Estación - JESÚS ENCUENTRA A LAS MUJERES QUE LLORAN</h4>
+            <table border="0">
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>
+            Te adoramos, Señor Jesús,</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>
+            ... que has muerto por nosotros en la cruz.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Coro uno:</font></td><td>
+            <sup>287</sup>Tan perturbados\n
+            están los ojos de las mujeres,\n
+            que no logran mirar con la verdadera fe;\n
+            solamente ven una figura que flaquea,\n
+            y no te perciben a ti,\n
+            el Dios que sostiene todo lo existente.</td></tr>
+            <tr><td valign="top"></td><td>
+            <sup>288</sup>Con dolor señalas a sus hijos, que en Jerusalén\n
+            pronto serán anunciadores de la divina justicia,\n
+            pues la Ciudad Santa\n
+            será un montón de ruinas\n
+            y será dispersado\n
+            el pueblo que te rechazó.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Coro dos:</font></td><td>
+            <sup>289</sup>Veo vacilar por todos lados\n
+            a millones de hombres,\n
+            porque sus ojos está enfermos de ceguera.\n
+            La luz que penetra las tinieblas\n
+            está impedida por las trabas\n
+            de Satanás y del egoísmo.</td></tr>
+            <tr><td valign="top"></td><td>
+            <sup>290</sup>Escucho retumbar los truenos\n
+            del castigo divino,\n
+            que derriban a todos los que no quieren ver;\n
+            confusión y desolación reinan en la tierra,\n
+            que tan desdeñosamente\n
+            a desconocido al Mesías.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>
+            <sup>291</sup>Presentaré tu sangre, Señor,\n
+            al Padre como ofrenda;\n
+            quiera El acordarse\n
+            de los dolores de nuestra Madre,\n
+            tomarme a mí como víctima de propiciación\n
+            y cambiar así el rigor de su parecer justiciero.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Todos cantan:</font></td><td>
+            <sup>292</sup>Por ti, Señor Jesús, con María, tu Madre y Esposa,\n
+            la que vence la Serpiente pisando su cabeza,\n
+            concédenos ser, en el Espíritu Santo,\n
+            instrumentos del Padre,\n
+            para construir aquí en la tierra\n
+            su Reino de Schoenstatt.\n
+            Amén.</td></tr>
+            </table>
+            
+            
+            <h4>Novena Estación - JESÚS CAE POR TERCERA VEZ</h4>
+            <table border="0">
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>
+            Te adoramos, Señor Jesús,</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>
+            ... que has muerto por nosotros en la cruz.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Coro uno:</font></td><td>
+            <sup>293</sup>El amargo tormento vuelve a oprimirte\n
+            y es tan duro,\n
+            que te desplomas por tercera vez;\n
+            de esta caída son culpables muchos hombres\n
+            a los cuales cuidaste\n
+            con especiales favores.</td></tr>
+            <tr><td valign="top"></td><td>
+            <sup>294</sup>Debían prepararte\n
+            marchas de victoria,\n
+            pero se dejan conducir por los malos espíritus;\n
+            no se liberan totalmente del mundo,\n
+            que como tela de araña\n
+            los tiene atrapados.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Coro dos:</font></td><td>
+            <sup>295</sup>Apóstoles de esa índole hay en todos los tiempos;\n
+            aumentan dolorosamente\n
+            tus sufrimientos de Redentor:\n
+            ponen riendas a tu eficacia para frenarla,\n
+            y así tu Espíritu\n
+            no los puede penetrar.</td></tr>
+            <tr><td valign="top"></td><td>
+            <sup>296</sup>El Demonio, tu adversario,\n
+            puede jugar con ellos;\n
+            sólo teme a aquellos\n
+            que aspiran a lograr el todo,\n
+            en los cuales domina y reinan sin límites el Espíritu,\n
+            que guía a tu Colaboradora hacia la lucha.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>
+            <sup>297</sup>Aniquila, Señor,\n
+            las secretas reservas\n
+            que anidan en los ocultos\n
+            pliegues del corazón\n
+            y que son causa de que la actividad externa\n
+            no alcancen la fecundidad querida por Dios.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Todos cantan:</font></td><td>
+            <sup>298</sup>Por ti, Señor Jesús, con María, tu Madre y Esposa,\n
+            la que vence la Serpiente pisando su cabeza,\n
+            concédenos ser, en el Espíritu Santo,\n
+            instrumentos del Padre,\n
+            para construir aquí en la tierra\n
+            su Reino de Schoenstatt.\n
+            Amén.</td></tr>
+            </table>
+            
+            
+            <h4>Décima Estación - JESÚS ES DESPOJADO DE SUS VESTIDURAS</h4>
+            <table border="0">
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>
+            Te adoramos, Señor Jesús,</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>
+            ... que has muerto por nosotros en la cruz.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Coro uno:</font></td><td>
+            <sup>299</sup>Señor, tan cobijado estás en el corazón del Padre\n
+            que soportas sin angustia\n
+            el despojo de tus vestiduras,\n
+            y al recibir los golpes permaneces quieto\n
+            y sólo gimes, porque así lo ha dispuesto para ti\n
+            el Padre celestial.</td></tr>
+            <tr><td valign="top"></td><td>
+            <sup>300</sup>Cuanto hemos pecado por sensualidad\n
+            en nuestra vida\n
+            te entregas tan afrentosamente\n
+            a la vergüenza.\n
+            Con total libertad tomas esta decisión que colma\n
+            cuerpo y alma con el más intenso sufrimiento.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Coro dos:</font></td><td>
+            <sup>301</sup>Aún hoy te veo desnudado,\n
+            porque nuestra concupiscencia no cesa;\n
+            pero también veo\n
+            junto a ti una muchedumbre\n
+            de héroes\n
+            que se te entregan como ofrenda.</td></tr>
+            <tr><td valign="top"></td><td>
+            <sup>302</sup>Ellos conservan íntegros el cuerpo y el alma\n
+            y plasman virginalmente\n
+            todo su ser y actuar;\n
+            tienen por gloria, prestigio y honra\n
+            permanecer en silencio junto a ti\n
+            en pesares y vergüenzas.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>
+            <sup>303</sup>En ti, Señor, quiero que siempre\n
+            el Padre sea mi norma;\n
+            y, renunciando al cobijamiento en este mundo,\n
+            pendiente de los ojos y la mano de nuestra Madre,\n
+            quiero, en estrecha unión contigo,\n
+            ir hacia la casa paterna.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Todos cantan:</font></td><td>
+            <sup>304</sup>Por ti, Señor Jesús, con María, tu Madre y Esposa,\n
+            la que vence la Serpiente pisando su cabeza,\n
+            concédenos ser, en el Espíritu Santo,\n
+            instrumentos del Padre,\n
+            para construir aquí en la tierra\n
+            su Reino de Schoenstatt.\n
+            Amén.</td></tr>
+            </table>
+            
+            
+            <h4>Undécima Estación - JESÚS ES CLAVADO EN LA CRUZ</h4>
+            <table border="0">
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>
+            Te adoramos, Señor Jesús,</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>
+            ... que has muerto por nosotros en la cruz.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Coro uno:</font></td><td>
+            <sup>305</sup>Te veo extender\n
+            dócilmente las manos\n
+            y dejarte conducir en todo\n
+            por los verdugos;\n
+            los clavos te penetran las manos y los pies;\n
+            Tú lo recibes como un saludo de amor del Padre.</td></tr>
+            <tr><td valign="top"></td><td>
+            <sup>306</sup>Porque no renunciamos a nuestra obstinación,\n
+            Tú ya no quieres tener voluntad propia;\n
+            tu alimento preferido\n
+            es cumplir los deseos del Padre,\n
+            en el cual, encuentra seguridad\n
+            todo lo tuyo</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Coro dos:</font></td><td>
+            <sup>307</sup>La antigua Serpiente\n
+            procura siempre seducir a los hombres\n
+            para que no escuchen\n
+            la palabra del Padre,\n
+            y tercamente vayan por confusos caminos\n
+            y estén a disposición de poderes tenebrosos.</td></tr>
+            <tr><td valign="top"></td><td>
+            <sup>308</sup>Tu congregas a los que están dispuesto, Señor,\n
+            a atarse libremente en ti a los deseos del Padre,\n
+            y que están orgullosos de los clavos\n
+            de la obediencia,\n
+            como corresponde a una esposa de Cristo,\n
+            a un hijo de Dios.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>
+            <sup>309</sup>Siempre quiero decidirme\n
+            con lúcida libertad;\n
+            sólo la obediencia\n
+            guiará mi amor;\n
+            y el plan de amor del Padre, eternamente válido,\n
+            podrá así realizarse en mi existencia.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Todos cantan:</font></td><td>
+            <sup>310</sup>Por ti, Señor Jesús, con María, tu Madre y Esposa,\n
+            la que vence la Serpiente pisando su cabeza,\n
+            concédenos ser, en el Espíritu Santo,\n
+            instrumentos del Padre,\n
+            para construir aquí en la tierra\n
+            su Reino de Schoenstatt.\n
+            Amén.</td></tr>
+            </table>
+            
+            
+            <h4>Duodécima Estación - JESÚS MUERE EN LA CRUZ</h4>
+            <table border="0">
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>
+            Te adoramos, Señor Jesús,</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>
+            ... que has muerto por nosotros en la cruz.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Coro uno:</font></td><td>
+            <sup>311</sup>Ahora estás suspendido\n
+            entre cielo y tierra\n
+            para que surja una nueva creación de amor.\n
+            Tú, el Dios Omnipotente,\n
+            está allí tan inefablemente pobre,\n
+            porque tu amor es tan hondo y es tan cálido.</td></tr>
+            <tr><td valign="top"></td><td>
+            <sup>312</sup>Para conducirnos rápido y seguros hacia ti,\n
+            moribundo nos quieres regalar tu Madre:\n
+            “¡Ahí tienes a tu Madre!”\n
+            “¡Ahí tienes a tu hijo!”\n
+            Así resuenan tus palabras desde la cruz,\n
+            tu trono de Rey.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Coro dos:</font></td><td>
+            <sup>313</sup>Los hombres que se aferran a sus bienes,\n
+            a sus posiciones que fácilmente desplazan\n
+            la verdadera imagen de Dios,\n
+            ellos te clavan\n
+            al madero del desamparo y la ignominia,\n
+            el que con fuerza sacude y despierta las conciencias.</td></tr>
+            <tr><td valign="top"></td><td>
+            <sup>314</sup>Aquellos que prescinden de María,\n
+            Quien, según el plan del Padre,\n
+            siempre debe estar junto a ti,\n
+            no comprenden\n
+            la plenitud de tu Obra,\n
+            no captan la totalidad de su fuerza y de su luz.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>
+            <sup>315</sup>Mirar con amor tu cruz me sirva cada vez\n
+            para no confiar más\n
+            en el dinero y en los bienes materiales,\n
+            y poder así con facilidad, entregarme totalmente\n
+            a ti y a María Madre,\n
+            con el corazón y el, pensamiento.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Todos cantan:</font></td><td>
+            <sup>316</sup>Por ti, Señor Jesús, con María, tu Madre y Esposa,\n
+            la que vence la Serpiente pisando su cabeza,\n
+            concédenos ser, en el Espíritu Santo,\n
+            instrumentos del Padre,\n
+            para construir aquí en la tierra\n
+            su Reino de Schoenstatt.\n
+            Amén.</td></tr>
+            </table>
+            
+            
+            <h4>Decimotercera Estación - JESÚS ES DEPOSITADO MUERTO EN EL REGAZO DE MARÍA</h4>
+            <table border="0">
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>
+            Te adoramos, Señor Jesús,</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>
+            ... que has muerto por nosotros en la cruz.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Coro uno:</font></td><td>
+            <sup>317</sup>Después de vencer a la muerte y al Demonio,\n
+            quieres que te depositen agotado\n
+            en el regazo maternal de María,\n
+            con tanta profundidad y ternura estás unido a Ella\n
+            que en nuestro corazón\n
+            se manifiesta cálidamente el Plan del Padre.</td></tr>
+            <tr><td valign="top"></td><td>
+            <sup>318</sup>El sacrificio que María presentó al ofrecerte,\n
+            me cantará sin cesar en el alma:\n
+            amor redentor impulsa a realizar\n
+            la acción del sacrificio;\n
+            ésa es la entrega que ha consumado\n
+            la obra de la Redención</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Coro dos:</font></td><td>
+            <sup>319</sup>Este es el profundo sentido\n
+            de todos los sufrimientos\n
+            que el amor del Padre\n
+            tan abundantemente nos depara:\n
+            tenga la certeza de permanecer solitaria\n
+            toda semilla que sepultándose no muera.</td></tr>
+            <tr><td valign="top"></td><td>
+            <sup>320</sup>Después que ella, la segunda Eva, aceptó tu muerte,\n
+            comprende María cada sufrimiento\n
+            de los herederos de Adán\n
+            y se preocupa con solicitud maternal\n
+            de que cada dolor\n
+            haga más plena la obra de la Redención.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>
+            <sup>321</sup>Quiero permanecer fiel como un niño a esa Madre\n
+            e inscribir su nombre\n
+            profundamente en los corazones;\n
+            entonces el dolor que recorre todos los pueblos\n
+            surgirá hecho un jubiloso\n
+            y armonioso canto de redención.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Todos cantan:</font></td><td>
+            <sup>322</sup>Por ti, Señor Jesús, con María, tu Madre y Esposa,\n
+            la que vence la Serpiente pisando su cabeza,\n
+            concédenos ser, en el Espíritu Santo,\n
+            instrumentos del Padre,\n
+            para construir aquí en la tierra\n
+            su Reino de Schoenstatt.\n
+            Amén.</td></tr>
+            </table>
+            
+            
+            <h4>Decimocuarta Estación - JESÚS ES PUESTO EN EL SEPULCRO</h4>
+            <table border="0">
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>
+            Te adoramos, Señor Jesús,</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>
+            ... que has muerto por nosotros en la cruz.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Coro uno:</font></td><td>
+            <sup>323</sup>Corto tiempo te cubrirá la piedra sepulcral;\n
+            pronto resucitarás\n
+            victorioso de la muerte.\n
+            Surges y te alzas de la tumba como triunfador\n
+            y nos abre con júbilo\n
+            la puerta del cielo.</td></tr>
+            <tr><td valign="top"></td><td>
+            <sup>324</sup>Está ligado el poder de antigua Serpiente;\n
+            la creación entera\n
+            encontró su centro;\n
+            ahora Tú eres el Señor\n
+            de cielo y mundo,\n
+            ante quien se postra todo lo creado.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Coro dos:</font></td><td>
+            <sup>325</sup>En tu Iglesia quieres caminar\n
+            por todas las naciones\n
+            bendiciendo, Señor,\n
+            para extender tu Reino;\n
+            y con tu Esposa, la Reina celestial,\n
+            llevarlas en el Espíritu Santo al Padre.</td></tr>
+            <tr><td valign="top"></td><td>
+            <sup>326</sup>Cuando tu Cuerpo Místico es despreciado\n
+            y es condenado a morir\n
+            y es reputado como muerto,\n
+            entonces irrumpe por El la fuerza de Dios,\n
+            para crear victoriosamente\n
+            una tierra nueva.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>
+            <sup>327</sup>En los dolores y persecuciones\n
+            enséñame a creer\n
+            que nada puede arrebatarte tu corona de victoria;\n
+            haz de Schoenstatt un instrumento escogido\n
+            que con gloria aumente\n
+            la Santa Iglesia militante.</td></tr>
+            <tr><td valign="top"><font color="#ff0000">Todos cantan:</font></td><td>
+            <sup>328</sup>Por ti, Señor Jesús, con María, tu Madre y Esposa,\n
+            la que vence la Serpiente pisando su cabeza,\n
+            concédenos ser, en el Espíritu Santo,\n
+            instrumentos del Padre,\n
+            para construir aquí en la tierra\n
+            su Reino de Schoenstatt.\n
+            Amén.</td></tr>
+            </table>
+            
+            
+            <h4>ORACIÓN FINAL</h4>
+            <sup>329</sup>Cruz santa,\n
+            a tus pies me rindo\n
+            y te canto\n
+            un ardiente himno de gratitud\n
+            y de júbilo:\n
+            ¡en ti consumó\n
+            nuestro Señor la Redención,\n
+            que nos ha hecho hijos de Dios!
+            \n
+            <sup>330</sup>Quiero ponerte en la hondura\n
+            mi alegre corazón\n
+            y regalarte de continuo\n
+            mi amor entero;\n
+            quiero fundar\n
+            toda mi esperanza de vida\n
+            en ti, Señor crucificado,\n
+            y en María, tu Compañera.
+            \n
+            <sup>331</sup>Manifieste yo tu presencia a los hombres,\n
+            y así para vosotros los gane;\n
+            concédeme que, combatiendo día a día\n
+            arriesgue la vida por vosotros,\n
+            para que vuestro Reino\n
+            en todas partes logre victoria\n
+            y ensanche sus confines\n
+            por todo el universo.
+            \n
+            <sup>332</sup>Concédeme entregar a los pueblos,\n
+            como el signo de redención,\n
+            tu cruz, Jesucristo,\n
+            y tu imagen María.\n
+            ¡Que jamás nadie separe\n
+            lo uno de lo otro,\n
+            pues en su plan de amor\n
+            el Padre lo concibió como unidad!
+            \n
+            <sup>333</sup>Por siempre permanezca\n
+            Schoenstatt como fiel instrumento\n
+            que os inscriba unidos\n
+            en el corazón de los hombres:\n
+            así se destruirá eficazmente\n
+            el reino de Satanás,\n
+            y, en el Espíritu Santo\n
+            se acrecentará la gloria del Padre. \n
+                        Amén
+
+        </item>
+    </string-array>
+
+</resources>
