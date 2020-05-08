@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string-array name="heavenwards_index">
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string-array name="heavenwards_index" tools:ignore="InconsistentArrays">
         <item>CONSAGRACIÓN MATUTINA</item>
         <item>MISA DEL INSTRUMENTO</item>
         <item>OFICIO DE SCHOENSTATT</item>
@@ -33,7 +33,15 @@
         <item>EXORCISMOS</item>
         <item>ORACIÓN AL ESPÍRITU SANTO</item>
         <item>MI HABITACIÓN ES TU SANTUARIO</item>
-        <item>ACLARACIÓN DE ALGUNOS TÉRMINOS</item>
     </string-array>
 
+    <integer-array name="other_prayers_ids" tools:ignore="InconsistentArrays">
+        <item>@array/puritatis_tuae_causa</item>
+        <item>@array/mother_thrice_admirable</item>
+        <item>@array/adsum</item>
+        <item>@array/confidence</item>
+        <item>@array/exorcism_prayer</item>
+        <item>@array/to_holy_spirit</item>
+        <item>@array/home_shrine_prayer</item>
+    </integer-array>
 </resources>
