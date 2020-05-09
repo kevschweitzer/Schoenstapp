@@ -3,22 +3,22 @@
     <string-array name="exorcism_prayer">
         <item>
             <b>Primera Versión</b>\n
-            <sup>633</sup>Surja Dios Padre,\n
+             <small><sup>633 </sup></small>Surja Dios Padre,\n
             se dispersen sus enemigos\n
             y huyan de su presencia\n
             los que lo odian.
             \n\n
-            <sup>634</sup>Surja Dios Hijo,\n
+             <small><sup>634 </sup></small>Surja Dios Hijo,\n
             se dispersen sus enemigos\n
             y huyan de su presencia\n
             los que lo odian.
             \n\n
-            <sup>635</sup>Surja Dios Espíritu Santo,\n
+             <small><sup>635 </sup></small>Surja Dios Espíritu Santo,\n
             se dispersen sus enemigos\n
             y huyan de su presencia\n
             los que lo odian.
             \n\n
-            <sup>636</sup>Surja la Bienaventurada Virgen María,\n
+             <small><sup>636 </sup></small>Surja la Bienaventurada Virgen María,\n
             todos los ángeles y santos,\n
             (San Miguel arcángel y San Vicente Palotti),\n
             se dispersen sus enemigos\n
@@ -27,7 +27,7 @@
             Amén\n\n
             
             <b>Segunda Versión</b>\n
-            <sup>637</sup>Surja Dios,\n
+             <small><sup>637 </sup></small>Surja Dios,\n
             Padre, Hijo y Espíritu Santo,\n
             surja la Bienaventurada Virgen María,\n
             y todos los ángeles y santos,\n
@@ -37,7 +37,7 @@
 
             <b>Tercera Versión</b>
             \n
-            <sup>638</sup>Surja Dios,\n
+             <small><sup>638 </sup></small>Surja Dios,\n
             se dispersen sus enemigos\n
             y huyan de su presencia\n
             los que lo odian.\n

@@ -2,14 +2,14 @@
 <resources>
     <string-array name="adsum">
         <item>
-            <sup>629</sup>Madre, ¿quieres mi trabajo?  \n
+             <small><sup>629 </sup></small>Madre, ¿quieres mi trabajo?  \n
             -Aquí estoy.
               \n\n
-            <sup>630</sup>¿Quieres que todas las fuerzas de mi espíritu  \n
+             <small><sup>630 </sup></small>¿Quieres que todas las fuerzas de mi espíritu  \n
             lentamente se desangren?  \n
             -Aquí estoy.
               \n\n
-            <sup>631</sup>¿Quieres mi muerte?  \n
+             <small><sup>631 </sup></small>¿Quieres mi muerte?  \n
             -Aquí estoy,  \n
             pero procura que todos  \n
             los que tú me has confiado  \n

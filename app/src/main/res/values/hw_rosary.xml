@@ -11,32 +11,32 @@
 
     <string-array name="rosary_texts">
         <item>
-            <sup>334</sup>Father, help us close the gates of our senses\n
+             <small><sup>334 </sup></small>Father, help us close the gates of our senses\n
             and let bright light stream into our souls.\n
             Lead us deeply into the warm radiance of faith\n
             and into the mystery of redemption.
             \n\n
-            <sup>335</sup>We want to quietly accompany the Redeemer\n
+             <small><sup>335 </sup></small>We want to quietly accompany the Redeemer\n
             as we contemplate his life in the Rosary,\n
             united with his strong Mother-Bride\n
             whom he has chosen as his helpmate.
             \n\n
-            <sup>336</sup>Give us the grace to grasp with our hearts\n
+             <small><sup>336 </sup></small>Give us the grace to grasp with our hearts\n
             the message of each mystery\n
             as we hear it in the Rosary,\n
             and to form our lives accordingly.
             \n\n
-            <sup>337</sup>Let us immerse ourselves into the ocean of love\n
+             <small><sup>337 </sup></small>Let us immerse ourselves into the ocean of love\n
             which the Rosary allows us to drink in richly,\n
             and let the glowing love of Christ and his Mother\n
             inflame our weak sacrificial spirit.
             \n\n
-            <sup>338</sup>Then our lives will soon become a mirror\n
+             <small><sup>338 </sup></small>Then our lives will soon become a mirror\n
             of Christ’s being and living here on earth.\n
             In him we will go through the world with strength and kindness\n
             as an image of Mary bringing blessings to all.
             \n\n
-            <sup>339</sup>Then you may always use us as instruments\n
+             <small><sup>339 </sup></small>Then you may always use us as instruments\n
             in your omnipotent, loving and mighty hands,\n
             and form through us, in accordance with your plan,\n
             the face of humanity today. Amen.
@@ -44,7 +44,7 @@
             <i>(I believe in God...)</i>
         </item>
         <item>
-            <sup>340</sup>Mother, in your life we see\n
+             <small><sup>340 </sup></small>Mother, in your life we see\n
             the vibrant flames of faith, hope and love.\n
             Let this majestic triple star\n
             shine through the dark night of our lives.
@@ -56,7 +56,7 @@
         </item>
         <item>
             <b>The First Joyful Mystery — The Annunciation</b>\n\n
-            <sup>341</sup>Mother, you speak your Fiat without hesitation\n
+             <small><sup>341 </sup></small>Mother, you speak your Fiat without hesitation\n
             and are allowed to bear the Savior beneath your heart.\n
             As deaconess you silently prepare the sacrificial gift\n
             according to the Father’s will.
@@ -67,7 +67,7 @@
             <i>(Our Father...10 Hail Marys...Glory Be...)</i>\n\n
 
             <b>The Second Joyful Mystery — The Visitation</b>\n\n
-            <sup>342</sup>We see you, Mother, hastening with the Savior\n
+             <small><sup>342 </sup></small>We see you, Mother, hastening with the Savior\n
             to stay with Elizabeth and serve her.\n
             She rejoices and is filled with the Holy Spirit,\n
             and feels her child sanctified in her womb.
@@ -78,7 +78,7 @@
             <i>(Our Father...10 Hail Marys...Glory Be...)</i>\n\n
 
             <b>The Third Joyful Mystery — The Birth of Jesus</b>\n\n
-            <sup>343</sup>In Bethlehem in a poor and little stable\n
+             <small><sup>343 </sup></small>In Bethlehem in a poor and little stable\n
             you give birth to the Lord of the world for us all.\n
             Just as you showed him to the shepherds and the magi\n
             and humbly bowed before him in adoration,
@@ -89,7 +89,7 @@
             <i>(Our Father...10 Hail Marys...Glory Be...)</i>\n\n
 
             <b>The Fourth Joyful Mystery — The Presentation of Jesus in the Temple</b>\n\n
-            <sup>344</sup>Filled with longing for our salvation, you present in the Temple\n
+             <small><sup>344 </sup></small>Filled with longing for our salvation, you present in the Temple\n
             the One you conceived of the Holy Spirit.\n
             Your motherly gaze is turned to us\n
             as you return him unconditionally and entirely to the Father.
@@ -100,7 +100,7 @@
             <i>(Our Father...10 Hail Marys...Glory Be...)</i>\n\n
 
             <b>The Fifth Joyful Mystery — The Finding of Jesus in the Temple</b>\n\n
-            <sup>345</sup>The Lord permits you to suffer in Jerusalem\n
+             <small><sup>345 </sup></small>The Lord permits you to suffer in Jerusalem\n
             in order to prepare you for still greater sacrifices.\n
             He must handle you with such firmness\n
             so that you can one day stand beneath the cross.
@@ -113,7 +113,7 @@
         </item>
         <item>
             <b>The First Sorrowful Mystery — The Agony in the Garden</b>\n\n
-            <sup>346</sup>Mother, out of love and for the world’s salvation\n
+             <small><sup>346 </sup></small>Mother, out of love and for the world’s salvation\n
             you gave the Savior his body and life.\n
             In the garden his inner anguish causes him to sweat blood,\n
             but nothing can break his readiness to suffer.
@@ -124,7 +124,7 @@
             <i>(Our Father...10 Hail Marys...Glory Be...)</i>\n\n
 
             <b>The Second Sorrowful Mystery — The Scourging at the Pillar</b>\n\n
-            <sup>347</sup>You allow the Savior to stand at the pillar\n
+             <small><sup>347 </sup></small>You allow the Savior to stand at the pillar\n
             and atone for the offenses of our sensuality.\n
             Your motherly heart trembles with each blow;\n
             for us you bear with him each burst of pain.
@@ -135,7 +135,7 @@
             <i>(Our Father...10 Hail Marys...Glory Be...)</i>\n\n
 
             <b>The Third Sorrowful Mystery — The Crowning with Thorns</b>\n\n
-            <sup>348</sup>Our Lord permits the executioners\n
+             <small><sup>348 </sup></small>Our Lord permits the executioners\n
             to crown his divine head with thorns and to mockingly scorn him.\n
             Your Fiat was a yes to this as well,\n
             because by this suffering he atoned for our arrogance.
@@ -146,7 +146,7 @@
             <i>(Our Father...10 Hail Marys...Glory Be...)</i>\n\n
 
             <b>The Fourth Sorrowful Mystery — Jesus Carries the Cross</b>\n\n
-            <sup>349</sup>Your Fiat lets the Lord carry the cross\n
+             <small><sup>349 </sup></small>Your Fiat lets the Lord carry the cross\n
             which our dread of sacrifice has placed on him.\n
             Without bitter complaint he carries it to the place of sacrifice,\n
             urged on by redeeming love.
@@ -157,7 +157,7 @@
             <i>(Our Father...10 Hail Marys...Glory Be...)</i>\n\n
 
             <b>The Fifth Sorrowful Mystery — The Crucifixion</b>\n\n
-            <sup>350</sup>I see the Redeemer of the world hanging on the cross,\n
+             <small><sup>350 </sup></small>I see the Redeemer of the world hanging on the cross,\n
             urged thus far by the ardent longing of his love.\n
             You relinquish your motherly rights and freely offer him up\n
             that we might receive salvation and light.
@@ -169,7 +169,7 @@
         </item>
         <item>
             <b>The First Glorious Mystery — The Resurrection</b>\n\n
-            <sup>351</sup>The Lord breaks the powerful bonds of death\n
+             <small><sup>351 </sup></small>The Lord breaks the powerful bonds of death\n
             and crushes Satan’s power and cunning.\n
             Rejoicing, you see him transfigured and beautiful,\n
             as we will one day rise in heaven.
@@ -180,7 +180,7 @@
             <i>(Our Father...10 Hail Marys...Glory Be...)</i>\n\n
 
             <b>The Second Glorious Mystery — The Ascension</b>\n\n
-            <sup>352</sup>The Lord has ascended into heaven,\n
+             <small><sup>352 </sup></small>The Lord has ascended into heaven,\n
             leaving behind those who hope for his coming.\n
             Your heart and eyes are filled with longing,\n
             but you rejoice in the happiness of your Son.
@@ -191,7 +191,7 @@
             <i>(Our Father...10 Hail Marys...Glory Be...)</i>\n\n
 
             <b>The Third Glorious Mystery — The Descent of the Holy Spirit</b>\n\n
-            <sup>353</sup>In the midst of the apostles you powerfully implore\n
+             <small><sup>353 </sup></small>In the midst of the apostles you powerfully implore\n
             the coming of the promised Spirit,\n
             who transforms weak men and women\n
             and directs the Church on the road to victory.
@@ -202,7 +202,7 @@
             <i>(Our Father...10 Hail Marys...Glory Be...)</i>\n\n
 
             <b>The Fourth Glorious Mystery — The Assumption</b>\n\n
-            <sup>354</sup>Just as you accompanied Our Lord in this life\n
+             <small><sup>354 </sup></small>Just as you accompanied Our Lord in this life\n
             and lived and loved and suffered with him,\n
             so, at the completion of your life,\n
             he takes you body and soul into heaven.
@@ -213,7 +213,7 @@
             <i>(Our Father...10 Hail Marys...Glory Be...)</i>\n\n
 
             <b>The Fifth Glorious Mystery — The Coronation</b>\n\n
-            <sup>355</sup>You reign now in heaven as Queen\n
+             <small><sup>355 </sup></small>You reign now in heaven as Queen\n
             and dwell in bliss with the Triune God.\n
             With your Son you govern the world:\n
             He has chosen you to be its Mother.
@@ -226,7 +226,7 @@
         <item>
             <i>(at the end of the Rosary)</i>
             \n\n
-            <sup>356</sup>Father, through the sacred mysteries of redemption\n
+             <small><sup>356 </sup></small>Father, through the sacred mysteries of redemption\n
             grant that we may stand in grace before you.\n
             Let Schoenstatt flourish as a garden of God\n
             which touches the widest circles of the Church throughout the world,

@@ -2,7 +2,7 @@
 <resources>
     <string-array name="right_hand_wither">
         <item>
-           <sup>568</sup>Lleno de anhelo,\n
+            <small><sup>568 </sup></small>Lleno de anhelo,\n
             permanecí largo tiempo\n
             ante las sagradas puertas que hoy\n
             se me abren generosas:\n
@@ -13,7 +13,7 @@
               Schoenstatt,\n
               si de ti me olvido.
             \n\n
-            <sup>569</sup>No puedo concebir\n
+             <small><sup>569 </sup></small>No puedo concebir\n
             nada más hermoso en la tierra,\n
             que regalarme a nuestra Familia\n
             y ser un auténtico hijo suyo\n
@@ -25,7 +25,7 @@
               Schoenstatt,\n
               si de ti me olvido.
             \n\n
-            <sup>570</sup>Otros podrán alabar sus comunidades\n
+             <small><sup>570 </sup></small>Otros podrán alabar sus comunidades\n
             y desarrollarse en ellas\n
             según su estilo;\n
             para mí en esta tierra\n
@@ -37,7 +37,7 @@
               Schoenstatt,\n
               si de ti me olvido.
             \n\n
-            <sup>571</sup>Desde hoy\n
+             <small><sup>571 </sup></small>Desde hoy\n
             puedo llevar mi emblema, *\n
             que anunciará jubilosamente\n
             a todo el mundo:\n
@@ -49,7 +49,7 @@
               Schoenstatt,\n
               si de ti me olvido.
             \n\n
-            <sup>572</sup>Vivo en esta Familia\n
+             <small><sup>572 </sup></small>Vivo en esta Familia\n
             nacida de la mano de Dios,\n
             porque Dios en su bondad\n
             me escogió para ella.\n
@@ -61,7 +61,7 @@
               Schoenstatt,\n
               si de ti me olvido.
             \n\n
-            <sup>573</sup>La Madre me ha aceptado con bondad\n
+             <small><sup>573 </sup></small>La Madre me ha aceptado con bondad\n
             y, como solo ella puede hacerlo,\n
             se ha comprometido\n
             a cuidarme fielmente\n
@@ -73,7 +73,7 @@
               Schoenstatt,\n
               si de ti me olvido.
             \n\n
-            <sup>574</sup>Pertenecido por entero a Cristo\n
+             <small><sup>574 </sup></small>Pertenecido por entero a Cristo\n
             y a nuestra Madre,\n
             que llenos de benevolencia\n
             siempre se inclinen hacia mí\n
@@ -85,7 +85,7 @@
               Schoenstatt,\n
               si de ti me olvido.
             \n\n
-            <sup>575</sup>Puedo ir con libertad soberana\n
+             <small><sup>575 </sup></small>Puedo ir con libertad soberana\n
             de un lugar a otro,\n
             si así Dios lo quiere,\n
             pero nunca\n
@@ -97,7 +97,7 @@
               Schoenstatt,\n
               si de ti me olvido.
             \n\n
-            <sup>576</sup>Nuevamente he recibido\n
+             <small><sup>576 </sup></small>Nuevamente he recibido\n
             padre y madre\n
             y a muchos hermanos\n
             llenos de nobleza;\n
@@ -109,7 +109,7 @@
               Schoenstatt,\n
               si de ti me olvido.
             \n\n
-            <sup>577</sup>Sus aspiraciones, su amor,\n
+             <small><sup>577 </sup></small>Sus aspiraciones, su amor,\n
             su dolor, su oración\n
             me ayudan a alcanzar\n
             el puerto eterno;\n
@@ -121,7 +121,7 @@
               Schoenstatt,\n
               si de ti me olvido.
             \n\n
-            <sup>578</sup>Por el esfuerzo noble y puro\n
+             <small><sup>578 </sup></small>Por el esfuerzo noble y puro\n
             de mis padres y hermanos,\n
             quiere el Padre\n
             colmar mi alma en abundancia,\n
@@ -133,7 +133,7 @@
               Schoenstatt,\n
               si de ti me olvido.
             \n\n
-            <sup>579</sup>Su valiente avance\n
+             <small><sup>579 </sup></small>Su valiente avance\n
             a través de la corriente de los tiempos,\n
             con altivez me ensancha\n
             el corazón y el horizonte;\n
@@ -145,7 +145,7 @@
               Schoenstatt,\n
               si de ti me olvido.
             \n\n
-            <sup>580</sup>Su lucha noble y heroica por la santidad\n
+             <small><sup>580 </sup></small>Su lucha noble y heroica por la santidad\n
             me significa diariamente\n
             un nuevo estímulo;\n
             con ellos quiero luchar\n
@@ -157,7 +157,7 @@
               Schoenstatt,\n
               si de ti me olvido.
             \n\n
-            <sup>581</sup>Tan entrelazado estoy con la Familia,\n
+             <small><sup>581 </sup></small>Tan entrelazado estoy con la Familia,\n
             que todo el que la alabe,\n
             a mí debe alabarme,\n
             y aquel que la desprecie,\n
@@ -169,7 +169,7 @@
               Schoenstatt,\n
               si de ti me olvido.
             \n\n
-            <sup>582</sup>Lo que la Familia\n
+             <small><sup>582 </sup></small>Lo que la Familia\n
             hace por agradar a Dios,\n
             cada nuevo hijo\n
             que se suma a sus filas,\n
@@ -181,7 +181,7 @@
               Schoenstatt,\n
               si de ti me olvido.
             \n\n
-            <sup>583</sup>Sus arrugas,\n
+             <small><sup>583 </sup></small>Sus arrugas,\n
             faltas y debilidades\n
             nunca destruirán mi respeto por ella;\n
             no permitiré jamás\n
@@ -193,7 +193,7 @@
               Schoenstatt,\n
               si de ti me olvido.
             \n\n
-            <sup>584</sup>Lo que hacia fuera\n
+             <small><sup>584 </sup></small>Lo que hacia fuera\n
             no pueda aumentar su honra,\n
             siempre me guardaré de publicarlo;\n
             sobre ello extiendo\n
@@ -205,7 +205,7 @@
               Schoenstatt,\n
               si de ti me olvido.
             \n\n
-            <sup>585</sup>Y aunque me desengañe la Familia,\n
+             <small><sup>585 </sup></small>Y aunque me desengañe la Familia,\n
             nunca me apartaré de su lado;\n
             lo que ella me dio,\n
             quiero retribuírselo\n
@@ -216,7 +216,7 @@
               Schoenstatt,\n
               si de ti me olvido.
             \n\n
-            <sup>586</sup>Nos mantenemos\n
+             <small><sup>586 </sup></small>Nos mantenemos\n
             inseparablemente unidos…\n
             Arda el fuego del amor a la Familia.\n
             En ella y con ella\n
@@ -228,7 +228,7 @@
               Schoenstatt,\n
               si de ti me olvido.
             \n\n
-            <sup>587</sup>Aquellos que estuvimos una vez\n
+             <small><sup>587 </sup></small>Aquellos que estuvimos una vez\n
             junto al altar,\n
             nunca seremos motivo de vergüenza\n
             para la Familia;\n
@@ -240,7 +240,7 @@
               Schoenstatt,\n
               si de ti me olvido.
             \n\n
-            <sup>588</sup>Considero una de las mayores gracias,\n
+             <small><sup>588 </sup></small>Considero una de las mayores gracias,\n
             que la bondad\n
             con la que Dios conduce mi vida,\n
             me haya benignamente\n

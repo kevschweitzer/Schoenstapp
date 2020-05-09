@@ -2,7 +2,7 @@
 <resources>
     <string-array name="angelus">
         <item>
-           <sup>224</sup>A ti, Madre, te escogió el Señor\n
+            <small><sup>224 </sup></small>A ti, Madre, te escogió el Señor\n
             como Colaboradora\n
             para la salvación del mundo;\n
             fiel y nupcialmente\n
@@ -11,28 +11,28 @@
             con tu virginal reciedumbre\n
             eres quien aniquila la Serpiente.
             \n\n
-            <sup>225</sup>Preparas a Jesús como ofrenda,\n
+             <small><sup>225 </sup></small>Preparas a Jesús como ofrenda,\n
             con silenciosa servicialidad.
             \n
             <i>(Dios te salve, María...)</i>
             \n\n
-            <sup>226</sup>Como Diaconisa, en el templo,\n
+             <small><sup>226 </sup></small>Como Diaconisa, en el templo,\n
             presentas al Padre la Ofrenda.
             \n
             <i>(Dios te salve, María...)</i>
             \n\n
-            <sup>227</sup>Con Cristo, en el altar de la cruz,\n
+             <small><sup>227 </sup></small>Con Cristo, en el altar de la cruz,\n
             te entregas por nosotros como ofrenda.
             \n
             <i>(Dios te salve María...)</i>\n\n
             <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>\n
-            <sup>228</sup>El Señor da sus gracias\n
+             <small><sup>228 </sup></small>El Señor da sus gracias\n
             a quienes las procuran.</td></tr>\n\n
             <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>\n
-            <sup>228</sup>A través tuyo El da las gracias,\n
+             <small><sup>228 </sup></small>A través tuyo El da las gracias,\n
             como frutos del sacrificio.</td></tr>\n\n
             <tr><td valign="top"></td><td>
-            <sup>229</sup>Con sencillez te pedimos, Padre,\n
+             <small><sup>229 </sup></small>Con sencillez te pedimos, Padre,\n
             arda en nosotros la luz de la fe;\n
             que conozcamos con claridad\n
             a nuestra Madre\n
