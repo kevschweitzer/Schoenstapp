@@ -1,2 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string-array name="heavenwards_index" tools:ignore="InconsistentArrays">
+        <item>CONSAGRACIÓN MATUTINA</item>
+        <item>MISA DEL INSTRUMENTO</item>
+        <item>OFICIO DE SCHOENSTATT</item>
+        <item>AL ANGELUS</item>
+        <item>VIA CRUCIS DEL INSTRUMENTO</item>
+        <item>ROSARIO DEL INSTRUMENTO</item>
+        <item>CONSAGRACIÓN NOCTURNA</item>
+        <item>RECIBE, SEÑOR</item>
+        <item>PADRE TE PIDO TODAS LAS CRUCES</item>
+        <item>SI QUIERES QUITARME ESTE HIJO</item>
+        <item>MIRA, PADRE A NUESTRA FAMILIA</item>
+        <item>MANTÉN EN ALTO EL CETRO</item>
+        <item>ACÓGENOS SOLICITA</item>
+        <item>ORACION DE LOS JEFES</item>
+        <item>ORACION DEL PASTOR</item>
+        <item>ORACION POR VOCACIONES MASCULINAS</item>
+        <item>ORACION DEL CIRCULO INTERNACIONAL</item>
+        <item>EN GRANDES PESARES</item>
+        <item>GRACIAS POR TODO</item>
+        <item>TE ALABO, MADRE</item>
+        <item>SÉQUESE MI DIESTRA</item>
+        <item>PLEGARIA DEL ANILLO DE ALIANZA</item>
+        <item>CÁNTICO AL TERRUÑO</item>
+        <item>CÁNTICO DEL INSTRUMENTO</item>
+        <item>CÁNTICO DE GRATITUD</item>
+        <item>POR TU PUREZA</item>
+        <item>ORACIONES APOSTÓLICAS</item>
+        <item>MADRE AQUÍ ESTOY</item>
+        <item>CONFIANZA</item>
+        <item>EXORCISMOS</item>
+        <item>ORACIÓN AL ESPÍRITU SANTO</item>
+        <item>MI HABITACIÓN ES TU SANTUARIO</item>
+    </string-array>
+
+    <integer-array name="other_prayers_ids" tools:ignore="InconsistentArrays">
+        <item>@array/puritatis_tuae_causa</item>
+        <item>@array/mother_thrice_admirable</item>
+        <item>@array/adsum</item>
+        <item>@array/confidence</item>
+        <item>@array/exorcism_prayer</item>
+        <item>@array/to_holy_spirit</item>
+        <item>@array/home_shrine_prayer</item>
+    </integer-array>
+</resources>

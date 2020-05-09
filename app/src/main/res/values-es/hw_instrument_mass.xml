@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="instrument_mass_titles">
+        <item>Nota Previa</item>
+        <item>Misa</item>
+    </string-array>
+
+    <string-array name="instrument_mass_texts">
+        <item>
+             <small><sup>18 </sup></small>La misa puede usarse como misa rezada, cantada o mixta. El texto se reparte en cuatro roles: un solista, dos coros y toda la asamblea.
+        </item>
+        <item>
+           <b>ORACIONES AL PIE DEL ALTAR Y AL INTROITO</b>\n\n
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>\n
+             <small><sup>19 </sup></small>Padre, nos escogiste en Cristo\n
+            como instrumentos para su Reino,\n
+            como semilla, luz y levadura,\n
+            para la redención del mundo,</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>\n
+             <small><sup>20 </sup></small>...con su Compañera, la Gran Señal\n
+            para alejar el influjo del Demonio.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>\n
+             <small><sup>21 </sup></small>Eres infinitamente grande y hermoso,\n
+            reinas sobre el cielo y la tierra,\n
+            que siguen ciegamente tu palabra\n
+            y te adoran sin cesar.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>\n
+             <small><sup>22 </sup></small>Dispón también de nosotros\n
+            que yacemos en el polvo ante ti.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>\n
+             <small><sup>23 </sup></small>La Omnipotencia envió a la nada\n
+            como instrumento en manos del Redentor,\n
+            y esta nada se rebeló\n
+            cada vez que estorbó tus planes.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>\n
+             <small><sup>24 </sup></small>Míranos, arrepentidos, de rodillas ante ti,\n
+            a los que alejamos del mundo la salvación.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>\n
+             <small><sup>25 </sup></small>Quisimos seguir caminos propios\n
+            y no ver, culpablemente, tus deseos;\n
+            nos separamos de tu lado, de ti,\n
+            a quien, temblorosos, aclaman cielos y tierra.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>\n
+             <small><sup>26 </sup></small>Arrepentidos confesamos nuestros pecados;\n
+            ¡haz que encontremos perdón en Cristo!</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>\n
+             <small><sup>27 </sup></small>En el futuro, guárdanos como pertenencia tuya\n
+            y que solo a ti consagremos las fuerzas del amor,\n
+            para que Cristo pueda actuar por nosotros\n
+            y conducir a los hombre hacia el cielo.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>\n
+             <small><sup>28 </sup></small>¡Recorra El en nosotros la tierra\n
+            y con su Esposa extienda su Reino!</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>\n
+             <small><sup>29 </sup></small>Envíanos al Espíritu de fortaleza del Señor\n
+            para que por El surja la creación renovada:\n
+            el Reino de Schoenstatt, nación de Dios,\n
+            que se asemeja a la eterna Ciudad de Sión,</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>\n
+             <small><sup>30 </sup></small>...donde triunfa el amor\n
+            y reinan siempre la justicia y la verdad.\n
+            Amén.</td></tr>\n\n
+
+
+
+            <b>SEÑOR, TEN PIEDAD</b>\n\n
+
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>\n
+             <small><sup>31 </sup></small>¡Apiádate, Padre misericordioso,\n
+            borra en nosotros la culpa del pecado!</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Derecha:</font></td><td>\n
+             <small><sup>32 </sup></small>¡Señor Jesucristo, Cordero de Dios,\n
+            asciende nuevamente a la cruz!</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Izquierda:</font></td><td>\n
+             <small><sup>33 </sup></small>¡Dios Espíritu Santo, Dador de la vida,\n
+            lleva al mundo a su plena redención!</td></tr>\n\n
+
+
+
+            <b>GLORIA</b>\n\n
+
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>\n
+             <small><sup>34 </sup></small>A ti, oh Dios, amor y honra,\n
+            a ti, que reinas sobre los mares,\n
+            cielos y tierra\n
+            siguen el camino que Tú les señalas.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>35 </sup></small>Tú, Dios Padre, por amor\n
+            te das a tu Hijo totalmente,\n
+            en el Espíritu Santo\n
+            para eterno gozo.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>36 </sup></small>Así eres en ti mismo perfecto;\n
+            eres el Amor que jamás cesa.\n
+            Amor envió al Hijo *\n
+            como prenda de la Redención.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Derecha:</font></td><td>\n
+             <small><sup>37 </sup></small>Amor dio al Hijo la vida\n
+            en la Madre y Esposa,\n
+            y a El, nuestro mayor bien,\n
+            le pidió derramar su sangre.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Izquierda:</font></td><td>\n
+             <small><sup>38 </sup></small>Amor hizo que El, antes de su muerte,\n
+            nos diera a su Madre y Compañera en herencia,\n
+            para que ella, como la puerta segura,\n
+            nos conduzca prontamente hacia Dios.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Derecha:</font></td><td>\n
+             <small><sup>39 </sup></small>Con la fortaleza del Hijo\n
+            ella siempre supera victoriosa\n
+            el reino y la obra de Satán,\n
+            trayendo la paz al mundo.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Izquierda:</font></td><td>\n
+             <small><sup>40 </sup></small>Amor nos ha sumergido\n
+            en aquel que se nos regala diariamente\n
+            como ofrenda y alimento generosos\n
+            en este largo peregrinar.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Derecha:</font></td><td>\n
+             <small><sup>41 </sup></small>Amor, para completar la Redención,\n
+            nos incorporó a la misión de la Palabra eterna,\n
+            nos hace participar fielmente de su destino\n
+            y nos engrandece como a sus instrumentos.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Izquierda:</font></td><td>\n
+             <small><sup>42 </sup></small>Amor creó al mundo\n
+            como peldaños de amor,\n
+            que nos conducen eficazmente hacia el cielo,\n
+            al corazón de Dios.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Derecha:</font></td><td>\n
+             <small><sup>43 </sup></small>Del Amor eterno con diafanidad\n
+            vemos fluir torrentes de amor,\n
+            derramarse por cielos y tierra\n
+            y retornar a su fuente.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>\n
+             <small><sup>44 </sup></small>Amor y gloria sean dados a Dios en su trono\n
+            al Padre y al Hijo,\n
+            y al Espíritu Santo,\n
+            ahora y por toda la eternidad.\n
+            Amén.</td></tr>\n\n
+
+
+
+            <b>ORACIÓN</b>\n\n
+
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>\n
+             <small><sup>45 </sup></small>Padre, nos has enviado\n
+            para que en manos de Cristo\n
+            seamos instrumentos, y eternamente lo seamos\n
+            entregándonos a nuestros hermanos.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Derecha:</font></td><td>\n
+             <small><sup>46 </sup></small>Como lo hiciera la Madre y Compañera,\n
+            que guía el Reino de Schoenstatt,\n
+            queremos consumirnos enteramente\n
+            para aumentar tu amor y tu gloria.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>47 </sup></small>Haz que, como ella, estemos siempre\n
+            dispuestos para tu servicio;\n
+            como ella, que es abnegada, es alegre y fiel,\n
+            es servidora, es virgen y esposa.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Izquierda:</font></td><td>\n
+             <small><sup>48 </sup></small>Quebranta por nosotros la cabeza de la Serpiente,\n
+            que de continuo te roba las almas\n
+            y que con violencia perturba en este mundo\n
+            la paz prometida a los pueblos.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>49 </sup></small>Cristo en nosotros recorra los tiempos\n
+            dispuesto a luchar y vencer,\n
+            para darte con su ser divino\n
+            pruebas de amor y de gloria.\n
+            Amén.</td></tr>\n\n
+
+
+
+            <b>PARA LA EPÍSTOLA</b>\n\n
+
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>\n
+             <small><sup>50 </sup></small>Padre, has enviado al Hijo\n
+            como prenda de tu amor.\n
+            Por amor se hizo carne\n
+            y vino a nosotros en este mundo.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>51 </sup></small>Por amor se entrega\n
+            como ofrenda y alimento sobre el altar.\n
+            Allí quiere reinar siempre entre nosotros\n
+            y habitar en nuestra cercanía.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>52 </sup></small>Por amor, a través de su Palabra,\n
+            vive y continúa activo en nuestras filas\n
+            como fuente de la eterna verdad divina,\n
+            llena de ardor y refulgente claridad.</td></tr>\n\n
+
+
+
+            <b>PARA EL EVANGELIO</b>\n\n
+
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>\n
+             <small><sup>53 </sup></small>Más tajante que espada de doble filo\n
+            se ha mostrado la Palabra de Dios:\n
+            separa con fuerza espíritu y alma\n
+            y dispone a la transformación interior;</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>54 </sup></small>impetuosa separa médula y coyuntura;\n
+            hace fuertes y amplios los corazones;\n
+            es juez del pensar humano;\n
+            es hoguera para el amor divino;</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>55 </sup></small>es martillo que destroza\n
+            lo que en el camino estorba,\n
+            lo que nos detiene en la senda hacia Dios\n
+            y perturba y disminuye nuestro amor;</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>56 </sup></small>es semilla que arraiga\n
+            si cae en buen terreno;\n
+            que trae fruto centuplicado\n
+            si penetra hondo en los corazones.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>\n
+             <small><sup>57 </sup></small>Padre, purifica nuestra almas,\n
+            haz que escuchen la Palabra\n
+            y realicen dócilmente\n
+            todo lo que entonan en nosotros sus sones.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>58 </sup></small>Haz que la conservemos en nuestros corazones\n
+            como lo hiciera nuestra Reina de Schoenstatt,\n
+            en quien penetró cual rocío del cielo,\n
+            y que así esperemos las bodas eternas.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>59 </sup></small>Y alegres la llevaremos al mundo,\n
+            que asombrado retendrá el aliento\n
+            y encontrará para siempre\n
+            la paz de Dios que anunciaran los ángeles.\n
+            Amén.</td></tr>\n\n
+
+
+
+            <b>AL CREDO</b>\n\n
+
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>\n
+             <small><sup>60 </sup></small>Creemos con certeza\n
+            lo que nos dice la eterna Verdad;\n
+            inclinamos, dóciles, el entendimiento\n
+            y la seguimos con amor y obras.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>61 </sup></small>La fe es la senda segura\n
+            que nos mostró el Verbo;\n
+            solo quien reciba esta fe\n
+            alcanzará salvación eterna.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Derecha:</font></td><td>\n
+             <small><sup>62 </sup></small>Creemos, oh Dios, que tu poder\n
+            dio al mundo la existencia,\n
+            que Tú lo mantienes y riges,\n
+            que lo conduces sabiamente a su fin.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Izquierda:</font></td><td>\n
+             <small><sup>63 </sup></small>Tú, que reinas en alturas celestiales,\n
+            quieres mirarnos cálidamente\n
+            y ver en nosotros a tu Hijo,\n
+            al que reina contigo en el trono eterno.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Derecha:</font></td><td>\n
+             <small><sup>64 </sup></small>Somos tan pobres, débiles, míseros,\n
+            mas Tú nos engrandeces y dignificas,\n
+            para hacernos miembros de Cristo glorioso,\n
+            de El, nuestra Cabeza, que nos atrae hacia ti.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Izquierda:</font></td><td>\n
+             <small><sup>65 </sup></small>Tú, oh Dios, elevas nuestro ser,\n
+            te estableces en el alma como en un templo,\n
+            donde, con el Hijo y el Espíritu Santo,\n
+            te manifiestas huésped perdurable.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Derecha:</font></td><td>\n
+             <small><sup>66 </sup></small>El cuerpo y el alma están consagrados\n
+            a la Santísima Trinidad,\n
+            que reina en nosotros como en el cielo\n
+            y nos habita con su riqueza.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Izquierda:</font></td><td>\n
+             <small><sup>67 </sup></small>Estamos así sobre el universo,\n
+            adentrados en la divinidad;\n
+            valemos más a tus ojos\n
+            que, sin nosotros, toda la tierra.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Derecha:</font></td><td>\n
+             <small><sup>68 </sup></small>Las obras de todas las culturas\n
+            son tan solo polvo insignificante,\n
+            comparadas con la grandeza\n
+            que nos concede tu amor.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Izquierda:</font></td><td>\n
+             <small><sup>69 </sup></small>Nos has regalado a tu Hijo, que en silencio\n
+            pende por nosotros en la cruz;\n
+            nos envías al Espíritu Santo,\n
+            quien nos adoctrina y educa.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Derecha:</font></td><td>\n
+             <small><sup>70 </sup></small>Pones un ángel a nuestro lado,\n
+            presto a custodiarnos,\n
+            y nos das una Madre bondadosa,\n
+            que con amor cuida de nosotros.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Izquierda:</font></td><td>\n
+             <small><sup>71 </sup></small>Nos confiaste solícitamente\n
+            a la Iglesia, Esposa de tu Hijo,\n
+            para que nos guíe por la vida\n
+            y alimente en nosotros el verdadero amor.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Derecha:</font></td><td>\n
+             <small><sup>72 </sup></small>Tu Hijo se ofrece benignamente por nosotros\n
+            como ofrenda en el altar;\n
+            allí está como amigo y alimento\n
+            en toda circunstancia, silencioso y cercano.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Izquierda:</font></td><td>\n
+             <small><sup>73 </sup></small>Nos contemplas con mirada paternal\n
+            y nos participas de la felicidad de tu Hijo;\n
+            dispones todo cuanto nos acontece,\n
+            para nuestra eterna salvación</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Derecha:</font></td><td>\n
+             <small><sup>74 </sup></small>Cada sufrimiento es un saludo tuyo,\n
+            que da alas a nuestra alma,\n
+            con vigor nos marca el rumbo\n
+            y mantiene vivo nuestro esfuerzo.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Izquierda:</font></td><td>\n
+             <small><sup>75 </sup></small>Renovadamente nos apremia a decidirnos\n
+            a estar prontos para Cristo\n
+            hasta que sólo El viva en nosotros,\n
+            y en nosotros actúe y nos impulse hacia ti.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Derecha:</font></td><td>\n
+             <small><sup>76 </sup></small>Como el girasol se vuelve\n
+            al sol, que lo regala con abundancia,\n
+            Padre, nos volvemos creyentemente hacia ti\n
+            con el pensamiento y el corazón.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Izquierda:</font></td><td>\n
+             <small><sup>77 </sup></small>Silencioso y paternal\n
+            te vemos detrás de cada suceso;\n
+            te abrazamos con amor ardiente\n
+            y con ánimo de sacrificio vamos alegres hacia ti.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Derecha:</font></td><td>\n
+             <small><sup>78 </sup></small>Te damos gracias, honor y gloria\n
+            en el santuario de nuestra alma;\n
+            allí jamás te dejaremos solo,\n
+            queremos estar siempre junto a ti.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Izquierda:</font></td><td>\n
+             <small><sup>79 </sup></small>Con los ángeles y santos\n
+            nuestro corazón gira en torno al altar;\n
+            late por aquel que, allí oculto,\n
+            sacia el vehemente anhelo de amor.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Derecha:</font></td><td>\n
+             <small><sup>80 </sup></small>Creemos que se nos dará\n
+            la gloria y la dicha de la resurrección,\n
+            y que un día, iguales a Cristo transfigurado,\n
+            viviremos plenos y radiantes en cuerpo y alma.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>\n
+             <small><sup>81 </sup></small>Al venir el Juez del mundo,\n
+            aquel que sostiene con firmeza el cetro real,\n
+            haz, Padre, que estemos a su derecha\n
+            y vayamos con El a las bodas eternas.\n
+            Amén.</td></tr>\n\n
+
+
+
+            <b>OFRENDAS</b>\n\n
+
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>\n
+             <small><sup>82 </sup></small>Padre eterno, estos dones\n
+            que traemos a tu altar\n
+            te digan en nuestro nombre\n
+            que nada nos pertenece.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Derecha:</font></td><td>\n
+             <small><sup>83 </sup></small>En silencio a tus manos\n
+            devolvemos, como ofrenda,\n
+            lo que somos y tenemos;\n
+            úsalo según Tú quieras.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>84 </sup></small>Quítanos toda voluntad propia;\n
+            con un corazón puro,\n
+            danos realizar fielmente nuestra misión\n
+            como instrumentos de tu bondad.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Izquierda:</font></td><td>\n
+             <small><sup>85 </sup></small>Como el pan y el vino se transforman\n
+            en la vida y el ser de Cristo,\n
+            Padre, así elévanos hasta ti\n
+            y trátanos como a tu Hijo.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>86 </sup></small>Las normas de tu sabiduría\n
+            formen nuestro ser y actuar\n
+            según los santos rasgos de Cristo,\n
+            como resplandecen en María, su Compañera.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Derecha:</font></td><td>\n
+             <small><sup>87 </sup></small>A nosotros, que celebramos el sacrificio,\n
+            danos revelar día a día,\n
+            a un mundo lleno de miserias,\n
+            las grandezas de Cristo.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>88 </sup></small>Solo entonces nada podrá turbarnos;\n
+            estamos como en una fortaleza,\n
+            como una avecilla en su nido,\n
+            seguros aun en las tormentas.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Izquierda:</font></td><td>\n
+             <small><sup>89 </sup></small>La libertad de nobles hijos de Dios\n
+            resplandece en todo nuestro ser;\n
+            esa libertad sana por nosotros al mundo\n
+            y es alegre heraldo de la Redención.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>90 </sup></small>Nada puede perturbar tus planes,\n
+            sin trabas los conformas;\n
+            te extiendes por tus instrumentos\n
+            y aumentas sin fin tu gloria.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>\n
+             <small><sup>91 </sup></small>Desciende, Espíritu Santificador;\n
+            bendícenos y bendice estos dones\n
+            a fin de que ellos agraden a la Santísima Trinidad,\n
+            y entona por nosotros himnos de júbilo.\n
+            Amén.</td></tr>\n\n
+
+
+
+            <b>PREFACIO</b>\n\n
+
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>\n
+             <small><sup>92 </sup></small>A los innumerables coros angélicos\n
+            y a nuestra Reina celestial\n
+            nos unimos nosotros en este mundo\n
+            ante tu santo tabernáculo de amor,\n
+            entonando nuestros himnos de alegría\n
+            y los cánticos de nuestra ardiente gratitud.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>93 </sup></small>Padre, eres infinitamente poderoso;\n
+            engendras en tu purísimo seno\n
+            al Hijo, consubstancial a ti,\n
+            y eres de infinita riqueza de amor\n
+            en el Espíritu Santo, a quien alabamos\n
+            contigo y con el Hijo, siempre y en todo.</td></tr>\n\n
+
+
+
+            <b>SANTO</b>\n\n
+
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>\n
+             <small><sup>94 </sup></small>"Santo, santo, santo, Señor",\n
+            temblorosos te aclaman tierra y mar;\n
+            como orla de tu manto\n
+            te ensalzan en el ámbito del universo,\n
+            te alaban con júbilo sin fin:\n
+            "Santo, santo eres Tú, Señor".</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>95 </sup></small>"Santo", canta el coro celestial\n
+            y te aclama siempre con alegría;\n
+            "santo", entona exultante\n
+            el sagrado coro de Tú Iglesia.\n
+            Tierra y cielo se unen\n
+            para alabarte eternamente.\n
+            Amén.</td></tr>\n\n
+
+
+
+            <b>ANTES DE LA CONSAGRACIÓN</b>\n\n
+
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>\n
+             <small><sup>96 </sup></small>En señal de santa unidad\n
+            extendemos nuestra manos\n
+            a todas las comunidades de la Familia\n
+            que, en Cristo, se inclinan</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>\n
+             <small><sup>97 </sup></small>... ante nuestra amada Reina,\n
+            en Schoenstatt, valle de sol.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>\n
+             <small><sup>98 </sup></small>Padre, haz fecundas a nuestras comunidades,\n
+            y que en su camino por este mundo\n
+            fortalezcan en la Iglesia\n
+            la santa paz de Dios</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>\n
+             <small><sup>99 </sup></small>... para que la Iglesia extienda sus fronteras\n
+            y divinamente conduzca al mundo.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>\n
+             <small><sup>100 </sup></small>Da amor a nuestros padres, *\n
+            aleja de ellos toda aflicción;\n
+            ayúdalos a regirnos de tal modo,\n
+            que nos guíen a la Santísima Trinidad;</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>\n
+             <small><sup>101 </sup></small>... y así, por ellos, crezca la Iglesia\n
+            y la regalen con santos.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>\n
+             <small><sup>102 </sup></small>Nos envías a tu Hijo\n
+            nuevamente a esta tierra\n
+            a renovar su sacrificio,\n
+            a celebrarlo en el altar;</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>\n
+             <small><sup>103 </sup></small>... nuestra impotencia se despose con El\n
+            para redención de la humanidad.\n
+            Amén.</td></tr>\n\n
+
+
+
+            <b>DESPUÉS DE LA CONSAGRACIÓN</b>\n\n
+
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>\n
+             <small><sup>104 </sup></small>La espada santa de la doble consagración\n
+            ha renovado milagrosamente para el mundo\n
+            la donación de Cristo,\n
+            Cordero de sacrificio,\n
+            tal como pendiera en la cruz.\n
+            Como instrumentos, con cuanto poseemos,\n
+            nos unimos a El, la Oblación.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>105 </sup></small>En la altura sacrosanta del Gólgota\n
+            vemos, con espíritu de fe,\n
+            a su Madre y Compañera,\n
+            que con El se ofrece\n
+            y que nos mira con bondad.\n
+            Por nosotros se entrega con su Hijo\n
+            al Padre reinante en su trono.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Derecha:</font></td><td>\n
+             <small><sup>106 </sup></small>Eterno Padre,\n
+            en el altar\n
+            nos ofrecemos con El\n
+            y te  <strong>adoramos</strong>  sin reservas\n
+            a ti y a tu omnipotencia.\n
+            Dispón de nuestras vidas,\n
+            que nos regalaste por amor.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>107 </sup></small>Aunque incluya dolor y cruz,\n
+            realiza el grandioso plan de amor\n
+            que trazaste, desde toda la eternidad,\n
+            al curso de nuestras vidas.\n
+            En Cristo\n
+            venos pender de la cruz\n
+            impulsados por vehemente amor.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Izquierda:</font></td><td>\n
+             <small><sup>108 </sup></small>Acepta con paternal clemencia\n
+            su sangre preciosa\n
+            por nuestras culpas;\n
+            depón la espada vengadora,\n
+            pues tu Hijo te honra infinitamente.\n
+            Cada vez, con el santo sacrificio,\n
+            se renueva este precio de  <strong>expiación</strong>.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>109 </sup></small>Tu mirada reposa complaciente\n
+            en la alegría\n
+            de la humanidad liberada del pecado\n
+            A ella extiendes nuevamente tu mano paternal\n
+            y la transformas en tierra fecunda de paz;\n
+            esparces por doquier tu bendición\n
+            y en todas partes nos muestras tu huella.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Derecha:</font></td><td>\n
+             <small><sup>110 </sup></small>Recibe a tu Hijo\n
+            como  <strong>acción de  gracias</strong>\n
+            por cuanto has hecho por nosotros:\n
+            transformando nuestro ser\n
+            nos sumergiste hondamente en Cristo;\n
+            nos diste su misión y dignidad\n
+            como a instrumentos para consumar la Redención.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>111 </sup></small>De igual modo que a la Esclava del Señor,\n
+            nos protegiste como a la pupila de tus ojos;\n
+            espléndidamente nos adornaste con tus dones\n
+            y atrajiste a muchos hasta nosotros.\n
+            Toma por ello\n
+            la vida de tu Hijo;\n
+            te la entregamos por manos de su Esposa.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Izquierda:</font></td><td>\n
+             <small><sup>112 </sup></small>Con actitud filial te regalamos a tu Hijo\n
+            como  <strong>petición</strong>  viva.\n
+            Siempre será poco cuanto te imploremos\n
+            en virtud de este don;\n
+            en El somos ahora,\n
+            ante las puertas del cielo,\n
+            ricos, omnipotentes y dignos.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>113 </sup></small>Haz que en El, libres de apariencias,\n
+            seamos siempre y perfectamente instrumentos tuyos;\n
+            que, desprendidos de nosotros mismos\n
+            y afectos a El,\n
+            guiemos a los hombres al cielo\n
+            para unirlos con amor ardiente\n
+            al Dios Santo y Trino.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>114 </sup></small>Consérvanos hasta el fin de los siglos\n
+            lo que El nos dejara en testamento:\n
+            la Reina tres veces Admirable,\n
+            el tesoro en Schoenstatt,\n
+            valle de paz.\n
+            Mientras lo guardemos fielmente,\n
+            El reunirá en torno nuestro a los mejores.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>\n
+             <small><sup>115 </sup></small>Por El, el Cordero siempre victorioso,\n
+            que yace ante ti como inmolado,\n
+            en el Espíritu Santo,\n
+            que impulsa la creación a las alturas,\n
+            recibe, Padre, de un sincero corazón filial:\n
+            adoración, expiación,\n
+            agradecimiento y petición.\n
+            Amén.</td></tr>\n\n
+
+
+
+            <b>AL PADRE NUESTRO</b>\n\n
+
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>\n
+            "PADRE"</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>\n
+             <small><sup>116 </sup></small>Padre, sin mérito propio\n
+            estamos ante ti como hijos en Cristo;\n
+            no somos únicamente siervos,\n
+            tenemos pleno derecho de hijos.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>\n
+            "PADRE NUESTRO"</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>\n
+             <small><sup>117 </sup></small>Con alegría estamos unidos en ti\n
+            donde sea que nos brille el sol;\n
+            Tú eres igual para todos,\n
+            padre y generoso en el amor.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>\n
+            "QUE ESTAS EN EL CIELO"</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>\n
+             <small><sup>118 </sup></small>Reinas en el cielo,\n
+            que heredaremos como recompensa,\n
+            y conformas benignamente\n
+            nuestro corazón haciéndolo arca de amor.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>\n
+            "SANTIFICADO SEA TU NOMBRE"</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>\n
+             <small><sup>119 </sup></small>Seas glorificado\n
+            Tú, que velas por todo;\n
+            ante tu poder todo se incline\n
+            y alabe el esplendor de tu nombre.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>\n
+            "VENGA TU REINO"</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>\n
+             <small><sup>120 </sup></small>Alegremente venga a nosotros tu Reino,\n
+            que asemeja la tierra al cielo;\n
+            siempre rijan en él\n
+            verdad, amor y justicia.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>\n
+            "HÁGASE TU VOLUNTAD EN LA TIERRA COMO EN EL CIELO"</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>\n
+             <small><sup>121 </sup></small>Que solo tu voluntad sea la norma\n
+            que plasme nuestra vida;\n
+            todo esté siempre dispuesto\n
+            a realizar lo que te agrade.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>\n
+            "DANOS HOY NUESTRO PAN DE CADA DÍA"</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>\n
+             <small><sup>122 </sup></small>Danos pan para el cuerpo y el alma,\n
+            protégenos en toda necesidad;\n
+            muestra que eres padre\n
+            cuando nos enrede la astucia de Satanás.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>\n
+            "PERDONA NUESTRAS OFENSAS, COMO TAMBIÉN NOSOTROS PERDONAMOS A LOS QUE NOS OFENDEN"</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>\n
+             <small><sup>123 </sup></small>Borra todas nuestras culpas,\n
+            así como soportamos y perdonamos siempre,\n
+            con paciencia y bondad,\n
+            cuando nos profanan los hombres.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>\n
+            "NO NOS DEJES CAER EN TENTACIÓN"</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>\n
+             <small><sup>124 </sup></small>En la tentación danos fuerza\n
+            para que no flaquee el alma;\n
+            protégenos de toda ocasión\n
+            que con extrema violencia nos impulse al pecado.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>\n
+            "Y LÍBRANOS DEL MAL"</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>\n
+             <small><sup>125 </sup></small>Con Filial sentimiento\n
+            odiamos como Tú el pecado;\n
+            mas somos débiles y pobres,\n
+            ¡líbranos de la vergüenza del pecado!</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>\n
+            "AMEN"</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>\n
+             <small><sup>126 </sup></small>¡Amén! Sí, ¡así debe ser!\n
+            ¡Como hijos tuyos nos consagramos!\n
+            ¡Vela siempre con mirada de padre\n
+            por la felicidad de tus hijos!.\n
+            Amén.</td></tr>\n\n
+
+
+
+            <b>ANTES DE LA COMUNIÓN</b>\n\n
+
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>\n
+             <small><sup>127 </sup></small>Padre, quieres darnos como alimento\n
+            al Cordero, que da su vida por nosotros;\n
+            para unión de amor nos donas a tu Hijo,\n
+            que nosotros, Padre, te hemos regalado.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>128 </sup></small>Así como los alimentos se transforman\n
+            en aquél a quien sustentan,\n
+            así incorpóranos a ti, Señor,\n
+            a quien alaban cielos y tierra.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>129 </sup></small>Como don nupcial, puro y permanente,\n
+            Tú nos regalarás\n
+            con las llamas de amor vivas\n
+            que brotan de tu corazón.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>130 </sup></small>El ardiente espíritu de sacrificio\n
+            que te apremia darte abnegadamente,\n
+            nos inflama en iguales deseos\n
+            y rompe con fuerza toda estrechez.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Derecha:</font></td><td>\n
+             <small><sup>131 </sup></small>Apagas el fuego de nuestras pasiones;\n
+            nos colmas con amante gozo;\n
+            en ti nos das cálido sol\n
+            y nos buscas para la fiesta de bodas.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Izquierda:</font></td><td>\n
+             <small><sup>132 </sup></small>Deseas liberarnos de flaquezas;\n
+            vienes a protegernos con tu amor            \n
+            de pasiones que nos arrastran,\n
+            para que siempre nos conservemos íntegros.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Derecha:</font></td><td>\n
+             <small><sup>133 </sup></small>Cada vez que te recibimos dignamente,\n
+            das derecho a nuestro cuerpo\n
+            a vivir glorioso, igual a ti,\n
+            cuando alcancemos el premio de victoria.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Izquierda:</font></td><td>\n
+             <small><sup>134 </sup></small>Eres pan de los hijos de Dios,\n
+            vino del que nacen almas virginales,       \n
+            alimento que reverencian los mártires,\n
+            manantial para alegres heraldos de la Redención.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Derecha:</font></td><td>\n
+             <small><sup>135 </sup></small>Deseas unir íntimamente contigo,\n
+            en un Cuerpo, a todos los miembros,\n
+            para que sean como hermanos y hermanas\n
+            que en el altar se encuentran.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Izquierda:</font></td><td>\n
+             <small><sup>136 </sup></small>Eres límpida fuente de paz,\n
+            el vínculo que une a todos los pueblos,\n
+            el poder que vence las disensiones,\n
+            la luz que trae calor y claridad.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Derecha:</font></td><td>\n
+             <small><sup>137 </sup></small>Con tu Esposa, señal de victoria,\n
+            vences al Dragón;\n
+            ante ti debe doblegarse todo enemigo:\n
+            el Demonio y sus engendros infernales.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>\n
+             <small><sup>138 </sup></small>Haz, Señor, que el amor rompa nuestra frialdad\n
+            y que nuestros corazones se abran,\n
+            así como la esposa anhela muestras de amor\n
+            y el ciervo, los manantiales.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>139 </sup></small>No somos dignos de recibirte,\n
+            pues nos asemejamos al hijo pródigo.\n
+            Creemos, sin embargo, en la prueba de tu amor\n
+            y nos acercamos sin temor ni angustia.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>140 </sup></small>Venimos a decidirnos nuevamente\n
+            a ser como cera en tus manos\n
+            para que puedas enviarnos como instrumentos\n
+            a pastorear tu rebaño según tus deseos.\n
+            Amén.</td></tr>\n\n
+
+
+
+            <b>DESPUÉS DE LA COMUNIÓN</b>\n\n
+
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>\n
+             <small><sup>141 </sup></small>Así como te preparaste una morada\n
+            en tu Madre y Compañera\n
+            al dar ella su Sí\n
+            has enriquecido mi corazón.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>142 </sup></small>Señor, ahora puedo descansar en tu pecho\n
+            según el profundo deseo de mi corazón;\n
+            puedo cuidar por tu reino de paz,\n
+            igual que tu discípulo amado.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>143 </sup></small>Estás enteramente con tu ser\n
+            en el santuario de mi corazón,\n
+            así como reinas en el cielo\n
+            y habitas glorioso junto al Padre.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>144 </sup></small>En tu mano tienes el cetro,\n
+            dominas sobre ciudades y campos;\n
+            tierra y cielo son tu tienda,\n
+            eres el Rey del universo.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Derecha:</font></td><td>\n
+             <small><sup>145 </sup></small>Te adoro con fe\n
+            y me ofrezco a ti como instrumento;\n
+            nada retengo para mí,\n
+            tu honra es mi felicidad.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>146 </sup></small>Sólo a ti quiero consagrar\n
+            mi amor puro como azucena;\n
+            todo lo que pueda empañarlo\n
+            es para mí tan sólo vana ilusión.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>147 </sup></small>A ti te pertenece cuanto tengo,\n
+            hasta la última gota de mi sangre,\n
+            a ti, mi corazón y mi voluntad,\n
+            mi alegría y mi dolor.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>148 </sup></small>Quítame lo que tengo y lo que soy,\n
+            te lo entrego todo;\n
+            úsalo para salvación de los hombres,\n
+            aunque deba sufrir por ello.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Izquierda:</font></td><td>\n
+             <small><sup>149 </sup></small>Tú, Ofrenda glorificada,\n
+            deseas de mí recia disciplina,\n
+            para que sea igual a las especies,\n
+            fuerte en el sacrificio y lleno de amor.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>150 </sup></small>Sin lagar no hay vino,\n
+            el trigo debe ser triturado;\n
+            sin tumba no hay victoria,\n
+            solo el morir gana la batalla.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>151 </sup></small>Toma mi corazón y mis manos\n
+            como prendas de victoria;\n
+            permanezco quieto al golpe de la lanza,\n
+            quieto, aunque clavos me martiricen.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>152 </sup></small>Ponme la corona de espinas,\n
+            sáciame con escarnio y burlas;\n
+            nunca nada será demasiado difícil para mí\n
+            cuando de ti se trate, Señor.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Derecha:</font></td><td>\n
+             <small><sup>153 </sup></small>Lo que exija el Reino de Schoenstatt,\n
+            al que me he consagrado por entero,\n
+            será para mí como deseo y mandato\n
+            al cual someta todo.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>154 </sup></small>Nunca me dejarás solo\n
+            y estarás en mí ayudándome;\n
+            irás conmigo al dolor y a la lucha,\n
+            aunque el camino sea largo y duro.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>155 </sup></small>Me acompañas por todo el mundo,\n
+            donde Tú, Señor, me has enviado,\n
+            sea que vaya a los paganos\n
+            o que permanezca entre los fieles.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>156 </sup></small>Me regalas luz y me das fuerza\n
+            contra las malas pasiones;\n
+            me conformas según tu imagen,\n
+            como se manifiesta en María, tu Compañera.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Izquierda:</font></td><td>\n
+             <small><sup>157 </sup></small>Dispones siempre mi corazón\n
+            para el Espíritu Santo,\n
+            quien me colma de magnanimidad\n
+            y sacia bondadosamente mi anhelo.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>158 </sup></small>Si así permanezco unido a ti,\n
+            actúas en mí en todo instante;\n
+            y el Padre, lleno de felicidad,\n
+            me contempla desde lo eterno.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>159 </sup></small>El construye por mí la Ciudad de paz,\n
+            la prometida Nación de Dios:\n
+            Habrá un solo rebaño y un solo Pastor,\n
+            que conduzca todo hacia el Padre.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>160 </sup></small>Estaré siempre dispuesto\n
+            para las bodas al fin de los tiempos;\n
+            espero lleno de confianza\n
+            el magno juicio final.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>\n
+             <small><sup>161 </sup></small>Gloria a ti, Dios Hijo,\n
+            con el Padre en su trono,\n
+            y al Espíritu de Santidad,\n
+            ahora y por los siglos.\n
+            Amén.</td></tr>\n\n
+
+
+
+            <b>ENVÍO</b>\n\n
+
+            <tr><td valign="top"><font color="#ff0000">Uno:</font></td><td>\n
+             <small><sup>162 </sup></small>Desde el altar\n
+            nos dirigimos, Señor,\n
+            a dar tu forma\n
+            a la vida cotidiana.</td></tr>\n\n
+            <tr><td valign="top"><font color="#ff0000">Todos:</font></td><td>\n
+             <small><sup>163 </sup></small>Como la avecilla,\n
+            que no abandona su nido,\n
+            ronda nuestro amor\n
+            en torno al lugar santo.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>164 </sup></small>Donde la lámpara del Santísimo\n
+            arde y jamás se extingue,\n
+            se consume nuestra alma\n
+            para desposarse contigo.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>165 </sup></small>Por todos los medios\n
+            queremos arrebatar\n
+            el mundo y los corazones\n
+            hacia el cielo, hacia el Padre.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>166 </sup></small>Así como el pan y el vino\n
+            inmolándose se consagran a ti,\n
+            en todas las cosas\n
+            debe renovarse el <strong>ofertorio</strong>.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>167 </sup></small>Todo exclame en coro:\n
+            "Santo es Dios";\n
+            todo debe <strong>consagrarse</strong>,\n
+            y ser y obrar santamente.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>168 </sup></small>Todo sea <strong>comunión</strong>\n
+            en ti, Hijo de Dios,\n
+            un festejo con el cielo\n
+            y manifestación de la gloria divina.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>169 </sup></small>Por nuestra Reina,\n
+            Soberana de Schoenstatt,\n
+            sepulta al antiguo Dragón\n
+            en las tinieblas del infierno.</td></tr>\n\n
+            <tr><td valign="top"></td><td>
+             <small><sup>170 </sup></small>Todo sea tu Reino,\n
+            e igual a ti, su Cabeza;\n
+            todo alabe con alegría\n
+            a la Trinidad en las alturas.\n
+            Amén.</td></tr>
+        </item>
+    </string-array>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="adsum">
+        <item>
+             <small><sup>629 </sup></small>Madre, ¿quieres mi trabajo?  \n
+            -Aquí estoy.
+              \n\n
+             <small><sup>630 </sup></small>¿Quieres que todas las fuerzas de mi espíritu  \n
+            lentamente se desangren?  \n
+            -Aquí estoy.
+              \n\n
+             <small><sup>631 </sup></small>¿Quieres mi muerte?  \n
+            -Aquí estoy,  \n
+            pero procura que todos  \n
+            los que tú me has confiado  \n
+            amen a Jesús,  \n
+            vivan para Jesús  \n
+            y aprendan a morir por Jesús.  \n
+            Amén
+        </item>
+    </string-array>
+</resources>

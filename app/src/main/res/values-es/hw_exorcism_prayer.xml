@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exorcism_prayer">
+        <item>
+            <b>Primera Versión</b>\n
+             <small><sup>633 </sup></small>Surja Dios Padre,\n
+            se dispersen sus enemigos\n
+            y huyan de su presencia\n
+            los que lo odian.
+            \n\n
+             <small><sup>634 </sup></small>Surja Dios Hijo,\n
+            se dispersen sus enemigos\n
+            y huyan de su presencia\n
+            los que lo odian.
+            \n\n
+             <small><sup>635 </sup></small>Surja Dios Espíritu Santo,\n
+            se dispersen sus enemigos\n
+            y huyan de su presencia\n
+            los que lo odian.
+            \n\n
+             <small><sup>636 </sup></small>Surja la Bienaventurada Virgen María,\n
+            todos los ángeles y santos,\n
+            (San Miguel arcángel y San Vicente Palotti),\n
+            se dispersen sus enemigos\n
+            y huyan de su presencia\n
+            los que los odian.\n
+            Amén\n\n
+            
+            <b>Segunda Versión</b>\n
+             <small><sup>637 </sup></small>Surja Dios,\n
+            Padre, Hijo y Espíritu Santo,\n
+            surja la Bienaventurada Virgen María,\n
+            y todos los ángeles y santos,\n
+            se dispersen sus enemigos\n
+            y huyan de su presencia\n
+            los que los odian. Amén\n\n
+
+            <b>Tercera Versión</b>
+            \n
+             <small><sup>638 </sup></small>Surja Dios,\n
+            se dispersen sus enemigos\n
+            y huyan de su presencia\n
+            los que lo odian.\n
+            Amén
+
+
+        </item>
+    </string-array>
+</resources>

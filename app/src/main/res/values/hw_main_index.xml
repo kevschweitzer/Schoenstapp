@@ -45,7 +45,27 @@
         <item>SHORT PRAYERS</item>
         <item>HOME SHRINE PRAYER</item>
         <item>O TRIUNE GOD</item>
-        <item></item>
-        <item></item>
     </string-array>
+
+    <integer-array name="other_prayers_ids">
+        <item>@array/other_prayers</item>
+        <item>@array/my_queen_my_mother</item>
+        <item>@array/confidence</item>
+        <item>@array/providentia_divina</item>
+        <item>@array/with_heartfelt_love</item>
+        <item>@array/walk_like_you</item>
+        <item>@array/morning_offering</item>
+        <item>@array/puritatis_tuae_causa</item>
+        <item>@array/mother_thrice_admirable</item>
+        <item>@array/in_your_holy_heart</item>
+        <item>@array/adsum</item>
+        <item>@array/accept_my_freedom</item>
+        <item>@array/to_holy_spirit</item>
+        <item>@array/o_holy_spirit</item>
+        <item>@array/exorcism_prayer</item>
+        <item>@array/additional_home_song</item>
+        <item>@array/short_prayers</item>
+        <item>@array/home_shrine_prayer</item>
+        <item>@array/triune_god</item>
+    </integer-array>
 </resources>
