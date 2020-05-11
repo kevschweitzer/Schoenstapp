@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/root"
-    android:background="@drawable/mta3">
+    android:background="@drawable/inside_shrine">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
