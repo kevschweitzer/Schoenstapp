@@ -34,7 +34,6 @@ class HeavenwardsExpandableAdapter(private val context: Context,
             val layoutInflater = LayoutInflater.from(parent?.context)
             layoutInflater.inflate(R.layout.item_heavenwards_title, parent,false)
         } else convertView
-
         groupView.title.text = title
 
         return groupView

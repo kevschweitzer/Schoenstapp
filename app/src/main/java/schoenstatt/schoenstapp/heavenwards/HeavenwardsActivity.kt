@@ -21,7 +21,12 @@ class HeavenwardsActivity : AppCompatActivity() {
         setContentView(R.layout.activity_heavenwards)
         title_text.text = getString(R.string.heavenwards_title)
 
+        setListeners()
         setHeavenwardsPrayers()
+    }
+
+    private fun setListeners() {
+
     }
 
     private fun setHeavenwardsPrayers() {
@@ -35,6 +40,7 @@ class HeavenwardsActivity : AppCompatActivity() {
                 override fun onGroupExpand(groupPosition: Int) {
                     if (groupPosition != previousGroup) expandableHeavenwardsIndex.collapseGroup(previousGroup)
                     previousGroup = groupPosition
+                    expandableHeavenwardsIndex.setSelection(groupPosition)
                 }
             })
         }
