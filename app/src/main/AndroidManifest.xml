@@ -11,10 +11,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".heavenwards.HeavenwardsActivity"></activity>
-        <activity android:name=".capitals.capital.SingleCapitalActivity" />
-        <activity android:name=".forgot.ForgotPasswordActivity" />
-        <activity android:name=".home.MainActivity" />
-        <activity android:name=".signup.SignUpActivity" />
+        <activity android:name=".capitals.capital.SingleCapitalActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".forgot.ForgotPasswordActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".home.MainActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".signup.SignUpActivity"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".login.LoginActivity"
             android:screenOrientation="portrait">
@@ -35,8 +39,10 @@
                     android:scheme="https" />
             </intent-filter>
         </activity>
-        <activity android:name=".PhoneActivity" />
-        <activity android:name=".capitals.main.CapitalsActivity" />
+        <activity android:name=".PhoneActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".capitals.main.CapitalsActivity"
+            android:screenOrientation="portrait"/>
     </application>
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
