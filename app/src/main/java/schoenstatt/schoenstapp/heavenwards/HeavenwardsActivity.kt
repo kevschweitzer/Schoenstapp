@@ -3,6 +3,7 @@ package schoenstatt.schoenstapp.heavenwards
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
+import android.view.LayoutInflater
 import android.widget.ExpandableListView.OnGroupExpandListener
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_heavenwards.*
@@ -21,12 +22,7 @@ class HeavenwardsActivity : AppCompatActivity() {
         setContentView(R.layout.activity_heavenwards)
         title_text.text = getString(R.string.heavenwards_title)
 
-        setListeners()
         setHeavenwardsPrayers()
-    }
-
-    private fun setListeners() {
-
     }
 
     private fun setHeavenwardsPrayers() {
@@ -43,6 +39,9 @@ class HeavenwardsActivity : AppCompatActivity() {
                     expandableHeavenwardsIndex.setSelection(groupPosition)
                 }
             })
+            addFooterView(
+                    LayoutInflater.from(this@HeavenwardsActivity).inflate(R.layout.item_heavenwards_credits,null)
+            )
         }
     }
 
