@@ -2,8 +2,8 @@
 <resources>
 
     <string-array name="way_of_the_cross_titles">
-        <item>Remarks</item>
-        <item>Way of the cross</item>
+        <item>Notas Previas</item>
+        <item>Via Crucis</item>
     </string-array>
     <string-array name="way_of_the_cross_children">
         <item>
